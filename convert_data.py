@@ -19,6 +19,7 @@ with open('FULL_speech_popularity.csv', 'r') as f:
 
 headers = raw_data[0]
 gender_index = headers.index('Gender')
+#pageviews_index = headers.index('Pageviews')
 
 def gender_vector(row_index):
     gender = raw_data[row_index][gender_index].lower()
@@ -32,9 +33,10 @@ existing_features = [f for f in features if f in headers]
 indices = [headers.index(feat) for feat in existing_features]
 float_data = np.array([[float(x) for x in row]
                        for i, row in enumerate(np.array(raw_data[1:])[:,indices])])
-normalized_data = np.array([stats.zscore(col) for col in float_data.transpose()]).transpose()
-final_data = np.array([np.append(gender_vector(i + 1), row)
-                       for i, row in enumerate(normalized_data)])
+normalized_data = np.array([stats.zscore(col) for col in float_data[:,:-1].transpose()]).transpose()
+final_data = np.concatenate((np.array([np.append(gender_vector(i + 1), row)
+                                      for i, row in enumerate(normalized_data)]),
+                             float_data[:,-1].reshape(1,-1).T), axis=1)
 
 with open('data.arff', 'w') as f:
     print('@relation speeches', file=f)
