@@ -1,6 +1,14 @@
-# TODO
-# replace parse (and split?) with library functions
-# move normalizing code from parse to input_fn?
+'''
+TODO
+replace parse (and split?) with library functions
+move normalizing code from parse to input_fn?
+
+example features:
+female male gender_unknown WordCount StoryNames Subjectivity OT NT BoM PoGP AllScriptureCount FleschReading TalkingSpeed AuthorityMentions WeToYouRatio WordQuantity FirstPersonPronoun PercentInItalics PercentInQuotes Pageviews
+100.0 101.0 100.0 103.742120616 99.6661046269 99.6600383632 99.6604019113 99.6618275902 99.6703816637 99.6596890719 99.6753715398 99.6645221234 99.6613725488 99.6653917875 99.8212819345 100.733938127 99.7381014116 99.6597290267 99.6597276576
+10.0 11.0 10.0 13.6535132269 9.69606787422 9.66015000762 9.66058200946 9.66058200946 9.65981057761 9.65981057761 9.6613534413 9.66504859982 9.66156528001 9.6613534413 9.6721534871 11.0383592804 9.66983919157 9.65988284813 9.65992814758
+8925.0 8926.0 8925.0 8928.71734822 8924.67221336 8924.67013243 8924.66967564 8924.67136745 8924.66967564 8924.66967564 8924.67644291 8924.67640907 8924.67165882 8924.67052155 8924.68832792 8925.83618358 8924.70097425 8924.6697087 8924.66968483
+'''
 import numpy as np
 from scipy import stats
 import tensorflow as tf
@@ -44,6 +52,10 @@ def split(features, labels, test_fraction=0.2):
 
 def main(train_features, train_labels, test_features, test_labels):
     valid_attrs = [attr.replace(' ', '') for attr in attributes]
+    #print(*valid_attrs)
+    #for i in (0, 1, 2):
+    #    print(*(train_features[i] + [train_labels[i]]))
+    #return
 
     feature_columns = [tf.feature_column.numeric_column(attr, shape=[1])
                        for attr in valid_attrs[:-1]]
