@@ -45,7 +45,7 @@ def split(features, labels, test_fraction=0.2):
     return (features[train_indices], labels[train_indices],
             features[test_indices], labels[test_indices])
 
-def main(train_features, train_labels, test_features, test_labels):
+def linear(train_features, train_labels, test_features, test_labels):
     valid_attrs = [attr.replace(' ', '') for attr in attributes]
     feature_columns = [tf.feature_column.numeric_column(attr, shape=[1])
                        for attr in valid_attrs[:-1]]
@@ -78,8 +78,51 @@ def main(train_features, train_labels, test_features, test_labels):
     # train rmse: 4907.4366017300727
     # test rmse: 4573.8989932004397
 
-
-if __name__ == "__main__":
+def dnn(argv):
     with open('FULL_speech_popularity.csv', 'r') as f:
         contents = f.read()
-    main(*split(*parse(contents)))
+    train_features, train_labels, test_features, test_labels = (
+            split(*parse(contents)))
+
+    valid_attrs = [attr.replace(' ', '') for attr in attributes]
+    feature_columns = [tf.feature_column.numeric_column(attr, shape=[1])
+                       for attr in valid_attrs[:-1]]
+    estimator = tf.estimator.DNNRegressor(hidden_units=[50, 50],
+            feature_columns=feature_columns)
+
+    input_dict = {attr: train_features[:,i]
+                  for i, attr in enumerate(valid_attrs[:-1])}
+
+    input_fn = tf.estimator.inputs.numpy_input_fn(
+            input_dict, train_labels, batch_size=len(train_features),
+            num_epochs=None, shuffle=True)
+
+    train_input_fn = tf.estimator.inputs.numpy_input_fn(
+            input_dict, train_labels, batch_size=len(train_features),
+            num_epochs=1000, shuffle=False)
+
+    test_input_dict = {attr: test_features[:,i]
+                       for i, attr in enumerate(valid_attrs[:-1])}
+    test_input_fn = tf.estimator.inputs.numpy_input_fn(
+            test_input_dict, test_labels, batch_size=len(test_features),
+            num_epochs=1000, shuffle=False)
+
+    estimator.train(input_fn=input_fn, steps=1000)
+
+    rmse = lambda metric: metric['average_loss'] ** 0.5
+    train_metrics = estimator.evaluate(input_fn=train_input_fn)
+    test_metrics = estimator.evaluate(input_fn=test_input_fn)
+    print("train rmse: %r"% rmse(train_metrics))
+    print("test rmse: %r"% rmse(test_metrics))
+    # train rmse: 3766.9697370698373
+    # test rmse: 7268.2173880532773
+
+
+if __name__ == "__main__":
+    #with open('FULL_speech_popularity.csv', 'r') as f:
+    #    contents = f.read()
+    #linear(*split(*parse(contents)))
+
+    # The Estimator periodically generates "INFO" logs; make these logs visible.
+    tf.logging.set_verbosity(tf.logging.INFO)
+    tf.app.run(main=dnn)
