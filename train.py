@@ -1,12 +1,11 @@
-'''
-TODO
-replace parse (and split?) with library functions
-move normalizing code from parse to input_fn?
-'''
 import numpy as np
 from scipy import stats
+from sklearn.model_selection import train_test_split
 import tensorflow as tf
 import sys
+from argparse import ArgumentParser
+from code import interact
+from functools import partial
 
 raw_attributes = ['WordCount', 'StoryNames', 'Subjectivity', 'OT', 'NT', 'BoM',
         'PoGP', 'AllScriptureCount', 'FleschReading', 'Talking Speed',
@@ -34,95 +33,47 @@ def parse(csv_contents):
     gender_features = np.array([gender_vector(row[gender_index].lower())
                                 for row in raw_data[1:]], dtype=float)
 
-    features = np.concatenate((gender_features, normalized_data), axis=1)
-    labels = used_data[:,-1]
-    return features, labels
+    return np.concatenate((gender_features, normalized_data,
+                           used_data[:,-1].reshape((-1,1))), axis=1)
 
-def split(features, labels, test_fraction=0.2):
-    indices = np.random.permutation(len(features))
-    test_index = int(len(features) * test_fraction)
-    test_indices, train_indices = indices[:test_index], indices[test_index:]
-    return (features[train_indices], labels[train_indices],
-            features[test_indices], labels[test_indices])
-
-def linear(train_features, train_labels, test_features, test_labels):
-    valid_attrs = [attr.replace(' ', '') for attr in attributes]
-    feature_columns = [tf.feature_column.numeric_column(attr, shape=[1])
-                       for attr in valid_attrs[:-1]]
-    estimator = tf.estimator.LinearRegressor(feature_columns=feature_columns)
-
-    input_dict = {attr: train_features[:,i]
-                  for i, attr in enumerate(valid_attrs[:-1])}
-
-    input_fn = tf.estimator.inputs.numpy_input_fn(
-            input_dict, train_labels, batch_size=len(train_features),
-            num_epochs=None, shuffle=True)
-
-    train_input_fn = tf.estimator.inputs.numpy_input_fn(
-            input_dict, train_labels, batch_size=len(train_features),
-            num_epochs=1000, shuffle=False)
-
-    test_input_dict = {attr: test_features[:,i]
-                       for i, attr in enumerate(valid_attrs[:-1])}
-    test_input_fn = tf.estimator.inputs.numpy_input_fn(
-            test_input_dict, test_labels, batch_size=len(test_features),
-            num_epochs=1000, shuffle=False)
-
-    estimator.train(input_fn=input_fn, steps=1000)
-
-    rmse = lambda metric: metric['average_loss'] ** 0.5
-    train_metrics = estimator.evaluate(input_fn=train_input_fn)
-    test_metrics = estimator.evaluate(input_fn=test_input_fn)
-    print("train rmse: %r"% rmse(train_metrics))
-    print("test rmse: %r"% rmse(test_metrics))
-    # train rmse: 4907.4366017300727
-    # test rmse: 4573.8989932004397
-
-def dnn(argv):
+def train(model, argv):
     with open('FULL_speech_popularity.csv', 'r') as f:
         contents = f.read()
-    train_features, train_labels, test_features, test_labels = (
-            split(*parse(contents)))
-
+    train_data, test_data = train_test_split(parse(contents), test_size=0.2)
     valid_attrs = [attr.replace(' ', '') for attr in attributes]
     feature_columns = [tf.feature_column.numeric_column(attr, shape=[1])
                        for attr in valid_attrs[:-1]]
-    estimator = tf.estimator.DNNRegressor(hidden_units=[50, 50],
-            feature_columns=feature_columns)
 
-    input_dict = {attr: train_features[:,i]
-                  for i, attr in enumerate(valid_attrs[:-1])}
+    if model == 'dnn':
+        print('using DNNRegressor')
+        estimator = tf.estimator.DNNRegressor(hidden_units=[50, 50],
+                feature_columns=feature_columns)
+    else:
+        print('using LinearRegressor')
+        estimator = tf.estimator.LinearRegressor(
+                feature_columns=feature_columns)
 
-    input_fn = tf.estimator.inputs.numpy_input_fn(
-            input_dict, train_labels, batch_size=len(train_features),
-            num_epochs=None, shuffle=True)
+    def input_fn(dataset, num_epochs=None, shuffle=True):
+        input_dict = {attr: dataset[:,i]
+                      for i, attr in enumerate(valid_attrs[:-1])}
+        return tf.estimator.inputs.numpy_input_fn(
+                input_dict, dataset[:,-1], batch_size=len(dataset),
+                num_epochs=num_epochs, shuffle=shuffle)
 
-    train_input_fn = tf.estimator.inputs.numpy_input_fn(
-            input_dict, train_labels, batch_size=len(train_features),
-            num_epochs=1000, shuffle=False)
-
-    test_input_dict = {attr: test_features[:,i]
-                       for i, attr in enumerate(valid_attrs[:-1])}
-    test_input_fn = tf.estimator.inputs.numpy_input_fn(
-            test_input_dict, test_labels, batch_size=len(test_features),
-            num_epochs=1000, shuffle=False)
-
-    estimator.train(input_fn=input_fn, steps=1000)
+    estimator.train(input_fn=input_fn(train_data), steps=1000)
+    train_metrics = estimator.evaluate(
+            input_fn=input_fn(train_data, 1000, False))
+    test_metrics = estimator.evaluate(
+            input_fn=input_fn(test_data, 1000, False))
 
     rmse = lambda metric: metric['average_loss'] ** 0.5
-    train_metrics = estimator.evaluate(input_fn=train_input_fn)
-    test_metrics = estimator.evaluate(input_fn=test_input_fn)
     print("train rmse: %r"% rmse(train_metrics))
     print("test rmse: %r"% rmse(test_metrics))
-    # train rmse: 3766.9697370698373
-    # test rmse: 7268.2173880532773
-
 
 if __name__ == "__main__":
-    #with open('FULL_speech_popularity.csv', 'r') as f:
-    #    contents = f.read()
-    #linear(*split(*parse(contents)))
+    parser = ArgumentParser()
+    parser.add_argument('model', nargs='?', default='dnn')
+    args = parser.parse_args()
 
-    # The Estimator periodically generates "INFO" logs; make these logs visible.
     tf.logging.set_verbosity(tf.logging.INFO)
-    tf.app.run(main=dnn)
+    tf.app.run(main=partial(train, args.model))
