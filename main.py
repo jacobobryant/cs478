@@ -44,12 +44,13 @@ import time
 import datetime
 import os
 import numpy as np 
+from tqdm import tqdm
 
 
 #------------------------------ Intro ------------------------------#
 
 #--------------- 1 ---------------#
-dfall_names = pd.read_csv('background/all_names.csv')
+dfall_names = pd.read_csv('all_names.csv')
 baby_names = dfall_names.values
 success = 'Sessions'
 
@@ -79,204 +80,209 @@ DyC = set(['C', 'Covenants']) #Really it's D&amp;amp;C, but \w can't pick up on 
 PoGP_books = set(['Moses', 'Abraham', 'History', 'H', 'JSH', 'Faith']) #We're going to lose Joseph Smith - Matthew, but I guess that's ok because really it's a NT book.
 #--------------- 1 ---------------#
 
-
 #--------------- 2 ---------------#
 all_speeches = {}
 start = time.time()
 #--------------- 2 ---------------#
 
 
-
-
 #------------------------------ Intro ------------------------------#
 
 
 #--------------------------------- Main ----------------------------#
-def main(links_from_ga, all_topics):
+def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_speeches, story_names=story_names):
 
 	#This will increment every time we find a talk that has no text. Duh.
 	speeches_with_no_text, speeches_with_text = 0, 0
 
-	global baby_names
-	global all_speeches
-	global total_speeches
-	global story_names
-
 	print len(links_from_ga)
-	short_time = time.time()
 
 	#----- If the output file is empty, initialize it with the column names -----#
 	long_factor_list = ['Speech','Gender','WordCount','StoryNames','Popularity','Subjectivity','OT','NT','BoM','PoGP','AllScriptureCount','FleschReading','Talking Speed','AuthorityMentions',
 					'WeToYouRatio', 'WordQuantity', 'FirstPersonPronoun', 'PercentInItalics', 'PercentInQuotes', 'Pageviews']
-	for i in all_topics:
-		try: #It's a str
-			long_factor_list.append(i)
-		except: #It's a tuple
-			long_factor_list.append(i[0])
+
+	extension = [i if isinstance(i,str) else i[0] for i in all_topics]
+	long_factor_list.extend(extension)
 	#----------------------------------------------------------------------------#
 
-
 	#3
-	for index, value in enumerate(links_from_ga):
+	for index in tqdm(xrange(len((links_from_ga)))): #This is only better because enumerate confuses tqdm
+		value = links_from_ga[index]
+
 		#Read in the stuff correctly
 		link, organic_pageviews = value
 
-		#------------------- Verbose -------------------#
-		try:
-			print "{0}\t{1}".format(index, link)
-		except: #sometimes there are strange unicode characters in the URL...
-			pass
-		
-		try:
-			#-------------------- a --------------------#
-			one_speech = {}
-			one_speech['Speech'] = link
-			#-------------------- a --------------------#
+		#-------------------- a --------------------#
+		one_speech = {}
+		one_speech['Speech'] = link
+		#-------------------- a --------------------#
 
 
 
-			#-------------------- b --------------------#
-			#b.1
-			gender = functions.get_speaker_gender(link, baby_names)
-			one_speech['Gender'] = gender
+		#-------------------- b --------------------#
+		start = time.time()
+		#b.1
+		gender = functions.get_speaker_gender(link, baby_names)
+		one_speech['Gender'] = gender
 
-			#b.2
+		print ('gender', time.time()-start)
+		start = time.time()
+		#b.2
+		try: #TODO 
 			long_text = functions.get_text_of_page(link)
-			speech = functions.just_speech(long_text)
+		except IOError:
+			continue
 
-			#b.3
-			word_count = functions.get_word_count(speech)
-			if word_count < 100: #Then it's for sure not a full speech.
-				print 'SKIPPING {0} because: too few words.'.format(link)
-				speeches_with_no_text +=1
-				continue
-			else:
-				speeches_with_text +=1
-			one_speech['WordCount'] = word_count
+		print ('get_text', time.time()-start)
+		start = time.time()
 
-			#b.4
-			name_mentions = functions.get_name_mentions(speech, story_names)
-			one_speech['StoryNames'] = name_mentions
+		speech = functions.just_speech(long_text)
+		if len(speech) < 600: #This has empirically been shown to be good.
+			print (speech)
+			speeches_with_no_text += 1
+			continue
+		else:
+			speeches_with_text +=1
 
-			#b.5
-			polarity = functions.get_polarity(speech)
-			one_speech['Polarity'] = polarity
+		print ('speech', time.time()-start)
+		start = time.time()
+		#b.3
+		word_count = functions.get_word_count(speech)
+		one_speech['WordCount'] = word_count
 
-			#b.6
-			subjectivity = functions.get_subjectivity(speech)
-			one_speech['Subjectivity'] = subjectivity
+		print ('word count', time.time()-start)
+		start = time.time()
+		#b.4
+		name_mentions = functions.get_name_mentions(speech, story_names)
+		one_speech['StoryNames'] = name_mentions
 
-			#b.7
-			scripture_references = functions.get_just_scripture_ref_count(speech, OT_books, NT_books, BoM_books, DyC, PoGP_books)
-			ot_count, nt_count, bom_count, dyc_count, pogp_count = scripture_references
-			total_scriptures = np.sum(scripture_references)
-			
-			one_speech['OT'] = ot_count
-			one_speech['NT'] = nt_count
-			one_speech['BoM'] = bom_count
-			one_speech['D&C'] = dyc_count
-			one_speech['PoGP'] = pogp_count
-			one_speech['AllScriptureCount'] = total_scriptures
+		print ('storynames', time.time()-start)
+		start = time.time()
+		#b.5
+		polarity = functions.get_polarity(speech)
+		one_speech['Polarity'] = polarity
 
-			#b.8
-			flesch_reading = functions.get_flesch_reading_ease(speech)
-			one_speech['FleschReading'] = flesch_reading
+		print ('polarity', time.time()-start)
+		start = time.time()
+		#b.6
+		subjectivity = functions.get_subjectivity(speech)
+		one_speech['Subjectivity'] = subjectivity
 
-			#b.9
-			seconds_audio = functions.get_time_elapsed(long_text)
-			one_speech['Talking Speed'] = word_count / seconds_audio
-
-			#b.10
-			authority_count = functions.get_appeal_to_authority(speech)
-			one_speech['AuthorityMentions'] = authority_count
-
-			#b.11
-			we_you_ratio = functions.get_we_to_you_ratio(speech)
-			one_speech['WeToYouRatio'] = we_you_ratio
-
-			#b.12
-			num_different_words = functions.get_how_many_different_words_do_you_use(speech)
-			one_speech['WordQuantity'] = num_different_words
-
-			#b.13
-			use_of_I = functions.get_use_of_I(speech)
-			one_speech['FirstPersonPronoun'] = use_of_I
-
-			#b.14
-			words_in_italics = functions.get_words_in_italics(long_text)
-			one_speech['PercentInItalics'] = words_in_italics / word_count
-
-			words_in_quotes = functions.get_quotes_in_quotation_marks(speech)
-			one_speech['PercentInQuotes'] = words_in_quotes / word_count
-
-			#b.15-b.n
-			for search_word in all_topics: #Here is where we use the word frequency
-				if isinstance(search_word, str):
-					word_frequency = functions.get_specific_word_frequency(speech, search_word)
-					one_speech[search_word] = word_frequency
-				elif isinstance(search_word, tuple):
-					all_counts = 0
-					for each_word in search_word:
-						all_counts += functions.get_specific_word_frequency(speech, each_word)
-					one_speech[search_word[0]] = all_counts #Notice the [0]. The first word in your tuple should be the word you want to categorize it under.
-				else: #we've got a problem.
-					print 'Problem:', link
-					continue
-
-			#b.n+1
-			organic_pageviews = int(organic_pageviews.replace(',',''))
-			one_speech['Pageviews'] = organic_pageviews
-
-			#Add the dictionary to the dictinary of dictionaries.
-			all_speeches[link] = one_speech
-
-			#-------------------- b --------------------#
+		print ('subjectivity', time.time()-start)
+		start = time.time()
+		#b.7
+		scripture_references = functions.get_just_scripture_ref_count(speech, OT_books, NT_books, BoM_books, DyC, PoGP_books)
+		ot_count, nt_count, bom_count, dyc_count, pogp_count = scripture_references
+		total_scriptures = np.sum(scripture_references)
 		
+		one_speech['OT'] = ot_count
+		one_speech['NT'] = nt_count
+		one_speech['BoM'] = bom_count
+		one_speech['D&C'] = dyc_count
+		one_speech['PoGP'] = pogp_count
+		one_speech['AllScriptureCount'] = total_scriptures
 
-		except KeyboardInterrupt: #If you hit Ctrl+C, we'll just skip to the last step with what we have. 
+		print ('scriptures', time.time()-start)
+		start = time.time()
+		#b.8
+		flesch_reading = functions.get_flesch_reading_ease(speech)
+		one_speech['FleschReading'] = flesch_reading
+
+		print ('fleschreading', time.time()-start)
+		start = time.time()
+		#b.9
+		seconds_audio = functions.get_time_elapsed(long_text)
+		one_speech['Talking Speed'] = word_count / seconds_audio
+
+		print ('talkspeed', time.time()-start)
+		start = time.time()
+		#b.10
+		authority_count = functions.get_appeal_to_authority(speech)
+		one_speech['AuthorityMentions'] = authority_count
+
+		print ('authority', time.time()-start)
+		start = time.time()
+		#b.11
+		we_you_ratio = functions.get_we_to_you_ratio(speech)
+		one_speech['WeToYouRatio'] = we_you_ratio
+
+		print ('weyouratio', time.time()-start)
+		start = time.time()
+		#b.12
+		num_different_words = functions.get_how_many_different_words_do_you_use(speech)
+		one_speech['WordQuantity'] = num_different_words
+
+		print ('wordquant', time.time()-start)
+		start = time.time()
+		#b.13
+		use_of_I = functions.get_use_of_I(speech)
+		one_speech['FirstPersonPronoun'] = use_of_I
 
 
-			spit_out_CSV('PARTIAL')
-			return
+		print ('firstperson', time.time()-start)
+		start = time.time()
+		#b.14
+		words_in_italics = functions.get_words_in_italics(long_text)
+		one_speech['PercentInItalics'] = words_in_italics / word_count
 
+		print ('italics', time.time()-start)
+		start = time.time()
 
-		except Exception as e: #If there's any problem, just don't worry about it.
-			print 'SKIPPING ' + link + ' because: ' + str(e)
-			pass
+		words_in_quotes = functions.get_quotes_in_quotation_marks(speech)
+		one_speech['PercentInQuotes'] = words_in_quotes / word_count
 
+		print ('quotes', time.time()-start)
+		start = time.time()
+
+		#b.15
+		speaker_position = functions.get_speaker_position(long_text)[0]
+		one_speech['SpeakerPosition'] = speaker_position
+
+		print ('position', time.time()-start)
+		start = time.time()
+
+		#b.16-b.n
+		for search_word in all_topics: #Here is where we use the word frequency
+			if isinstance(search_word, str):
+				word_frequency = functions.get_specific_word_frequency(speech, search_word)
+				one_speech[search_word] = word_frequency
+			elif isinstance(search_word, tuple):
+				all_counts = 0
+				for each_word in search_word:
+					all_counts += functions.get_specific_word_frequency(speech, each_word)
+				one_speech[search_word[0]] = all_counts #Notice the [0]. The first word in your tuple should be the word you want to categorize it under.
+			else: #we've got a problem.
+				continue
+
+		print ('wtopic words', (time.time()-start)/float(len(all_topics)))
+		start = time.time()
+
+		#b.n+1
+		organic_pageviews = int(organic_pageviews.replace(',',''))
+		one_speech['Pageviews'] = organic_pageviews
+
+		print ('pageviews', time.time()-start)
+		start = time.time()
+
+		#Add the dictionary to the dictinary of dictionaries.
+		all_speeches[link] = one_speech #Because it's a dictionary it loses all order...
+
+		#-------------------- b --------------------#
+
+		spit_out_CSV('PARTIAL')
 
 	print "\n\nTexted speeches:\t{0}\nUntexted speeches\t{1}".format(speeches_with_text, speeches_with_no_text)
 	spit_out_CSV('FULL')
-	return
 #--------------------------------- Main ----------------------------#
-
-#----------------------- When we're finished -----------------------#
-#It'd be great to update this so that it writes out a line every iteration. That way we don't lose our progress if we have to stop...
-#It would also have to keep track of where it is.
 
 def spit_out_CSV(how_long):
 	global all_speeches
-	global start
-
 	#4
 	dfout = pd.DataFrame(all_speeches)
 	dfout = dfout.transpose()
-
 	#5
-	#Time
-	print; print
-	time_elapsed = time.time()-start
-	hours = int(time_elapsed // 3600)
-	minutes = int((time_elapsed%3600) // 60)
-	seconds = int((time_elapsed%60))
-
-	print "Total time elapsed: {0}hr {1}min {2}sec.".format(hours, minutes, seconds)
 	#Out
 	dfout.to_csv(how_long+'_speech_popularity.csv', index=False)
-
-	return
-#----------------------- When we're finished -----------------------#
-
 
 if __name__ == '__main__':
 	#Now this list lines up exactly with the topics on speeches.byu.edu. That will allow us to see how well we classify them automatically.
@@ -510,20 +516,21 @@ if __name__ == '__main__':
 				'Zion'] #Zion
 	
 	#OK so now that this is allowing for saving and coming back, we don't want the end_date to be RIGHT NOW, because that is subject to change. We'll have it be some recent date.
-	end_date = '2017-08-30'
-	# end_date = str(datetime.datetime.now()).split(' ')[0]
+	end_date = '2017-11-18'
 
 	start_date = '2016-04-01' #This is when our data got fixes
 
-	d = hello_analytics_api_v3.hello_analytics_main(argv='e', start_date=start_date, end_date=end_date, max_results=10000, metrics='ga:sessions', dimensions='ga:pagePath', samplingLevel='HIGHER_PRECISION', include_empty_rows=False) #10,000 is the highest max_results you can put.
+	d = hello_analytics_api_v3.hello_analytics_main(argv='e', start_date=start_date, 
+					end_date=end_date, max_results=10000, metrics='ga:sessions', 
+					dimensions='ga:pagePath', samplingLevel='HIGHER_PRECISION', 
+					include_empty_rows=False, filters='ga:pagePath=~^/talks/.+/$') #10,000 is the highest max_results you can put.
 
 	#This is kind of ugly, but we want to get rid of the nontalks before we start. It will pay off that way.
 	#We can't slice it because we need to access the actual values, so we have to use list comprehension. Unfortunate, but it'll still be faster this way.
-	d = [i for i in d if i[0][:7]=='/talks/']
-	d = [i for i in d if i[0][-4:] not in ['?M=A', '?M=V']]
-	d = [i for i in d if i[0][-1]=='/']
-	d = [i for i in d if len(i[0])>len('/talks/2016/11/')]
-
+	d = np.array([i for i in d if len(i[0])>len('/talks/2016/11/')]) #Get rid of just date ones. This shouldn't find any false positives.
+	d = np.delete(d, (2788), axis=0) #This talk name is /talks/melissa\xadheath_becoming\xadmore\xadteachable/, so we have to take it out...
+	d = np.delete(d, (3207), axis=0) #This talk name is /talks/gayestrathearn_reflections-discipleship/, so we have to take it out...
+	d = np.array([i for i in d if i[0].lower()==i[0]]) 
 
 	if len(sys.argv) > 1:
 		if sys.argv[1] == 'none':
@@ -533,5 +540,3 @@ if __name__ == '__main__':
 	else:
 		print main(d, all_topics)
 
-
-		

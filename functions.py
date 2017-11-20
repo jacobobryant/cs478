@@ -23,6 +23,8 @@ import unicodedata
 import re
 from textblob import TextBlob
 from my_textstat import textstatistics #from background.
+from bs4 import BeautifulSoup
+
 
 
 #1
@@ -102,12 +104,12 @@ def get_speaker_gender(link, baby_names):
 		return 'Unknown'
 
 #2 #This will get us everything that is encoded into the webpage. Then we'll shimmy it down in just_speech()
+# Actually, update this so that we're just reading what we've already downloaded.
 def get_text_of_page(link):	
-	if link[:8] != 'https://':
-		link = 'https://speeches.byu.edu'+link
+	fname = link.split('/')[2]
+	with open('Speeches/{}.html'.format(fname)) as f:
+		html = f.read()
 
-	html = requests.get(link).text
-	
 	parser = HTMLParser.HTMLParser()
 	em_dash = parser.unescape("&#8212;") #This is an em-dash!
 	html = html.replace(em_dash, ' - ') #Instead of those, we want space-dash-space.
@@ -124,31 +126,11 @@ def get_text_of_page(link):
 
 #3
 def just_speech(html, first_words='<p>', last_words='All rights reserved.'):
-	start = html.index(first_words)+len(first_words)
-
-	#------ Get ending -------#
-	try:
-		end = len(html) - html[::-1].index(last_words[::-1]) #Search from the end of the document for last_word.
-	except:
-		try:
-			#If there are references at the end, get the last one.
-			last_words = re.findall(r"\<p\>\d{1,2}\.\ ", html)[-1]
-			end = len(html) - html[::-1].index(last_words[::-1]) #Search from the end of the document for last_word.
-		except:
-			#The last ditch effort is to look for the abbreviation list link.
-			try:
-				last_words = 'See the complete list of abbreviations'
-				end = len(html) - html[::-1].index(last_words[::-1]) #Search from the end of the document for last_word.
-			except: #Otherwise we're forgetting it. You had your chance.
-				start, end = 0, 0
-				print 'Skip.'
-	#------ Get ending -------#
-
-
-	#Get rid of html punctuation.
-	what_we_want = html[start:end]
-	what_we_want = re.sub(r"\<.{1,4}\>", '', what_we_want) #Don't need the nongreedy '?'' because we're already specifying the possible number of elements with the brackets.
-	return what_we_want
+	soup = BeautifulSoup(html, 'html.parser')
+	l = soup.find_all(name=['p'])
+	speech = '\n'.join(list([str(i) for i in l]))
+	# speech = soup.meta(['content'])
+	return speech
 
 #4
 def get_polarity(text):
@@ -203,7 +185,6 @@ def get_just_scripture_ref_count(speech, OT_books, NT_books, BoM_books, DyC, PoG
 	return each_book_count
 
 #9. TODO Maybe instead of word frequency, we really want if they mentioned it at all. Like more than (4) times or something.
-#   TODO We MIGHT want to normalize this by talk length, if we're going to look into topic classification.
 def get_specific_word_frequency(text, word):
 	match = re.findall(r"\b%s\b" % word.lower(), text.lower()) #r makes it a raw string. \b looks for breakwords.
 	matches = re.findall(r"\b%s\b" % (word.lower()+'s'), text.lower()) #Also if there's just an s at the end, we'll count it.
@@ -242,8 +223,13 @@ def get_time_elapsed(long_text):
 
 	r = requests.get(url, stream=True)
 
-	length_audiofile = r.headers['Content-length']
+	try:
+		length_audiofile = r.headers['Content-length']
+	except KeyError:
+		return 10000.
+
 	seconds = int(length_audiofile) / 6000
+
 	return seconds
 
 #13
@@ -298,4 +284,10 @@ def get_quotes_in_quotation_marks(text):
 	all_words_in_quotes = ' '.join(all_quotes).replace('"','')
 	return get_word_count(all_words_in_quotes)
 
-#19. TBD.
+#19. So this will tell us the speaker's position, we just have to figure out what format to put this in. 
+#Maybe come up with some scoring scheme?
+#Problem: some of the people who should have titles aren't listed.
+def get_speaker_position(long_text):
+	speaker_position = re.findall(r'(?<=\<span class="speech__speaker-position"\>).+?(?=\<\/span\>)', long_text)
+	return speaker_position
+
