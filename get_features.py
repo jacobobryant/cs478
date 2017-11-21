@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 import unicodedata
 import re
 from textblob import TextBlob
-from textstat.textstat import textstat  # gross
+from my_textstat import textstatistics as textstat
 from os.path import join
 from functools import partial
 from code import interact
@@ -134,14 +134,14 @@ def feat_subjectivity(text):
     return round(Text.sentiment.subjectivity, 2)
 
 def feat_word_count(text):
-    return textstat.lexicon_count(text)
+    return textstat(text).lexicon_count()
 
 def feat_flesch_reading_ease(text):
     for i in [';',':']: #We're going to help them out. Semicolons and colons become periods so they count as their own sentence.
         text = text.replace(i, '.')
     
     try:
-        return textstat.flesch_kincaid_grade(text)
+        return textstat(text).flesch_kincaid_grade()
     except Exception as e: #This will happen if the number of words is 0.
         return -10000.
 
@@ -242,9 +242,7 @@ def get_num_results(name):
              "alt=json&fields=queries(request(totalResults))&" +
             urlencode(params))
     response = requests.get(query)
-    ret = int(response.json()['queries']['request'][0]['totalResults'])
-    print(name, ret)
-    return ret
+    return int(response.json()['queries']['request'][0]['totalResults'])
 
 def feat_name_search_results(long_text):
     return get_num_results(feat_name(long_text))

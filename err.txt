@@ -1,33 +1,164 @@
+[Errno 2] No such file or directory: 'Speeches/barrett-william-a_precious-precepts-truth.html'
+[Errno 2] No such file or directory: 'Speeches/cook-gene-r_faith-lord-jesus-christ.html'
+[Errno 2] No such file or directory: 'Speeches/cook-gene-r_seek-eternal-happiness.html'
+[Errno 2] No such file or directory: 'Speeches/cook-gene-r_trust-lord.html'
+[Errno 2] No such file or directory: 'Speeches/cook-quentin-l_missionary-life.html'
+Camilla E. Kimball 46200
+[Errno 2] No such file or directory: 'Speeches/covey-stephen-r_educated-conscience.html'
+[Errno 2] No such file or directory: 'Speeches/cowley-matthew_miracles.html'
+[Errno 2] No such file or directory: 'Speeches/cox-neal-lavaun_fellowship-one-another.html'
+[Errno 2] No such file or directory: 'Speeches/cracroft-richard-h_well-sing-well-shout-mantic-celebration-holy-spirit.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-marilyn-s_evolution-mind-heart-soul.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-marilyn-s_love-changes-everything.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_eternal-family.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_faith-preserves-strengthens.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_first-loved-us.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_hope-peace.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_look-forward-eye-faith.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_one-one.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_temple-learning.html'
+[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_zion-university-search-truth.html'
+[Errno 2] No such file or directory: 'Speeches/baugh-alexander-l_joseph-smith-seer-translator-revelator-prophet.html'
+[Errno 2] No such file or directory: 'Speeches/beck-julie-b_unlocking-door-blessings-abraham.html'
+[Errno 2] No such file or directory: 'Speeches/beck-julie-b_why-we-are-organized-into-quorums-and-relief-societies.html'
+[Errno 2] No such file or directory: 'Speeches/bednar-david-a_learning-love-learning.html'
+[Errno 2] No such file or directory: 'Speeches/cannon-elaine-a_preparing-make-difference.html'
+[Errno 2] No such file or directory: 'Speeches/cardon-craig-a_thus-see.html'
+Carl Hernandez III 546000
+David A. Bednar 174000
+Bruce R. McConkie 20200
+Craig C. Christensen 790000
+Craig Manning 897000
+Belle S. Spafford 6310
+Carlos E. Asay 8800
+Craig H. Hart 1530000
 [Errno 2] No such file or directory: 'Speeches/elaine-a-marshall_life-shall-joy.html'
 [Errno 2] No such file or directory: 'JustWordsSpeeches/erin-kramer-holmes_waiting-upon-lord-antidote-uncertainty.txt'
-[Errno 2] No such file or directory: 'Speeches/james-m-harper_seventy-times-seven.html'
+Ezra Taft Benson 71400
+[Errno 2] No such file or directory: 'Speeches/culatta-barbara_loving-neighbor-tolerance-acceptance-come-together-knowing-christ.html'
+Curt Holman 43200
+[Errno 2] No such file or directory: 'Speeches/cuthbert-derek-a_futility-fear.html'
+[Errno 2] No such file or directory: 'Speeches/cuthbert-derek-a_nature-needs.html'
+Ben B. Banks 3810000
+D. Arthur Haycock 8130
+James M. Harper 7100000
 [Errno 2] No such file or directory: 'Speeches/jeffery-r-holland_remember-lots-wife.html'
+D. Gordon Smith 7740000
+Jeffrey R. Holland 772000
+D. Kelly Ogden 555000
+[Errno 2] No such file or directory: 'Speeches/bennett-richard-e_martin-harris-and-three-wise-men.html'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/benson-ezra-taft_because-i-live-ye-shall-live-also.txt'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_constitution-heavenly-banner.html'
+D. Todd Christofferson 28500
+Julie B. Beck 1020000
 [Errno 2] No such file or directory: 'JustWordsSpeeches/larry-y-wilson_the-return-of-the-king.txt'
-[Errno 2] No such file or directory: 'Speeches/a-don-sorenson_observations-law-harvest.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_gods-hand-nations-history.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_in-christs-steps.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_jesus-christ-gifts-expectations.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_law-chastity.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_nation-shall-endure.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_prepare-great-day-lord.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_think-christ.html'
+[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_vision-hope-youth-zion.html'
+[Errno 2] No such file or directory: 'Speeches/bergin-allen-e_psychology-repentance.html'
+Lynn G. Robbins 586000
+Bernard Brockbank 8150
+[Errno 2] No such file or directory: 'Speeches/carlson-bruce_bind-act-holiness.html'
+[Errno 2] No such file or directory: 'Speeches/carmack-john-k_bless-poor-needy.html'
+[Errno 2] No such file or directory: 'Speeches/carmack-john-k_testament-bruce-r-mcconkie.html'
+Madison U. Sowell 480000
+[Errno 2] No such file or directory: 'Speeches/berrett-marilyn-w_earnest-prayer.html'
+Beth Black Peacock 685000
+Carol Cornwall Madsen 11400
+Beth Vaughan Cole 216000
+[Errno 2] No such file or directory: 'Speeches/black-susan-easton_legacy-faith.html'
+Neal A. Maxwell 571000
+Carol Wilkinson 611000
+Blake E. Peterson 821000
+Robert S. Patterson 3700000
+[Errno 2] No such file or directory: 'Speeches/daines-robert-h_doctrine-christ.html'
+A. Don Sorenson 439000
+Bonnie Brinton Anderson 13500
+Carolyn J. Rasmus 24400
+[Errno 2] No such file or directory: 'Speeches/carr-kreuger_let-us-walk-together.html'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/carr-krueger_let-us-walk-together.txt'
+Carr Krueger 145000
+Dale E. Miller 3250000
+Bonnie D. Parkin 12700
+A. Elaine Bond 805000
 [Errno 2] No such file or directory: 'Speeches/a-legrand-richards_gods-simple-eternal-truth.html'
+Dale E. Monson 30700
+LeGrand Richards 79600
 [Errno 2] No such file or directory: 'Speeches/a-legrand-richards_missionary-experiences.html'
+Carri P. Jenkins 14200
+Dale G. Renlund 8450
+Casey C. Peterson 765000
+Cassy Budd 4110
+A. LeGrand Richards 643000
 [Errno 2] No such file or directory: 'JustWordsSpeeches/a-legrand-richards_prophets-scriptures.txt'
 [Errno 2] No such file or directory: 'JustWordsSpeeches/a-theodore-perry_everything-season.txt'
-[Errno 2] No such file or directory: 'Speeches/a-theodore-tuttle_key-redemption.html'
-[Errno 2] No such file or directory: 'Speeches/a-theodore-tuttle_new-emphasis-priesthood.html'
-[Errno 2] No such file or directory: 'Speeches/a-theodore-tuttle_principles-promise.html'
+Catherine Corman Parry 10200
+Dallan R. Moody 590
+A. Theodore Tuttle 33800
+Catherine H. Black 12500000
+[Errno 2] No such file or directory: 'Speeches/causse-gerald_weak-strong.html'
+[Errno 2] No such file or directory: 'Speeches/cecil-b-demille_commencement-address-1957.html'
+Cecil O. and Sharon G. Samuelson 11600
+Bonnie L. Oscarson 7460
+[Errno 2] No such file or directory: 'Speeches/boothe-randall-w_seasons-choice.html'
+Dallin H. Oaks 42500
+[Errno 2] No such file or directory: 'Speeches/cecil-o-sameulson_choices.html'
+[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_5323.html'
+Cecil O. Samuelson 22200
 [Errno 2] No such file or directory: 'Speeches/abegglen-jo-ann-c_power-one-selfless-service.html'
 [Errno 2] No such file or directory: 'Speeches/abrea-angel_creative-mind.html'
 [Errno 2] No such file or directory: 'Speeches/abrea-angel_divine-nature-destiny.html'
 [Errno 2] No such file or directory: 'Speeches/abrea-angel_free-agency.html'
 [Errno 2] No such file or directory: 'Speeches/adams-ed_a-new-tradition.html'
-[Errno 2] No such file or directory: 'Speeches/addie-fuhriman_tie-binds.html'
-[Errno 2] No such file or directory: 'Speeches/adney-y-komatsu_keep-commandments.html'
-[Errno 2] No such file or directory: 'Speeches/alan-f-keele_world-charged-grandeur-god-mandate-eternal-education.html'
-[Errno 2] No such file or directory: 'Speeches/alan-l-wilkins_becoming-light-standard-nations.html'
-[Errno 2] No such file or directory: 'Speeches/alan-l-wilkins_eye-single-glory.html'
-[Errno 2] No such file or directory: 'Speeches/alan-l-wilkins_faithful-questions-seeking-found-truth.html'
-[Errno 2] No such file or directory: 'Speeches/alan-l-wilkins_reaching-heights-prophets-envisioned-us.html'
+Boyd K. Packer 67100
+[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_april-2005-graduates.html'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/cecil-o-samuelson_are-byus-aims-your-aims.txt'
+[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_be-of-good-cheer-2.html'
+Addie Fuhriman 1320
+Adney Y. Komatsu 514
+Adrian Van Mondfrans 71
+[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_desires-hearts/3717.html'
+Alan F. Keele 27100
+Alan J. Hawkins 812000
+Alan L. Wilkins 500000
+Alan Parkinson 684000
+Alan R. Harker 57900
 [Errno 2] No such file or directory: 'Speeches/albert-e-burke_science-survival.html'
 [Errno 2] No such file or directory: 'Speeches/albrecht-w-steve_good-can.html'
+Brad Neiger 15600
+Brad W. Farnsworth 43900
+Alexander B. Morrison 1510000
+Brad Wilcox 384000
+[Errno 2] No such file or directory: 'Speeches/bradford-janet-b_carry-on.html'
+[Errno 2] No such file or directory: 'Speeches/bradford-william-r_selflessness-selfishness.html'
+[Errno 2] No such file or directory: 'Speeches/bradford-william-r_selflessness-versus-selfishness.html'
+Bradley D. Foster 2290000
+Brent A. Barlow 208000
+Alexander L. Baugh 70900
 [Errno 2] No such file or directory: 'Speeches/alexander-l-baugh_joseph-smith-seer-translator-revelator-prophet/6377.html'
-[Errno 2] No such file or directory: 'Speeches/alwi-shihab_building-bridges-harmony-understanding.html'
-[Errno 2] No such file or directory: 'Speeches/amy-fennegan_part-something-greater.html'
+Alicia K. Stanton 77900
+Allan F. Packer 46000
+Brent D. Slife 2780
+[Errno 2] No such file or directory: 'JustWordsSpeeches/cecil-o-samuelson_special-great-university.txt'
+Allen E. Bergin 78900
+Brent E. Nelson 911000
+[Errno 2] No such file or directory: 'Speeches/brent-e-nelson_know-loveth-children/6376.html'
+[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_the-influence-for-good/8825.html'
+Alton L. Thygerson 1010
+Alton L. Wade 199000
+Brent L. Top 3220000
+Cecilia M. Peek 241000
+Alwi Shihab 21700
+Amy Fennegan 225
+Chad Lewis 2330000
+[Errno 2] No such file or directory: 'Speeches/chadwick-bruce-a_hanging-hooking-celestial-marriage.html'
+[Errno 2] No such file or directory: 'Speeches/charles-a-didier_3603.html'
+Amy Petersen Jensen 57200
 [Errno 2] No such file or directory: 'Speeches/andersen-dee-f_thanks-living.html'
 [Errno 2] No such file or directory: 'Speeches/andersen-neil-l_hold-fast-words-prophets.html'
 [Errno 2] No such file or directory: 'Speeches/andersen-neil-l_honesty-the-heart-of-spirituality.html'
@@ -39,15 +170,76 @@
 [Errno 2] No such file or directory: 'Speeches/anderson-richard-lloyd_parallel-prophets-paul-and-joseph-smith.html'
 [Errno 2] No such file or directory: 'Speeches/anderson-shauna-c_scandinavian-saints-legacy-significant-sacrifice.html'
 [Errno 2] No such file or directory: 'Speeches/anderson-val-jo_into-the-burn.html'
-[Errno 2] No such file or directory: 'Speeches/angel-abrea_creative-mind.html'
+Charles A. Didier 1560000
+Andrew C. Skinner 785000
+Andrew J. Maxfield 77200
+[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_arise-shine-forth.html'
+[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_prophetic-priorities-and-dedicated-disciples.html'
+[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_zion-pure-heart.html'
+Andrew S. Gibbons 964000
+Damon L. Bahr 19200
+Angel Abrea 4240
+Charles J. Chaput 49100
+Dan Clark 7350000
+Brent W. Romney 28000
+Dana T. Griffen 21300
 [Errno 2] No such file or directory: 'Speeches/angel-abrea_free-agency/3733.html'
-[Errno 2] No such file or directory: 'Speeches/ann-n-madsen_differences-allow-men-privilege.html'
-[Errno 2] No such file or directory: 'Speeches/arch-l-madsen_communications-ultimate-power.html'
-[Errno 2] No such file or directory: 'Speeches/ardeth-g-kapp_declare.html'
-[Errno 2] No such file or directory: 'Speeches/ardeth-g-kapp_inheritance-secure-jeopardy.html'
-[Errno 2] No such file or directory: 'Speeches/ardeth-g-kapp_taking-upon-us-name.html'
-[Errno 2] No such file or directory: 'Speeches/ardeth-g-kapp_will-make-room-wagon.html'
+Daniel C. Peterson 2710000
+Ann N. Madsen 772000
+Chauncey C. Riddle 5500
+Chelsea Johnson Kennedy 912000
+Daniel E. Johnson 26900000
+[Errno 2] No such file or directory: 'Speeches/daniel-h-ludlow_many-one-2.html'
+Cheryl A. Esplin 7700
+Anthony D. Perkins 1260000
+Arch L. Madsen 266000
+Brent W. Webb 477000
+Cheryl Brown 13200000
+Daniel H. Ludlow 185000
+Daniel J. Fairbanks 119000
+Ardeth G. Kapp 911
+Cheryl C. Lant 7020
+Daniel K. Judd 622000
+[Errno 2] No such file or directory: 'Speeches/dansie-claudia-j_soul-delighteth-plainness-unto-people-may-learn.html'
+[Errno 2] No such file or directory: 'Speeches/child-sheldon-f_follow-prophet.html'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/chris-feinauer_keep-wearing-the-y.txt'
+Chris Feinauer 1690
+[Errno 2] No such file or directory: 'Speeches/christensen-bruce-l_media-myths-miracles.html'
+[Errno 2] No such file or directory: 'Speeches/christensen-joe-j_resolutions.html'
+[Errno 2] No such file or directory: 'Speeches/christensen-merrill-j_comparing-competing.html'
+Christoffel Golden Jr. 11200
+[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_allegiance-god.html'
+[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_give-us-this-day-our-daily-bread.html'
+[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_greatness.html'
+[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_moral-agency.html'
+[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_moral-test.html'
+[Errno 2] No such file or directory: 'Speeches/david-a-bednar_strength-lord/9.html'
+[Errno 2] No such file or directory: 'Speeches/david-a-bednar_strength-lord/https:/speeches.byu.edu/talks/david-a-bednar_strength-lord.html'
+Cinzia Donatelli Noble 236
+[Errno 2] No such file or directory: 'Speeches/clark-dan_four-steps-stairway-heaven.html'
+[Errno 2] No such file or directory: 'Speeches/clark-gregory_lessons-faith-fear.html'
+[Errno 2] No such file or directory: 'Speeches/clark-harold-glen_know-save-lord-commanded.html'
+[Errno 2] No such file or directory: 'Speeches/clark-j-richard_choice-crucible-character.html'
+[Errno 2] No such file or directory: 'Speeches/clark-kim-b_ye-stripped-pride.html'
+[Errno 2] No such file or directory: 'Speeches/clarke-don-r_pure-religion.html'
+[Errno 2] No such file or directory: 'Speeches/clarke-j-richard_freedom-become.html'
+Claudia J. Clayton 452000
+David A. Hunt 48000000
+Claudia J. Dansie 1130
+David A. Thomas 97700000
+Claudine Bigelow 25000
+[Errno 2] No such file or directory: 'Speeches/claudine-bigelow_creativity/8687.html'
+David A. Whetten 21100
+[Errno 2] No such file or directory: 'Speeches/brent-w-webb_unique-university-world-2.html'
+[Errno 2] No such file or directory: 'Speeches/brent-w-webb_where-there-is-no-vision-the-people-perish-2.html'
+Claudio R. M. Costa 269000
+David B. Haight 194000
+Clayne L. Pope 4540
+[Errno 2] No such file or directory: 'Speeches/clayton-l-whitney_the-promised-land.html'
+Arnold H. Green 7220000
 [Errno 2] No such file or directory: 'Speeches/arrington-leonard-j_looseness-zion-joseph-smith-lighter-view.html'
+Clayton S. Huber 309000
+Arthur C. Brooks 2100000
 [Errno 2] No such file or directory: 'Speeches/asay-carlos-e_cloud-witnesses.html'
 [Errno 2] No such file or directory: 'Speeches/asay-carlos-e_flaxen-threads.html'
 [Errno 2] No such file or directory: 'Speeches/asay-carlos-e_heavenly-powers.html'
@@ -60,6 +252,12 @@
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_carry-cross.html'
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_family-home-storage.html'
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_fun-poor.html'
+[Errno 2] No such file or directory: 'Speeches/colton-kent-w_line-service.html'
+[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_disposition-good-continually.html'
+[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_form-godliness.html'
+[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_yielding-hearts-god.html'
+[Errno 2] No such file or directory: 'Speeches/conlee-robert-k_endurance.html'
+Marvin J. Ashton 298000
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_lessons-master.html'
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_loveth-right.html'
 [Errno 2] No such file or directory: 'Speeches/ashton-marvin-j_n-eldon-tanner-example-follow.html'
@@ -87,65 +285,26 @@
 [Errno 2] No such file or directory: 'Speeches/ballard-m-russell_strong-lord-power-might.html'
 [Errno 2] No such file or directory: 'Speeches/ballard-m-russell_unlocking-doors.html'
 [Errno 2] No such file or directory: 'Speeches/banks-ben-b_lords-plan-peace.html'
-[Errno 2] No such file or directory: 'Speeches/banks-ben-b_prepare-lifes-journey.html'[Errno 2] No such file or directory: 'Speeches/barrett-william-a_precious-precepts-truth.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-marilyn-s_evolution-mind-heart-soul.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-marilyn-s_love-changes-everything.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_eternal-family.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_faith-preserves-strengthens.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_first-loved-us.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_hope-peace.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_look-forward-eye-faith.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_one-one.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_temple-learning.html'
-[Errno 2] No such file or directory: 'Speeches/bateman-merrill-j_zion-university-search-truth.html'
-[Errno 2] No such file or directory: 'Speeches/baugh-alexander-l_joseph-smith-seer-translator-revelator-prophet.html'
-[Errno 2] No such file or directory: 'Speeches/beck-julie-b_unlocking-door-blessings-abraham.html'
-[Errno 2] No such file or directory: 'Speeches/beck-julie-b_why-we-are-organized-into-quorums-and-relief-societies.html'
-[Errno 2] No such file or directory: 'Speeches/bednar-david-a_learning-love-learning.html'
-[Errno 2] No such file or directory: 'Speeches/belle-s-spafford_latter-day-prophet-presidents-known.html'
-[Errno 2] No such file or directory: 'Speeches/bennett-richard-e_martin-harris-and-three-wise-men.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/benson-ezra-taft_because-i-live-ye-shall-live-also.txt'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_constitution-heavenly-banner.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_gods-hand-nations-history.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_in-christs-steps.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_jesus-christ-gifts-expectations.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_law-chastity.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_nation-shall-endure.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_prepare-great-day-lord.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_think-christ.html'
-[Errno 2] No such file or directory: 'Speeches/benson-ezra-taft_vision-hope-youth-zion.html'
-[Errno 2] No such file or directory: 'Speeches/bergin-allen-e_psychology-repentance.html'
-[Errno 2] No such file or directory: 'Speeches/bernard-brockbank_sacred-way-eternal-life-love-god-first.html'
-[Errno 2] No such file or directory: 'Speeches/bernard-brockbank_worthy-celestial-exaltation.html'
-[Errno 2] No such file or directory: 'Speeches/berrett-marilyn-w_earnest-prayer.html'
-[Errno 2] No such file or directory: 'Speeches/black-susan-easton_legacy-faith.html'
-[Errno 2] No such file or directory: 'Speeches/bonnie-d-parkin_choose-celebrate.html'
-[Errno 2] No such file or directory: 'Speeches/boothe-randall-w_seasons-choice.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_arts-spirit-lord.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_called-god-prophecy.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_follow-rule.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_ordinances.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_roland-dora-mae.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_say-unto-one.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_self-reliance.html'
-[Errno 2] No such file or directory: 'Speeches/boyd-k-packer_snow-white-birds.html'
-[Errno 2] No such file or directory: 'Speeches/bradford-janet-b_carry-on.html'
-[Errno 2] No such file or directory: 'Speeches/bradford-william-r_selflessness-selfishness.html'
-[Errno 2] No such file or directory: 'Speeches/bradford-william-r_selflessness-versus-selfishness.html'
-[Errno 2] No such file or directory: 'Speeches/brent-e-nelson_know-loveth-children/6376.html'
-[Errno 2] No such file or directory: 'Speeches/brent-l-top_still-takes-faith.html'
-[Errno 2] No such file or directory: 'Speeches/brent-l-top_thing-men-call-death-latter-day-saint-teachings-spirit-world.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-romney_chance-lifetime.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_a-unique-university-in-all-of-the-world.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_consecrated-faculty.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_lord-requireth-heart-willing-mind.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_meek-will-guide-judgment-meek-will-teach-way.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_quest-for-perfection-and-eternal-life.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_unique-university-world-2.html'
-[Errno 2] No such file or directory: 'Speeches/brent-w-webb_where-there-is-no-vision-the-people-perish-2.html'
+[Errno 2] No such file or directory: 'Speeches/banks-ben-b_prepare-lifes-journey.html'
+Barbara A. Heise 71400
+[Errno 2] No such file or directory: 'Speeches/barbara-a-heise_grow-toward-christ/1784.html'
+Connie L. Blakemore 10300
+[Errno 2] No such file or directory: 'Speeches/connie-l-blakemore_spiritual-eyeglasses-what-you-see-you-get/2412.html'
+Conrad W. Rosenbrock 1370
+Barbara B. Smith 33300000
+Brett G. Scharffs 9510
+Constance K. Lundberg 24900
+[Errno 2] No such file or directory: 'Speeches/didier-charles-a_spiritual-temporal-foundation-scriptures-revelation.html'
+[Errno 2] No such file or directory: 'Speeches/didier-charles-a_ye-sevice-fellow-beings-ye-service-god.html'
+David B. Paxman 21000
+[Errno 2] No such file or directory: 'Speeches/david-b-paxman_zoram-and-i-getting-our-stories-straight/1656.html'
+Dieter F. Uchtdorf 89100
+David C. Dollahite 1790
 [Errno 2] No such file or directory: 'Speeches/brewerton-ted-e_character-aim-education.html'
-[Errno 2] No such file or directory: 'Speeches/brian-timothy-wright_brighter-perfect-day.html'
-[Errno 2] No such file or directory: 'Speeches/brigham-russell-frandsen_men-women-seasons.html'
+Brian Evans 5620000
+Brian Santiago 2070000
+Brian Timothy Wright 436000
+Brigham Russell Frandsen 1020
 [Errno 2] No such file or directory: 'Speeches/brigitte-condie-madrian_questions-answers-2.html'
 [Errno 2] No such file or directory: 'Speeches/britsch-todd-a_trusting-god-things-go-wrong.html'
 [Errno 2] No such file or directory: 'Speeches/brooks-arthur-c_giving-matters-2.html'
@@ -156,16 +315,131 @@
 [Errno 2] No such file or directory: 'Speeches/brown-michael-d_the-lord-looketh-on-the-heart.html'
 [Errno 2] No such file or directory: 'Speeches/brown-s-kent_jesus-sermon-last-days-matthew-24.html'
 [Errno 2] No such file or directory: 'Speeches/brown-victor-l_law-consecration.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_bequest-wings-book.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_books-spirit.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_come-come-ye-saints.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_dream-fulfill.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_spirit-army.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-c-hafen_teach-ye-diligently-grace-shall-attend.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-l-christensen_media-myths-miracles.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-l-olsen_adding-burnish-byu.html'
-[Errno 2] No such file or directory: 'Speeches/bruce-l-olsen_stand-line.html'
+David Day 169000000
+Bruce A. Chadwick 493000
+Dilworth B. Parkinson 9080
+[Errno 2] No such file or directory: 'Speeches/dilworth-b-parkinson_received-need/4443.html'
+David E. Sorensen 1050000
+Barbara Culatta 1170
+Bruce C. Hafen 14600
+Don R. Clarke 3820000
+Donald B. Doty 37700
+Donald L. Hallstrom 17200
+[Errno 2] No such file or directory: 'Speeches/donald-l-hallstrom_living-a-reverent-life/1289.html'
+David F. Evans 10300000
+Barbara Day Lockhart 317000
+[Errno 2] No such file or directory: 'Speeches/barbara-day-lockhart_one-precious-sight/3304.html'
+Barbara W. Winder 62900
+Donald L. Staheli 5180
+David H. Moore 11900000
+Donald N. Wright 2060000
+David H. Yarn Jr. 278000
+Donald W. Parry 308000
+[Errno 2] No such file or directory: 'Speeches/barlow-brent-a_marriage-ordained-god.html'
+[Errno 2] No such file or directory: 'Speeches/barlow-sally-h_crucibles-eternal-identity.html'
+[Errno 2] No such file or directory: 'Speeches/barnes-michael-d_finding-strength-christ.html'
+Baroness Emma Nicholson 19600
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_go-bring-people-now-plains-brothers-keepers.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_last-drop-chalice.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_man-christ.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_man-gods-heart.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_never-know-walking-steps-will-lead.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_talent-exceeds-spirituality.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_things-wonderful.html'
+[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_torchbearer.html'
+[Errno 2] No such file or directory: 'Speeches/ferrin-scott-e_christmas-christs-invitation-become-little-child-manner-child.html'
+[Errno 2] No such file or directory: 'Speeches/forste-renata-tonks_finding-individual-path.html'
+Donna Smith Packer 199000
+[Errno 2] No such file or directory: 'Speeches/donovan-fleming_best-shots.html'
+Francis E. George 7020000
+Francis M. Gibbons 602000
+Douglas D. Holmes 1670000
+[Errno 2] No such file or directory: 'Speeches/douglas-d-holmes_doctrine-christ.html'
+Franklin D. Richards 4720000
+David J. Whittaker 390000
+David L. Kooyman 6480
+David L. Paulsen 528000
+Douglas F. Prawitt 1950
+Douglas L. Callister 17400
+David M. Randall 3910000
+[Errno 2] No such file or directory: 'JustWordsSpeeches/david-m-whitchurch_orson-hyde-holy-land-byu.txt'
+Bruce Carlson 788000
+Fraser Bullock 286000
+Bruce D. Porter 1840000
+David McCullough 994000
+Douglas M. Chabries 349
+Fred A. Schwendiman 922
+[Errno 2] No such file or directory: 'Speeches/douglas-m-chabries_talents/4023.html'
+David McPherson 1160000
+[Errno 2] No such file or directory: 'Speeches/david-o-mckay_something-higher-self.html'
+Douglas R. McKinlay 15300
+[Errno 2] No such file or directory: 'Speeches/doxey-roy-w_accept-divine-counsel.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-loren-c_missionary-work-valiance-obedience-forgiveness-testimony.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-loren-c_unity-faith.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-michael-l_the-miracle-of-forgiveness.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_feeling-inferior.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_game-life.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_plus-sign.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_press-forward.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_put-spiritual-clothes.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_seek-ye-shall-find.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_ships-life.html'
+[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_spiritual-courtesy-consideration.html'
+[Errno 2] No such file or directory: 'Speeches/durrant-s-olani_cliff-walking.html'
+Fred E. Woods 5470000
+[Errno 2] No such file or directory: 'Speeches/fronk-camille_lessons-potter-clay.html'
+[Errno 2] No such file or directory: 'Speeches/fronk-camille_world-ye-shall-tribulation-good-cheer-overcome-world.html'
+G. Homer Durham 236000
+Scott Duvall 535000
+[Errno 2] No such file or directory: 'Speeches/duvall-scott_ye-sufficiently-retained-remembrance/4469.html'
+Bruce L. Brown 11100000
+[Errno 2] No such file or directory: 'Speeches/gardner-r-quinn_thoughts-process-conversion.html'
+[Errno 2] No such file or directory: 'Speeches/garner-lynn-e_learning-eternal-context.html'
+David Rolph Seely 671
+[Errno 2] No such file or directory: 'Speeches/david-rolph-seely_january-29-2013-byu-devotional-created-in-the-image-and-likeness-of-god/1296.html'
+Gary Browning 550000
+Dwan J. Young 42700
+David V. Dearden 50400
+Bruce L. Christensen 566000
+Bruce L. Olsen 830000
+Gary C. Barton 806000
+David W. Hart 7730000
+E. Dale LeBaron 27800
+Gary E. Arnoldson 1860
+[Errno 2] No such file or directory: 'Speeches/gary-e-arnoldson_the-mms-of-missionary-minded-members/1268.html'
 [Errno 2] No such file or directory: 'Speeches/bruce-r-mcconkie_alike-unto-god-2.html'
+Dean L. Larsen 462000
+[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_let-light-shine-3.html'
+Gary E. Stevenson 837000
+E.J. Caffaro 2570
+Gary K. Palmer 1120000
+E. Jeffrey Hill 24800000
+[Errno 2] No such file or directory: 'Speeches/earl-c-tingey_byu-spring-2005-commencement.html'
+[Errno 2] No such file or directory: 'Speeches/dean-m-davies_god-will-use-you-god-will-bless-you..html'
+Gary L. Bunker 453000
+Earl C. Tingey 4870
+Dean M. Davies 1240000
+Gary R. Hooper 360000
+Deborah Dean 1990000
+Dee F. Andersen 243000
+Dee T. Allsop 10200
+Gaye Strathearn 1020
+Delbert L. Stapley 2440
+Gayle Clegg 33700
+Earl K. Stice 7720
+Su Ge 13900000
+Earl M. Woolley 16300
+Delora Bertelsen 996
+[Errno 2] No such file or directory: 'Speeches/demille-cecil-b_commencement-address-1957.html'
+Gene R. Cook 5010000
+Earlene Durrant 1610
+[Errno 2] No such file or directory: 'Speeches/echohawk-larry_achieving-preserving-promise-america.html'
+[Errno 2] No such file or directory: 'Speeches/echohawk-larry_unexpected-gift.html'
+Dennis A. Wright 3130000
+Ed Adams 31100000
+[Errno 2] No such file or directory: 'Speeches/edgley-richard-c_becoming-2.html'
+[Errno 2] No such file or directory: 'Speeches/edmunds-mary-ellen_godliness-contentment.html'
+[Errno 2] No such file or directory: 'Speeches/edmunds-mary-ellen_thou-art-merry-praise-lord.html'
 [Errno 2] No such file or directory: 'Speeches/bruce-rmcconkie_relationship-lord.html'
 [Errno 2] No such file or directory: 'Speeches/bunker-gary-l_ultimate-paradox.html'
 [Errno 2] No such file or directory: 'Speeches/burton-gregory-f_lessons-lifes-laboratory.html'
@@ -175,90 +449,62 @@
 [Errno 2] No such file or directory: 'Speeches/burton-theodore-m_meaning-repentance.html'
 [Errno 2] No such file or directory: 'Speeches/busche-f-enzio_life-eternal.html'
 [Errno 2] No such file or directory: 'Speeches/busche-f-enzio_rejoice-christ-jesus-confidence-flesh.html'
+Dennis B. Neuenschwander 9640
+C. Jeffrey Belliston 1210
+Edward Eyestone 7500
+[Errno 2] No such file or directory: 'Speeches/edwards-lavell_take-upon-whole-armor-god.html'
+C. Shane Reese 466000
+Edwin G. Austin Jr. 654000
+Dennis L. Largey 3150
+[Errno 2] No such file or directory: 'Speeches/dennis-packard_telling-stories-heart-21st-century.html'
+[Errno 2] No such file or directory: 'Speeches/egbert-parris-k_confess-the-lords-hand-in-all-things.html'
+[Errno 2] No such file or directory: 'Speeches/eggington-william-g_therefore-ye-are-no-more-strangers-and-foreigners.html'
+Dennis Rasmussen 1270000
+C. Terry Warner 1080000
+Geoffrey J. Germane 15000
 [Errno 2] No such file or directory: 'Speeches/caffaro-e-j_personal-game-plan.html'
-[Errno 2] No such file or directory: 'Speeches/callister-douglas-l_refined-heavenly-home.html'[Errno 2] No such file or directory: 'Speeches/camilla-e-kimball_hope-tomorrow.html'
-[Errno 2] No such file or directory: 'Speeches/cannon-elaine-a_preparing-make-difference.html'
-[Errno 2] No such file or directory: 'Speeches/cardon-craig-a_thus-see.html'
-[Errno 2] No such file or directory: 'Speeches/carlos-e-asay_joyous-obligation-missionary-work.html'
-[Errno 2] No such file or directory: 'Speeches/carlos-e-asay_memory.html'
-[Errno 2] No such file or directory: 'Speeches/carlos-e-asay_spiritual-checkups.html'
-[Errno 2] No such file or directory: 'Speeches/carlson-bruce_bind-act-holiness.html'
-[Errno 2] No such file or directory: 'Speeches/carmack-john-k_bless-poor-needy.html'
-[Errno 2] No such file or directory: 'Speeches/carmack-john-k_testament-bruce-r-mcconkie.html'
-[Errno 2] No such file or directory: 'Speeches/carolyn-j-rasmus_bond-charity.html'
-[Errno 2] No such file or directory: 'Speeches/carr-kreuger_let-us-walk-together.html'
-[Errno 2] No such file or directory: 'Speeches/carr-krueger_let-us-walk-together.html'
-[Errno 2] No such file or directory: 'Speeches/carr-krueger_spirit-y.html'
-[Errno 2] No such file or directory: 'Speeches/causse-gerald_weak-strong.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-b-demille_commencement-address-1957.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-and-sharon-g-samuelson_the-lords-hand-in-our-lives.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-sameulson_choices.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_5323.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_a-time-for-optimism.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_april-2005-graduates.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_are-byus-aims-your-aims.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_be-of-good-cheer-2.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_celebration-learning.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_celebrations-and-memories.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_changing-world.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_ever-learning-ever-improving.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_excellent-way-changing-byu-changing-world.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_fulfill-righteousness.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_inaugural-address.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_joy-divine-roles-men-women.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_learn-throughout-lives.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_learning-learn.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_lessons-learned.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_mixing-reason-faith.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_now-and-the-future.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_questions-answers.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_special-great-university.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_stand-grateful-one.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_stand-servant-joseph.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_the-influence-for-good/8825.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_those-things-of-greatest-worth.html'
-[Errno 2] No such file or directory: 'Speeches/cecil-o-samuelson_why-byu.html'
-[Errno 2] No such file or directory: 'Speeches/chadwick-bruce-a_hanging-hooking-celestial-marriage.html'
-[Errno 2] No such file or directory: 'Speeches/charles-a-didier_3603.html'
-[Errno 2] No such file or directory: 'Speeches/charles-a-didier_art-living.html'
-[Errno 2] No such file or directory: 'Speeches/charles-a-didier_spirit-lord-liberty.html'
-[Errno 2] No such file or directory: 'Speeches/chauncey-c-riddle_crown-jewels-royal-purple.html'
-[Errno 2] No such file or directory: 'Speeches/chelsea-johnson-kennedy_all-things-spiritual.html'
-[Errno 2] No such file or directory: 'Speeches/cheryl-brown_bright-minds-broken-hearts.html'
-[Errno 2] No such file or directory: 'Speeches/child-sheldon-f_follow-prophet.html'
-[Errno 2] No such file or directory: 'Speeches/chris-feinauer_keep-wearing-the-y.html'
-[Errno 2] No such file or directory: 'Speeches/chris-feinauer_persist-until-the-clock-reads-double-zero.html'
-[Errno 2] No such file or directory: 'Speeches/chris-feinauer_till-clock-reads-double-zero.html'
-[Errno 2] No such file or directory: 'Speeches/chris-feinauer_wearing-the-y.html'
-[Errno 2] No such file or directory: 'Speeches/christensen-bruce-l_media-myths-miracles.html'
-[Errno 2] No such file or directory: 'Speeches/christensen-joe-j_resolutions.html'
-[Errno 2] No such file or directory: 'Speeches/christensen-merrill-j_comparing-competing.html'
-[Errno 2] No such file or directory: 'Speeches/christoffel-golden-jr_to-know-thee-the-only-true-god.html'
-[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_allegiance-god.html'
-[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_give-us-this-day-our-daily-bread.html'
-[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_greatness.html'
-[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_moral-agency.html'
-[Errno 2] No such file or directory: 'Speeches/christofferson-d-todd_moral-test.html'
-[Errno 2] No such file or directory: 'Speeches/clark-dan_four-steps-stairway-heaven.html'
-[Errno 2] No such file or directory: 'Speeches/clark-gregory_lessons-faith-fear.html'
-[Errno 2] No such file or directory: 'Speeches/clark-harold-glen_know-save-lord-commanded.html'
-[Errno 2] No such file or directory: 'Speeches/clark-j-richard_choice-crucible-character.html'
-[Errno 2] No such file or directory: 'Speeches/clark-kim-b_ye-stripped-pride.html'
-[Errno 2] No such file or directory: 'Speeches/clarke-don-r_pure-religion.html'
-[Errno 2] No such file or directory: 'Speeches/clarke-j-richard_freedom-become.html'
-[Errno 2] No such file or directory: 'Speeches/claudine-bigelow_creativity/8687.html'
-[Errno 2] No such file or directory: 'Speeches/clayne-l-pope_remember-ye-free-act.html'
-[Errno 2] No such file or directory: 'Speeches/clayton-l-whitney_the-promised-land.html'
-[Errno 2] No such file or directory: 'Speeches/colton-kent-w_line-service.html'
-[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_disposition-good-continually.html'
-[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_form-godliness.html'
-[Errno 2] No such file or directory: 'Speeches/condie-spencer-j_yielding-hearts-god.html'
-[Errno 2] No such file or directory: 'Speeches/conlee-robert-k_endurance.html'
-[Errno 2] No such file or directory: 'Speeches/connie-l-blakemore_spiritual-eyeglasses-what-you-see-you-get/2412.html'
-[Errno 2] No such file or directory: 'Speeches/conrad-w-rosenbrock_metamorphosis-and-accountability-a-guide-for-the.html'
-[Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_obedience-brings-happiness.html'
+[Errno 2] No such file or directory: 'Speeches/callister-douglas-l_refined-heavenly-home.html'
+[Errno 2] No such file or directory: 'Speeches/callister-lynn-clark_wait-upon-lord-metaphor-meaning.html'
+[Errno 2] No such file or directory: 'Speeches/callister-mark-alden_lost-found.html'
+[Errno 2] No such file or directory: 'Speeches/callister-tad-r_becoming-men-and-women-of-integrity.html'
+[Errno 2] No such file or directory: 'Speeches/callister-tad-r_our-identity-and-our-destiny.html'
+Derek A. Cuthbert 66500
+Elaine A. Cannon 359000
+George P. Lee 12100000
+Hartman Rector Jr. 28700
+Elaine L. Jack 1120000
+[Errno 2] No such file or directory: 'Speeches/elaine-l-jack_get-life/3233.html'
+George R. Hill III 1460000
+Derek A. Marquis 295000
+[Errno 2] No such file or directory: 'Speeches/derrick-royden-g_agency.html'
+[Errno 2] No such file or directory: 'Speeches/dew-sheri-l_born-lead-born-glory.html'
+[Errno 2] No such file or directory: 'Speeches/dew-sheri-l_living-lords-side-line.html'
+Diane Thueson Reich 122
+George S. Tate 142000000
+Diane Strong-Krause 68400
+Dick Cheney 580000
+[Errno 2] No such file or directory: 'Speeches/didier-charles-a_spirit-lord-liberty.html'
+George W. Pace 3070000
+J. Thomas Fyans 1750
+Gérald Caussé 25100
+[Errno 2] No such file or directory: 'Speeches/gerald-causse_weak-strong/5350.html'
 [Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_prepare-raise-family-lord/5166.html'
-[Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_roots-branches.html'
+Elaine S. Marshall 823000
+[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_get-life.html'
+[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_never-take-cutoffs-nothing-fear-journey.html'
+[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_way.html'
+Elaine Michaelis 29300
+Gerald N. Lund 241000
+Elaine S. Dalton 159000
+Gerald R. Williams 993000
+Jack H. Goaslind 475
+[Errno 2] No such file or directory: 'Speeches/jack-h-goaslind_honest-pure-humble/2431.html'
+Gerrit W. Gong 7690
+[Errno 2] No such file or directory: 'Speeches/gibbons-andrew-s_the-skills-of-a-saint.html'
+[Errno 2] No such file or directory: 'Speeches/gibson-larry-m_following-heavenly-fathers-plan.html'
+[Errno 2] No such file or directory: 'Speeches/givens-terryl-l_joseph-smith-forging-community.html'
+Glen C. Tuckett 4360
+Glen L. Rudd 238000
 [Errno 2] No such file or directory: 'Speeches/hartman-rector-jr_go-forth-serve-3.html'
 [Errno 2] No such file or directory: 'Speeches/hartman-rector-jr_gospel.html'
 [Errno 2] No such file or directory: 'Speeches/hartman-rector-jr_know-revelation-lord.html'
@@ -266,14 +512,53 @@
 [Errno 2] No such file or directory: 'Speeches/hawkins-alan-j_byus-responses-family-proclamation-world.html'
 [Errno 2] No such file or directory: 'Speeches/hawks-val-d_looking-toward-mark.html'
 [Errno 2] No such file or directory: 'Speeches/heath-melissa_becoming-more-teachable.html'
+Glenn L. Pace 620000
+[Errno 2] No such file or directory: 'Speeches/jackson-kent-p_receiving.html'
+Jacob de Jager 378000
+Heidi S. Swinton 123000
 [Errno 2] No such file or directory: 'Speeches/heise-barbara-a_grow-toward-christ.html'
-[Errno 2] No such file or directory: 'Speeches/henry-b-eyring_charted-course.html'
-[Errno 2] No such file or directory: 'Speeches/henry-b-eyring_choose-keep-mentor.html'
-[Errno 2] No such file or directory: 'Speeches/henry-b-eyring_consecrated-place.html'
+Gloria S. Meléndez 103000
+[Errno 2] No such file or directory: 'Speeches/glover-steven-m_assurance-things-hoped.html'
+[Errno 2] No such file or directory: 'Speeches/gong-gerrit-w_live-right-now.html'
+[Errno 2] No such file or directory: 'Speeches/gonzales-walter-f_brave-generation.html'
+Henry B. Eyring 63800
+Elaine Walton 356000
+[Errno 2] No such file or directory: 'Speeches/ellis-stanley-g_the-courage-to-choose-wisely.html'
+[Errno 2] No such file or directory: 'Speeches/ellsworth-richard-g_spiritual-experience.html'
+James B. McDonald 3920000
+Gordon B. Hinckley 268000
+Eric B. Shumway 25400
+James C. Brau 60200
+Eric Gillett 61300
+James A. Cullimore 8030
+James D. Gordon III 2500000
+Erich W. Kopischke 1430
+[Errno 2] No such file or directory: 'Speeches/erickson-lynnette-b_flags-faith-finishing-race.html'
+[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_god-shall-give-unto-knowledge-holy-spirit/5141.html'
+Erin D. Maughan 20200
+[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_greatest-of-these-love/4754.html'
+James D. MacArthur 957000
+Erin Kramer Holmes 181000
+[Errno 2] No such file or directory: 'JustWordsSpeeches/erin-kramer-holmes_waiting-upon-lord-antidote-uncertainty.txt'
+James D. Stice 27200
+Erlend D. Peterson 9960
+[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_lord.html'
+James E. Faulconer 12900
+James E. Faust 753000
 [Errno 2] No such file or directory: 'Speeches/henry-b-eyring_family/2744.html'
+[Errno 2] No such file or directory: 'Speeches/james-e-faust_church-2.html'
 [Errno 2] No such file or directory: 'Speeches/henry-b-eyring_go-forth-serve-4.html'
-[Errno 2] No such file or directory: 'Speeches/henry-b-eyring_leader-learners.html'
-[Errno 2] No such file or directory: 'Speeches/henry-b-eyring_teaching-moral-act.html'
+Gordon B. Lindsay 771000
+Gordon Limb 1380000
+Gregory Clark 3330000
+Gregory F. Burton 793000
+[Errno 2] No such file or directory: 'Speeches/griffith-thomas-b_root-christian-doctrine.html'
+[Errno 2] No such file or directory: 'Speeches/groberg-john-h_always-hope.html'
+[Errno 2] No such file or directory: 'Speeches/groberg-john-h_investing-eternity.html'
+[Errno 2] No such file or directory: 'Speeches/groberg-john-h_mission.html'
+[Errno 2] No such file or directory: 'Speeches/groberg-john-h_side-heaven.html'
+H. Burke Peterson 637000
+[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_elements-happiness-2.html'
 [Errno 2] No such file or directory: 'Speeches/henry-b-eyring_waiting-upon-lord/3407.html'
 [Errno 2] No such file or directory: 'Speeches/hernandez-iii-carl_devoted-discipleship.html'
 [Errno 2] No such file or directory: 'Speeches/hickman-trenton-l_weaknesses-strength-search-knowledge.html'
@@ -304,6 +589,10 @@
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_enlightened-alert.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_god-expects-us.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_how-do-i-love-thee.html'
+James L. Slaughter 1850000
+[Errno 2] No such file or directory: 'Speeches/james-l-slaughter_blessings-choice/6378.html'
+[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_purify-thoughts/3873.html'
+Jeffrey R. and Patricia T. Holland 283000
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_inconvenient-messiah.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_lessons-liberty-jail.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_mirror-mirror-wall-look-me-decade.html'
@@ -314,7 +603,21 @@
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_soul-butter-hogwash-mark-twain-frontier-religion.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_terror-triumph-wedding-feast.html'
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_things-learned-together.html'
+H. David Burton 4310000
+James M. Paramore 440000
+Ernest L. Wilkinson 389000
+H. Dennis Tolley 9070
+[Errno 2] No such file or directory: 'Speeches/james-m-paramore_leadership-jesus-perfect-leader/https:/speeches.byu.edu/talks/james-m-paramore_leadership-jesus-perfect-leader.html'
+H. Hal Visick 676
 [Errno 2] No such file or directory: 'Speeches/holland-jeffrey-r_true.html'
+[Errno 2] No such file or directory: 'Speeches/esplin-cheryl-a_the-abundant-life.html'
+H. Reese Hansen 312000
+[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_come-come-ye-saints.html'
+[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_disciples-journey.html'
+[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_gospel-romantic-love.html'
+[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_love-is-not-blind-thoughts-college-students-faith-ambiguity.html'
+[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_teach-ye-diligently-grace-shall-attend.html'
+[Errno 2] No such file or directory: 'Speeches/hafen-marie-k_time-get-real.html'
 [Errno 2] No such file or directory: 'Speeches/holland-patricia-t_becoming-meek-lowly-heart.html'
 [Errno 2] No such file or directory: 'Speeches/holland-patricia-t_demands-discipleship.html'
 [Errno 2] No such file or directory: 'Speeches/holland-patricia-t_eye-single.html'
@@ -327,237 +630,37 @@
 [Errno 2] No such file or directory: 'Speeches/holland-patricia-t_unless-youre-mormon.html'
 [Errno 2] No such file or directory: 'Speeches/holland-patricia-t_walking-water.html'
 [Errno 2] No such file or directory: 'Speeches/holman-curt_raising-ebenezer-monument-remember.html'
-[Errno 2] No such file or directory: 'Speeches/holmoe-thomas-a_brotherly-love.html'
-[Errno 2] No such file or directory: 'Speeches/holzapfel-richard-neitzel_glass-half-full-second-coming-lord-jesus-christ.html'
-[Errno 2] No such file or directory: 'Speeches/hopkins-ramona-o_a-miracle-in-the-making-finding-the-meaning-in.html'
-[Errno 2] No such file or directory: 'Speeches/hortense-h-child_standard-people.html'
-[Errno 2] No such file or directory: 'Speeches/hotchkiss-rollin-h_god-loves.html'
-[Errno 2] No such file or directory: 'Speeches/howard-f-burton_giving-getting.html'
-[Errno 2] No such file or directory: 'Speeches/howard-w-hunter_all-alike-unto-god.html'
-[Errno 2] No such file or directory: 'Speeches/howard-w-hunter_gifts-money-cannot-buy.html'
-[Errno 2] No such file or directory: 'Speeches/howell-larry-l_faith-an-essential-principle-of-the-gospel.html'
-[Errno 2] No such file or directory: 'Speeches/hugh-w-pinnock_companion-holy-ghost.html'
-[Errno 2] No such file or directory: 'Speeches/hunt-david-a_fresh-courage-take.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_all-alike-unto-god.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_anchor-souls-men.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_fear-little-flock.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_less-serviceable.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_real-christmas.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_true-greatness.html'
-[Errno 2] No such file or directory: 'Speeches/hunter-j-michael_small-things.html'
-[Errno 2] No such file or directory: 'Speeches/huntington-ray-l_a-grateful-heart.html'
-[Errno 2] No such file or directory: 'Speeches/ivan-j-barrett_joseph-smith-chosen-god-friend-man.html'
-[Errno 2] No such file or directory: 'Speeches/callister-lynn-clark_wait-upon-lord-metaphor-meaning.html'
-[Errno 2] No such file or directory: 'Speeches/callister-mark-alden_lost-found.html'
-[Errno 2] No such file or directory: 'Speeches/callister-tad-r_becoming-men-and-women-of-integrity.html'
-[Errno 2] No such file or directory: 'Speeches/callister-tad-r_our-identity-and-our-destiny.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_go-bring-people-now-plains-brothers-keepers.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_last-drop-chalice.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_man-christ.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_man-gods-heart.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_never-know-walking-steps-will-lead.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_talent-exceeds-spirituality.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_things-wonderful.html'
-[Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_torchbearer.html'
-[Errno 2] No such file or directory: 'Speeches/ferrin-scott-e_christmas-christs-invitation-become-little-child-manner-child.html'
-[Errno 2] No such file or directory: 'Speeches/forste-renata-tonks_finding-individual-path.html'
-[Errno 2] No such file or directory: 'Speeches/francis-m-gibbons_one-many.html'
-[Errno 2] No such file or directory: 'Speeches/franklin-d-richards_new-era-growth-development.html'
-[Errno 2] No such file or directory: 'Speeches/franklin-d-richards_prepare-leaders.html'
-[Errno 2] No such file or directory: 'Speeches/franklin-d-richards_purpose-life.html'
-[Errno 2] No such file or directory: 'Speeches/franklin-d-richards_talents-choice-gift-god.html'
-[Errno 2] No such file or directory: 'Speeches/franklin-d-richards_youve-got-dream.html'
-[Errno 2] No such file or directory: 'Speeches/fronk-camille_lessons-potter-clay.html'
-[Errno 2] No such file or directory: 'Speeches/fronk-camille_world-ye-shall-tribulation-good-cheer-overcome-world.html'
-[Errno 2] No such file or directory: 'Speeches/g-homer-durham_christ-book-mormon.html'
-[Errno 2] No such file or directory: 'Speeches/g-homer-durham_president-wilford-woodruff-thoughts-youth.html'
-[Errno 2] No such file or directory: 'Speeches/gardner-r-quinn_thoughts-process-conversion.html'
-[Errno 2] No such file or directory: 'Speeches/garner-lynn-e_learning-eternal-context.html'
-[Errno 2] No such file or directory: 'Speeches/gary-e-arnoldson_the-mms-of-missionary-minded-members/1268.html'
-[Errno 2] No such file or directory: 'Speeches/gaye-strathearn_reflections-discipleship.html'
-[Errno 2] No such file or directory: 'Speeches/george-p-lee_return-full-belief-god.html'
-[Errno 2] No such file or directory: 'Speeches/george-p-lee_spiritual-education-true-education.html'
-[Errno 2] No such file or directory: 'Speeches/george-p-lee_walk-beauty.html'
-[Errno 2] No such file or directory: 'Speeches/george-s-tate_obedience-creation-freedom.html'
-[Errno 2] No such file or directory: 'Speeches/george-w-pace_developing-personal-relationship-savior.html'
-[Errno 2] No such file or directory: 'Speeches/gerald-causse_weak-strong/5350.html'
-[Errno 2] No such file or directory: 'Speeches/gibbons-andrew-s_the-skills-of-a-saint.html'
-[Errno 2] No such file or directory: 'Speeches/gibson-larry-m_following-heavenly-fathers-plan.html'
-[Errno 2] No such file or directory: 'Speeches/givens-terryl-l_joseph-smith-forging-community.html'
-[Errno 2] No such file or directory: 'Speeches/glen-c-tuckett_feed-sheep.html'
-[Errno 2] No such file or directory: 'Speeches/glen-l-rudd_keeping-gospel-simple.html'
-[Errno 2] No such file or directory: 'Speeches/glenn-l-pace_crying-saints.html'
-[Errno 2] No such file or directory: 'Speeches/glenn-l-pace_elusive-balance.html'
-[Errno 2] No such file or directory: 'Speeches/glenn-l-pace_work-yet-finished.html'
-[Errno 2] No such file or directory: 'Speeches/gloria-s-melendez_travel-light.html'
-[Errno 2] No such file or directory: 'Speeches/glover-steven-m_assurance-things-hoped.html'
-[Errno 2] No such file or directory: 'Speeches/gong-gerrit-w_live-right-now.html'
-[Errno 2] No such file or directory: 'Speeches/gonzales-walter-f_brave-generation.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_dedication-john-taylor-building.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_god-shall-give-unto-knowledge-holy-spirit/5141.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_greatest-of-these-love/4754.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_lord-helm.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_lord.html'
-[Errno 2] No such file or directory: 'Speeches/gordon-b-hinckley_noble-pioneers.html'
-[Errno 2] No such file or directory: 'Speeches/griffith-thomas-b_root-christian-doctrine.html'
-[Errno 2] No such file or directory: 'Speeches/groberg-john-h_always-hope.html'
-[Errno 2] No such file or directory: 'Speeches/groberg-john-h_investing-eternity.html'
-[Errno 2] No such file or directory: 'Speeches/groberg-john-h_mission.html'
-[Errno 2] No such file or directory: 'Speeches/groberg-john-h_side-heaven.html'
-[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_come-unto-christ-trials.html'
-[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_elements-happiness-2.html'
-[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_glimpse-glory.html'
-[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_purify-thoughts/3873.html'
-[Errno 2] No such file or directory: 'Speeches/h-burke-peterson_stones-wall.html'
-[Errno 2] No such file or directory: 'Speeches/h-hal-visick_price-love.html'
-[Errno 2] No such file or directory: 'Speeches/h-reese-hansen_love-god-neighbors.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_come-come-ye-saints.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_disciples-journey.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_gospel-romantic-love.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_love-is-not-blind-thoughts-college-students-faith-ambiguity.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-bruce-c_teach-ye-diligently-grace-shall-attend.html'
-[Errno 2] No such file or directory: 'Speeches/hafen-marie-k_time-get-real.html'
+James O. Mason 7220000
+Eugene H. Bramhall 9030
+Hal B. Heaton 44000
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_celestial-marriage-little-heaven-earth.html'
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_freedom-personal-liberty.html'
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_go-forth-serve-2.html'
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_prince-peace-peace-give-unto.html'
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_temple-blessings.html'
 [Errno 2] No such file or directory: 'Speeches/hales-robert-d_testimony-prophets.html'
-[Errno 2] No such file or directory: 'Speeches/hales-robert-d_understandings-heart.html'[Errno 2] No such file or directory: 'Speeches/cook-gene-r_faith-lord-jesus-christ.html'
-[Errno 2] No such file or directory: 'Speeches/cook-gene-r_seek-eternal-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/cook-gene-r_trust-lord.html'
-[Errno 2] No such file or directory: 'Speeches/cook-quentin-l_missionary-life.html'
-[Errno 2] No such file or directory: 'Speeches/covey-stephen-r_educated-conscience.html'
-[Errno 2] No such file or directory: 'Speeches/cowley-matthew_miracles.html'
-[Errno 2] No such file or directory: 'Speeches/cox-neal-lavaun_fellowship-one-another.html'
-[Errno 2] No such file or directory: 'Speeches/cracroft-richard-h_well-sing-well-shout-mantic-celebration-holy-spirit.html'
-[Errno 2] No such file or directory: 'Speeches/craig-c-christensen_tomorrow-is-today.html'
-[Errno 2] No such file or directory: 'Speeches/culatta-barbara_loving-neighbor-tolerance-acceptance-come-together-knowing-christ.html'
-[Errno 2] No such file or directory: 'Speeches/cuthbert-derek-a_futility-fear.html'
-[Errno 2] No such file or directory: 'Speeches/cuthbert-derek-a_nature-needs.html'
-[Errno 2] No such file or directory: 'Speeches/d-arthur-haycock_tribute.html'
-[Errno 2] No such file or directory: 'Speeches/d-todd-christofferson_moral-test.html'
-[Errno 2] No such file or directory: 'Speeches/daines-robert-h_doctrine-christ.html'
-[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_challenges-year-ahead.html'
-[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_desires-hearts/3717.html'
-[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_formula-success-byu.html'
-[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_meeting-challenges-nineties.html'
-[Errno 2] No such file or directory: 'Speeches/dallin-h-oaks_much-given.html'
-[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_arise-shine-forth.html'
-[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_prophetic-priorities-and-dedicated-disciples.html'
-[Errno 2] No such file or directory: 'Speeches/dalton-elaine-s_zion-pure-heart.html'
-[Errno 2] No such file or directory: 'Speeches/dan-clark_four-steps-stairway-heaven.html'
-[Errno 2] No such file or directory: 'Speeches/daniel-c-peterson_scholarship-gospel.html'
-[Errno 2] No such file or directory: 'Speeches/daniel-h-ludlow_many-one-2.html'
-[Errno 2] No such file or directory: 'Speeches/daniel-h-ludlow_moral-free-agency.html'
-[Errno 2] No such file or directory: 'Speeches/dansie-claudia-j_soul-delighteth-plainness-unto-people-may-learn.html'
-[Errno 2] No such file or directory: 'Speeches/david-a-bednar_strength-lord/9.html'
-[Errno 2] No such file or directory: 'Speeches/david-a-bednar_strength-lord/https:/speeches.byu.edu/talks/david-a-bednar_strength-lord.html'
-[Errno 2] No such file or directory: 'Speeches/david-a-hunt_fresh-courage-take.html'
-[Errno 2] No such file or directory: 'Speeches/david-a-whetten_enter-learn-organize-according-gods-laws.html'
-[Errno 2] No such file or directory: 'Speeches/david-b-haight_purpose-responsibility.html'
-[Errno 2] No such file or directory: 'Speeches/david-b-paxman_zoram-and-i-getting-our-stories-straight/1656.html'
-[Errno 2] No such file or directory: 'Speeches/david-c-dollahite_receiving-eternal.html'
-[Errno 2] No such file or directory: 'Speeches/david-h-yarn_age-preparation.html'
-[Errno 2] No such file or directory: 'Speeches/david-j-whittaker_pioneering-journeys-now.html'
-[Errno 2] No such file or directory: 'Speeches/david-m-randall_watching-rain.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/david-m-whitchurch_orson-hyde-holy-land-byu.txt'
-[Errno 2] No such file or directory: 'Speeches/david-mcpherson_obey-better-sacrifice.html'
-[Errno 2] No such file or directory: 'Speeches/david-o-mckay_something-higher-self.html'
-[Errno 2] No such file or directory: 'Speeches/david-rolph-seely_january-29-2013-byu-devotional-created-in-the-image-and-likeness-of-god/1296.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_lessons-learned-living-sixty-years.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_let-light-shine-3.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_likening-scriptures-unto-us.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_peaceable-things-kingdom.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_personal-accountability.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_thoughts-goal-setting-objectives-measurements.html'
-[Errno 2] No such file or directory: 'Speeches/dean-l-larsen_thoughts-thoughts.html'
-[Errno 2] No such file or directory: 'Speeches/dean-m-davies_god-will-use-you-god-will-bless-you..html'
-[Errno 2] No such file or directory: 'Speeches/dee-f-andersen_thanks-living.html'
-[Errno 2] No such file or directory: 'Speeches/delbert-l-stapley_believer-keep-faith.html'
-[Errno 2] No such file or directory: 'Speeches/delbert-l-stapley_responsibility-parents.html'
-[Errno 2] No such file or directory: 'Speeches/demille-cecil-b_commencement-address-1957.html'
-[Errno 2] No such file or directory: 'Speeches/dennis-packard_telling-stories-heart-21st-century.html'
-[Errno 2] No such file or directory: 'Speeches/dennis-rasmussen_therefore-choose-life.html'
-[Errno 2] No such file or directory: 'Speeches/derek-a-cuthbert_business.html'
-[Errno 2] No such file or directory: 'Speeches/derek-a-cuthbert_nature-needs.html'
-[Errno 2] No such file or directory: 'Speeches/derrick-royden-g_agency.html'
-[Errno 2] No such file or directory: 'Speeches/dew-sheri-l_born-lead-born-glory.html'
-[Errno 2] No such file or directory: 'Speeches/dew-sheri-l_living-lords-side-line.html'
-[Errno 2] No such file or directory: 'Speeches/didier-charles-a_spirit-lord-liberty.html'
-[Errno 2] No such file or directory: 'Speeches/j-thomas-fyans_preaching-gospel-unto-nations.html'
-[Errno 2] No such file or directory: 'Speeches/j-thomas-fyans_proclamation.html'
-[Errno 2] No such file or directory: 'Speeches/j-thomas-fyans_prophet-north-star.html'
-[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_get-life.html'
-[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_never-take-cutoffs-nothing-fear-journey.html'
-[Errno 2] No such file or directory: 'Speeches/jack-elaine-l_way.html'
-[Errno 2] No such file or directory: 'Speeches/jack-h-goaslind_honest-pure-humble/2431.html'
-[Errno 2] No such file or directory: 'Speeches/jack-h-goaslind_missionary-work.html'
-[Errno 2] No such file or directory: 'Speeches/jackson-kent-p_receiving.html'
-[Errno 2] No such file or directory: 'Speeches/jacob-de-jager_perfecting-saints.html'
-[Errno 2] No such file or directory: 'Speeches/james-cullimore_joseph-smith-mormon-prophet.html'
-[Errno 2] No such file or directory: 'Speeches/james-d-macarthur_charity-community-saints.html'
-[Errno 2] No such file or directory: 'Speeches/james-e-faust_christianity-repression-liberation.html'
-[Errno 2] No such file or directory: 'Speeches/james-e-faust_church-2.html'
-[Errno 2] No such file or directory: 'Speeches/james-e-faust_odyssey-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-a-heise_grow-toward-christ/1784.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-b-smith_america-land-promise.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-b-smith_powers-within.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-b-smith_roots-wings.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-b-smith_time.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-day-lockhart_one-precious-sight/3304.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-w-winder_education-unlocking-opportunity.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-w-winder_enjoy-journey.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-w-winder_joy-without-struggle.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-w-winder_righteous-standard.html'
-[Errno 2] No such file or directory: 'Speeches/barbara-w-winder_savior-like-thee.html'
-[Errno 2] No such file or directory: 'Speeches/barlow-brent-a_marriage-ordained-god.html'
-[Errno 2] No such file or directory: 'Speeches/barlow-sally-h_crucibles-eternal-identity.html'
-[Errno 2] No such file or directory: 'Speeches/barnes-michael-d_finding-strength-christ.html'
-[Errno 2] No such file or directory: 'Speeches/baroness-emma-nicholson_sharing-common-values.html'
-[Errno 2] No such file or directory: 'Speeches/didier-charles-a_spiritual-temporal-foundation-scriptures-revelation.html'
-[Errno 2] No such file or directory: 'Speeches/didier-charles-a_ye-sevice-fellow-beings-ye-service-god.html'
-[Errno 2] No such file or directory: 'Speeches/dieter-f-uchtdorf_what-is-truth.html'
-[Errno 2] No such file or directory: 'Speeches/dilworth-b-parkinson_received-need/4443.html'
-[Errno 2] No such file or directory: 'Speeches/don-r-clarke_pure-religion.html'
-[Errno 2] No such file or directory: 'Speeches/donald-l-hallstrom_living-a-reverent-life/1289.html'
-[Errno 2] No such file or directory: 'Speeches/donovan-fleming_best-shots.html'
-[Errno 2] No such file or directory: 'Speeches/douglas-d-holmes_doctrine-christ.html'
-[Errno 2] No such file or directory: 'Speeches/douglas-m-chabries_talents/4023.html'
-[Errno 2] No such file or directory: 'Speeches/doxey-roy-w_accept-divine-counsel.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-loren-c_missionary-work-valiance-obedience-forgiveness-testimony.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-loren-c_unity-faith.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-michael-l_the-miracle-of-forgiveness.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_feeling-inferior.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_game-life.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_plus-sign.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_press-forward.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_put-spiritual-clothes.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_seek-ye-shall-find.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_ships-life.html'
-[Errno 2] No such file or directory: 'Speeches/dunn-paul-h_spiritual-courtesy-consideration.html'
-[Errno 2] No such file or directory: 'Speeches/durrant-s-olani_cliff-walking.html'
-[Errno 2] No such file or directory: 'Speeches/duvall-scott_ye-sufficiently-retained-remembrance/4469.html'
-[Errno 2] No such file or directory: 'Speeches/dwan-j-young_deep-roots-reached-frost.html'
-[Errno 2] No such file or directory: 'Speeches/e-j-caffaro_personal-game-plan.html'
-[Errno 2] No such file or directory: 'Speeches/earl-c-tingey_byu-spring-2005-commencement.html'
-[Errno 2] No such file or directory: 'Speeches/earl-c-tingey_law-sabbath.html'
-[Errno 2] No such file or directory: 'Speeches/echohawk-larry_achieving-preserving-promise-america.html'
-[Errno 2] No such file or directory: 'Speeches/echohawk-larry_unexpected-gift.html'
-[Errno 2] No such file or directory: 'Speeches/edgley-richard-c_becoming-2.html'
-[Errno 2] No such file or directory: 'Speeches/edmunds-mary-ellen_godliness-contentment.html'
-[Errno 2] No such file or directory: 'Speeches/edmunds-mary-ellen_thou-art-merry-praise-lord.html'
-[Errno 2] No such file or directory: 'Speeches/edwards-lavell_take-upon-whole-armor-god.html'
-[Errno 2] No such file or directory: 'Speeches/egbert-parris-k_confess-the-lords-hand-in-all-things.html'
-[Errno 2] No such file or directory: 'Speeches/eggington-william-g_therefore-ye-are-no-more-strangers-and-foreigners.html'
-[Errno 2] No such file or directory: 'Speeches/elaine-l-jack_get-life/3233.html'
-[Errno 2] No such file or directory: 'Speeches/elaine-s-marshall_life-shall-joy.html'
-[Errno 2] No such file or directory: 'Speeches/ellis-stanley-g_the-courage-to-choose-wisely.html'
-[Errno 2] No such file or directory: 'Speeches/ellsworth-richard-g_spiritual-experience.html'
-[Errno 2] No such file or directory: 'Speeches/erickson-lynnette-b_flags-faith-finishing-race.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/erin-kramer-holmes_waiting-upon-lord-antidote-uncertainty.txt'
-[Errno 2] No such file or directory: 'Speeches/erlend-d-peterson_anxiously-engaged-good-cause.html'
-[Errno 2] No such file or directory: 'Speeches/esplin-cheryl-a_the-abundant-life.html'
+[Errno 2] No such file or directory: 'Speeches/hales-robert-d_understandings-heart.html'
+[Errno 2] No such file or directory: 'Speeches/hales-robert-d_way-none-way.html'
+[Errno 2] No such file or directory: 'Speeches/hallstrom-donald-l_living-a-reverent-life.html'
+[Errno 2] No such file or directory: 'Speeches/hallstrom-donald-l_the-heart-and-a-willing-mind.html'
+[Errno 2] No such file or directory: 'Speeches/hammond-f-melvin_everything.html'
+[Errno 2] No such file or directory: 'Speeches/hammond-f-melvin_one-man-can-make-difference.html'
+[Errno 2] No such file or directory: 'Speeches/hanks-marion-d_appreciate-opportunities.html'
+James P. Porter 5250000
+Hans-Wilhelm Kelling 5150
+[Errno 2] No such file or directory: 'Speeches/hans-wilhelmkelling_contemplation-beauty-avenue-communication-lord.html'
+[Errno 2] No such file or directory: 'Speeches/hansen-h-reese_love-god-neighbors.html'
+[Errno 2] No such file or directory: 'Speeches/hanson-kaye-terry_far-near.html'
+[Errno 2] No such file or directory: 'Speeches/harbertson-robert-b_families.html'
+Thomas B. Holman 760000
+[Errno 2] No such file or directory: 'Speeches/holmoe-thomas-a_brotherly-love.html'
+[Errno 2] No such file or directory: 'Speeches/holzapfel-richard-neitzel_glass-half-full-second-coming-lord-jesus-christ.html'
+[Errno 2] No such file or directory: 'Speeches/hopkins-ramona-o_a-miracle-in-the-making-finding-the-meaning-in.html'
+James R. Rasband 13500
+Hortense H. Child 42000
+[Errno 2] No such file or directory: 'Speeches/hotchkiss-rollin-h_god-loves.html'
+[Errno 2] No such file or directory: 'Speeches/howard-f-burton_giving-getting.html'
+Eva Witesman 597
 [Errno 2] No such file or directory: 'Speeches/evans-david-f_tenacity.html'
 [Errno 2] No such file or directory: 'Speeches/eyring-henry-b_always.html'
 [Errno 2] No such file or directory: 'Speeches/eyring-henry-b_blessed-peacemakers.html'
@@ -574,10 +677,55 @@
 [Errno 2] No such file or directory: 'Speeches/eyring-henry-b_listen-together.html'
 [Errno 2] No such file or directory: 'Speeches/eyring-henry-b_power-deliverance.html'
 [Errno 2] No such file or directory: 'Speeches/eyring-henry-b_waiting-upon-lord.html'
+Howard W. Hunter 3570000
+James R. Young 40500000
+Harold B. Lee 2010000
 [Errno 2] No such file or directory: 'Speeches/ezra-taft-benson_constitution-heavenly-banner/3595.html'
-[Errno 2] No such file or directory: 'Speeches/f-enzio-busche_christianity-hope-future.html'
-[Errno 2] No such file or directory: 'Speeches/f-enzio-busche_life-eternal.html'
-[Errno 2] No such file or directory: 'Speeches/f-enzio-busche_rejoice-christ-jesus-confidence-flesh.html'
+Jane H. Lassetter 1980
+Harold G. Hillam 1510
+Janet B. Bradford 467000
+Janet G. Lee 3020000
+[Errno 2] No such file or directory: 'Speeches/howell-larry-l_faith-an-essential-principle-of-the-gospel.html'
+Harold Glen Clark 594000
+Harold Hansen 594000
+[Errno 2] No such file or directory: 'Speeches/harper-james-m_seventy-times-seven.html'
+[Errno 2] No such file or directory: 'Speeches/hart-craig-h_divine-nature-life-decisions.html'
+[Errno 2] No such file or directory: 'Speeches/hart-david-w_be-excellent-becoming-who-you-are-in-todays-world.html'
+Hugh B. Brown 4040000
+Janet S. Scharman 606
+[Errno 2] No such file or directory: 'JustWordsSpeeches/janette-c-hales-beckham_building-environment-trust.txt'
+Hugh Nibley 14000
+Hugh W. Pinnock 31200
+Janette C. Hales Beckham 12700
+[Errno 2] No such file or directory: 'JustWordsSpeeches/janette-c-hales-beckham_lessons-helped.txt'
+John H. Groberg 25000
+John H. Vandenberg 179000
+John K. Carmack 103000
+[Errno 2] No such file or directory: 'Speeches/hunt-david-a_fresh-courage-take.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_all-alike-unto-god.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_anchor-souls-men.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_fear-little-flock.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_less-serviceable.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_real-christmas.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-howard-w_true-greatness.html'
+[Errno 2] No such file or directory: 'Speeches/hunter-j-michael_small-things.html'
+[Errno 2] No such file or directory: 'Speeches/huntington-ray-l_a-grateful-heart.html'
+F. Burton Howard 1110000
+Janie Penfield 5750
+Janielle Christensen 574
+[Errno 2] No such file or directory: 'Speeches/jarvis-tyler-j_thats-light-gets.html'
+Ivan J. Barrett 421000
+John K. Edmunds 1710000
+Jay E. Jensen 1720000
+F. Enzio Busche 735
+John P. Hoffman 3420000
+J. Bonner Ritchie 60700
+[Errno 2] No such file or directory: 'Speeches/j-craig-mcilroy_believe-3.html'
+J. Craig McIlroy 26300
+F. Melvin Hammond 217000
+J. Kelly Flanagan 569000
+Jean Bethke Elshtain 7590
+Jeffrey A. Thompson 2840000
 [Errno 2] No such file or directory: 'Speeches/faust-james-e_believe.html'
 [Errno 2] No such file or directory: 'Speeches/faust-james-e_blessings-adversity.html'
 [Errno 2] No such file or directory: 'Speeches/faust-james-e_enhancing-secular-knowledge-spiritual-knowledge-faith.html'
@@ -597,39 +745,187 @@
 [Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_ask-tarry-little-longer.html'
 [Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_building-bricks-without-straw.html'
 [Errno 2] No such file or directory: 'Speeches/featherstone-vaughn-j_charity-never-faileth.html'
-[Errno 2] No such file or directory: 'Speeches/mark-e-petersen_believe-god-eternal-father.html'
-[Errno 2] No such file or directory: 'Speeches/mark-e-petersen_christ-creator.html'
+J. Matthew Shumway 23700
+John R. Rosenberg 1800000
+John S. Robertson 3350000
+[Errno 2] No such file or directory: 'Speeches/john-s-robertson_complete-look-perfect/2382.html'
+L. Tom Perry 31500000
+Jeffery F. Ringer 20900
+J. Michael Hunter 8590000
+Michael J. Pinegar 5290
+[Errno 2] No such file or directory: 'Speeches/j-richard-clark_choice-crucible-character.html'
+Jeffery N. Bunker 48100
+[Errno 2] No such file or directory: 'Speeches/jeffery-r-and-patricia-t-holland_things-learned-together.html'
+[Errno 2] No such file or directory: 'Speeches/jeffery-r-holland_lessons-liberty-jail.html'
+[Errno 2] No such file or directory: 'Speeches/jeffery-r-holland_remember-lots-wife.html'
+J. Richard Clarke 2940000
+[Errno 2] No such file or directory: 'Speeches/jeffrey-a-thompson_what-is-your-calling-in-life/1682.html'
+John S. Tanner 2790000
+Jeffrey D. Keith 2660000
+L. Whitney Clayton 564000
+Lael J. Woodbury 2310
+LaNae Valentine 6120
+Lance B. Wickman 7110
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-and-patricia-t-holland_inconvenient-messiah/https:/speeches.byu.edu/talks/jeffrey-r-and-patricia-t-holland_inconvenient-messiah.html'
+Lane Fischer 1290000
+[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_gods-love.html'
+[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_hold-tight-iron-rod.html'
+[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_prayer.html'
+[Errno 2] No such file or directory: 'Speeches/largey-dennis-l_armour-light-romans-1312.html'
+[Errno 2] No such file or directory: 'Speeches/john-sonnenberg_making-memories-2.html'
+Mark Alden Callister 234
+John Telford 660000
+Mark B. Colton 493000
+Mark DeMoss 45000
+John W. Welch 2170000
+Mark E. Petersen 1590000
+Larry C. Porter 1590000
+[Errno 2] No such file or directory: 'Speeches/johnson-daniel-e_cycle-becoming-2.html'
+[Errno 2] No such file or directory: 'Speeches/johnson-jerald-b_eyes-see.html'
+[Errno 2] No such file or directory: 'Speeches/johnson-paul-v_free-to-choose-liberty-or-captivity.html'
+[Errno 2] No such file or directory: 'Speeches/johnson-stanley-a_the-simpleness-of-the-way.html'
+Larry EchoHawk 2540
 [Errno 2] No such file or directory: 'Speeches/mark-e-petersen_great-prologue/5094.html'
-[Errno 2] No such file or directory: 'Speeches/mark-e-petersen_man-must-called-god.html'
-[Errno 2] No such file or directory: 'Speeches/mark-j-rowe_secular-sacred-individuality.html'
+Jon M. Huntsman Sr. 27200
+[Errno 2] No such file or directory: 'JustWordsSpeeches/jonathan-g-sanberg_healing-courage-action-grace.txt'
+Larry H. Peer 681000
+[Errno 2] No such file or directory: 'Speeches/larry-h-peer_beethovens-kiss-odd-reasons-brigham-youngs-excellent-university/1966.html'
+Larry L. Howell 610000
+Larry L. St. Clair 417000
+[Errno 2] No such file or directory: 'Speeches/larry-l-st-clair_choose-day/2214.html'
+Larry M. Gibson 897000
+Mark J. Rowe 1110000
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_demands-discipleship.html'
+Larry Tucker 622000
+[Errno 2] No such file or directory: 'JustWordsSpeeches/larry-y-wilson_the-return-of-the-king.txt'
+[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_peaceable-things-kingdom.html'
+[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_personal-accountability.html'
+[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_thoughts-goal-setting-objectives-measurements.html'
+[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_thoughts-thoughts.html'
+[Errno 2] No such file or directory: 'Speeches/larson-jeffry-h_expect-key-personal-happiness.html'
+[Errno 2] No such file or directory: 'Speeches/lassetter-jane-h_lead-guide-walk-beside-life-lessons-holy-ghost.html'
+Mark L. Grover 495000
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_faithful-friend-strong-defense.html'
+LaVell Edwards 25700
+Marleen Williams 164000
+Lawrence C. Walters 802000
+Jonathan G. Sandberg 278000
+[Errno 2] No such file or directory: 'Speeches/jonathan-g-sandberg_healing-courage-action-grace/5368.html'
+[Errno 2] No such file or directory: 'Speeches/jones-randall-l_language-miraculous-gift.html'
+[Errno 2] No such file or directory: 'Speeches/jones-stephen-m_hath-made-us-everlasting-covenant-ordered-things-sure.html'
+[Errno 2] No such file or directory: 'Speeches/jones-stephen_soul-delighteth-things-lord.html'
+Marlin K. Jensen 52700
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_however-long-hard-road.html'
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_inconvenient-messiah.html'
+Lawrence P. Vincent 2030000
+Joseph Anderson 8620000
 [Errno 2] No such file or directory: 'Speeches/marquis-derek-a_to-every-nation-kindred-tongue-and-people.html'
 [Errno 2] No such file or directory: 'Speeches/marshall-elaine-s_life-shall-joy.html'
 [Errno 2] No such file or directory: 'Speeches/marshall-elaine_learning-healers-art.html'
-[Errno 2] No such file or directory: 'Speeches/martha-peacock_searching-mind.html'
-[Errno 2] No such file or directory: 'Speeches/marvin-j-ashton_appreciation-sign-maturity.html'
+Lawrence R. Flake 203000
+[Errno 2] No such file or directory: 'Speeches/lawrence-w-mack_pursuit-happiness.html'
+[Errno 2] No such file or directory: 'Speeches/lebaron-e-dale_african-converts-without-baptism.html'
+Lee F. Braithwaite 56300
+[Errno 2] No such file or directory: 'Speeches/lee-george-p_walk-beauty.html'
+Martha Peacock 1060000
+Lee H. Radebaugh 4000
+[Errno 2] No such file or directory: 'Speeches/lee-janet-g_crossing-street-life.html'
+[Errno 2] No such file or directory: 'Speeches/lee-janet-g_lord-doesnt-grade-curve.html'
+[Errno 2] No such file or directory: 'Speeches/lee-rex-e_honesty-integrity.html'
+Joseph B. Wirthlin 18300
+Lee Tom Perry 1980000
 [Errno 2] No such file or directory: 'Speeches/marvin-j-ashton_know-2/3262.html'
-[Errno 2] No such file or directory: 'Speeches/marvin-j-ashton_lessons-master.html'
-[Errno 2] No such file or directory: 'Speeches/marvin-j-ashton_patience-great-power.html'
-[Errno 2] No such file or directory: 'Speeches/marvin-j-ashton_still-voice-perfect-mildness.html'
+Lee Wakefield 1020000
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_remember-lots-wife/4340.html'
+Mary Anne Prater 18400
+Mary Ellen Edmunds 40000
+Joseph D. Parry 535000
+[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_thick-lifes-urgencies.html'
+Joseph Fielding McConkie 8470
+Len B. Novilla 1300
+[Errno 2] No such file or directory: 'Speeches/leonard-cory-w_by-persuasion-longsuffering-meekness-and-love.html'
+Joseph Lieberman 387000
+Joseph R. Nance 344000
+Leonard J. Arrington 52300
+Mary Ellen Smoot 8720
+Leslee Thorne-Murphy 6070
+[Errno 2] No such file or directory: 'Speeches/lewis-chad_world-needs-see-feel-light.html'
+[Errno 2] No such file or directory: 'Speeches/lewis-john-c_thoughts-hearts.html'
+Julene Butler 6120
+Julianne Long 4410000
+Liz Wiseman 142000
+Mary Williams 17800000
 [Errno 2] No such file or directory: 'Speeches/mary-williams_know-known-god/2220.html'
+Jeffry H. Larson 868000
+[Errno 2] No such file or directory: 'Speeches/jenkins-carri-p_solemn-obligation.html'
+Lloyd D. Newell 307000
+[Errno 2] No such file or directory: 'Speeches/lloyd-d-newell_fear-not/6749.html'
+[Errno 2] No such file or directory: 'Speeches/lloyd-d-newell_fear.html'
+Jennifer B. Nielson 62800
+Matthew Cowley 65400
+Matthew N. Daley 211000
+Error(ASyPW): Number of words are zero, cannot divide
+Matthew O. Richardson 1840000
 [Errno 2] No such file or directory: 'Speeches/matthews-kristin-l_worth-souls-great.html'
 [Errno 2] No such file or directory: 'Speeches/matthews-robert-j_savior-necessary-jesus-christ-qualify.html'
 [Errno 2] No such file or directory: 'Speeches/matthews-robert-j_using-scriptures.html'
 [Errno 2] No such file or directory: 'Speeches/maughan-erin-d_still-know-god.html'
-[Errno 2] No such file or directory: 'Speeches/max-l-pinegar_serious-things-done.html'
-[Errno 2] No such file or directory: 'Speeches/max-l-pinegar_weightier-matters-law.html'
+Lora Beth Larson Brown 17400
+Jennifer Paustenbaugh 534
+Maurice L. Stocks 1200000
+Loren C. Dunn 343000
+Max L. Pinegar 2670
+Julie Franklin 1990000
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_best-faculty.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_brim-joy.html'
+Jennifer Rockwood 81500
+[Errno 2] No such file or directory: 'Speeches/jensen-amy-petersen_some-hopeful-words-on-media-and-agency.html'
+[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_building-upon-rock.html'
+[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_that-all-may-be-edified-2.html'
+[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_the-unspeakable-gift-of-the-holy-ghost.html'
+[Errno 2] No such file or directory: 'Speeches/jensen-marlin-k_living-manner-happiness.html'
+[Errno 2] No such file or directory: 'Speeches/jensen-michael-a_life-changing-partnership-spirit.html'
+K. Fred Skousen 4300
+Jerald B. Johnson 112000
+Jesse Aaron Egbert 31700
+Jessie Leatham Wirkus 20
+K. Newell Dayley 546
+Jo Ann C. Abegglen 1400
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_children-christ.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_family-perspectives.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_grounded-rooted-established-settled-ephesians-317-1-peter-510.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_hell-moved.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_in-him-all-things-hold-together.html'
+Joan W. Young 4900000
+Joaquina Hoskisson 30
+[Errno 2] No such file or directory: 'Speeches/ludlow-daniel-h_moral-free-agency.html'
+[Errno 2] No such file or directory: 'Speeches/ludlow-victor-l_covenant-teachings-scriptures.html'
+[Errno 2] No such file or directory: 'Speeches/lund-gerald-n_voice-lord.html'
+[Errno 2] No such file or directory: 'Speeches/lund-william-b_god-loved.html'
+K. Richard Young 50600000
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_inheritance-secure-jeopardy.html'
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_lest-forget-believe.html'
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_may-prepare-part.html'
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_pray-light-burdens-strong-backs.html'
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_taking-upon-us-name.html'
+[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_will-make-room-wagon.html'
+Karl G. Maeser 4410
+[Errno 2] No such file or directory: 'Speeches/karren-keith-j_ultimate-health-gods-gift-personal-responsibility.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_insights-life.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_joseph-smith-choice-seer.html'
+Jodi Maxfield 20300
+Lynn A. Mickelsen 6210
+Kate L. Kirkham 19400
+Lynn Clark Callister 7800
+Katherine D. Pullins 19300
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_meeting-challenges-today.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_pathway-discipleship.html'
+Joe J. Christensen 626000
+Kaye Terry Hanson 153000
+[Errno 2] No such file or directory: 'Speeches/kearon-patrick_messages-of-love.html'
+Lynn E. Garner 586000
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_sharing-insights-life.html'
+Keith B. McMullin 24200
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_taking-cross.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_true-believers-christ.html'
 [Errno 2] No such file or directory: 'Speeches/maxwell-neal-a_wisdom-order.html'
@@ -647,72 +943,68 @@
 [Errno 2] No such file or directory: 'Speeches/mcconkie-bruce-r_think-ye-salvation-grace.html'
 [Errno 2] No such file or directory: 'Speeches/mcconkie-bruce-r_three-pillars-eternity.html'
 [Errno 2] No such file or directory: 'Speeches/mcconkie-joseph-fielding_finding-answers.html'
+John B. Stohlton 96
+Lynn Williams 8460000
+McKay Christensen 220000
 [Errno 2] No such file or directory: 'Speeches/mckay-david-o_something-higher-self.html'
 [Errno 2] No such file or directory: 'Speeches/mckinlay-douglas-r_the-approachable-master.html'
 [Errno 2] No such file or directory: 'Speeches/mcmullin-keith-b_faith-works-secular-world.html'
-[Errno 2] No such file or directory: 'Speeches/megan-hirschi_serve-benefit-world.html'
+Megan Hirschi 6580
+John C. Lewis 30900000
+Lynnette B. Erickson 13200
+Melissa Heath 562000
+Keith J. Karren 18700
+Jon D. Green 27800000
+M. Catherine Thomas 6200000
+John D. Lamb 4700000
+Melvin J. Luthy 2870
 [Errno 2] No such file or directory: 'Speeches/melvin-j-luthy_truth-lies-power-word/2360.html'
-[Errno 2] No such file or directory: 'Speeches/merlin-g-myers_kinship-religion-transformation-society.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_banyan-tree.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_brigham-young-university-new-millennium.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_challenges-21st-century.html'
-[Errno 2] No such file or directory: 'Speeches/j-craig-mcilroy_believe-3.html'
-[Errno 2] No such file or directory: 'Speeches/j-craig-mcilroy_great-value-boundless-choice.html'
-[Errno 2] No such file or directory: 'Speeches/j-richard-clark_choice-crucible-character.html'
-[Errno 2] No such file or directory: 'Speeches/j-richard-clarke_choice-crucible-character.html'
-[Errno 2] No such file or directory: 'Speeches/j-richard-clarke_freedom-become.html'
-[Errno 2] No such file or directory: 'Speeches/j-richard-clarke_royal-road-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/j-thomas-fyans_build-understanding.html'
-[Errno 2] No such file or directory: 'Speeches/j-thomas-fyans_cycle-life.html'
-[Errno 2] No such file or directory: 'Speeches/john-h-vandenberg_patriotism-god.html'
-[Errno 2] No such file or directory: 'Speeches/john-h-vandenberg_pursuit-truth.html'
-[Errno 2] No such file or directory: 'Speeches/john-k-edmunds_blessings-law.html'
-[Errno 2] No such file or directory: 'Speeches/john-r-rosenberg_intimate-restoration.html'
-[Errno 2] No such file or directory: 'Speeches/john-s-robertson_complete-look-perfect/2382.html'
-[Errno 2] No such file or directory: 'Speeches/john-s-tanner_house-dreams.html'
-[Errno 2] No such file or directory: 'Speeches/john-s-tanner_learning-light.html'
-[Errno 2] No such file or directory: 'Speeches/john-s-tanner_one-great-lights-world-seeking-learning-study-faith-byu.html'
-[Errno 2] No such file or directory: 'Speeches/john-s-tanner_that-all-may-be-edified-of-all.html'
-[Errno 2] No such file or directory: 'Speeches/john-sonnenberg_making-memories-2.html'
-[Errno 2] No such file or directory: 'Speeches/john-w-welch_study-faith-book-mormon.html'
-[Errno 2] No such file or directory: 'Speeches/johnson-daniel-e_cycle-becoming-2.html'
-[Errno 2] No such file or directory: 'Speeches/johnson-jerald-b_eyes-see.html'
-[Errno 2] No such file or directory: 'Speeches/johnson-paul-v_free-to-choose-liberty-or-captivity.html'
-[Errno 2] No such file or directory: 'Speeches/johnson-stanley-a_the-simpleness-of-the-way.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/jonathan-g-sanberg_healing-courage-action-grace.txt'
-[Errno 2] No such file or directory: 'Speeches/jonathan-g-sandberg_healing-courage-action-grace/5368.html'
-[Errno 2] No such file or directory: 'Speeches/jones-randall-l_language-miraculous-gift.html'
-[Errno 2] No such file or directory: 'Speeches/jones-stephen-m_hath-made-us-everlasting-covenant-ordered-things-sure.html'
-[Errno 2] No such file or directory: 'Speeches/jones-stephen_soul-delighteth-things-lord.html'
-[Errno 2] No such file or directory: 'Speeches/joseph-anderson_footprints-sands-time.html'
-[Errno 2] No such file or directory: 'Speeches/joseph-anderson_man.html'
-[Errno 2] No such file or directory: 'Speeches/joseph-b-wirthlin_righteous-hearts.html'
-[Errno 2] No such file or directory: 'Speeches/joseph-r-nance_simple-truths.html'
-[Errno 2] No such file or directory: 'Speeches/julianne-long_the-world-at-our-doorstep.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_inheritance-secure-jeopardy.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_lest-forget-believe.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_may-prepare-part.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_pray-light-burdens-strong-backs.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_taking-upon-us-name.html'
-[Errno 2] No such file or directory: 'Speeches/kapp-ardeth-g_will-make-room-wagon.html'
-[Errno 2] No such file or directory: 'Speeches/karl-g-maeser_final-address.html'
-[Errno 2] No such file or directory: 'Speeches/karren-keith-j_ultimate-health-gods-gift-personal-responsibility.html'
-[Errno 2] No such file or directory: 'Speeches/kate-l-kirkham_many-one.html'
-[Errno 2] No such file or directory: 'Speeches/kearon-patrick_messages-of-love.html'
+Keith J. Wilson 3260000
 [Errno 2] No such file or directory: 'Speeches/keith-jeffrey-d_feeling-atonement.html'
+Merlin G. Myers 218000
+M. Gawain Wells 223000
+Keith Vorkink 1840
 [Errno 2] No such file or directory: 'Speeches/keith-w-wilcox_book-life-2.html'
+M. Russell Ballard 570000
+Merrill J. and Marilyn S. Bateman 23000
+Kelly D. Patterson 1910000
 [Errno 2] No such file or directory: 'Speeches/kendrick-l-lionel_personal-revelation.html'
+Kenneth A. Solen 719000
 [Errno 2] No such file or directory: 'Speeches/kenneth-a-solen_nourishing-tree/2485.html'
-[Errno 2] No such file or directory: 'Speeches/kenneth-e-behring_ministry-mobility.html'
+Kenneth E. Behring 13500
+Kent F. Richards 725000
+[Errno 2] No such file or directory: 'Speeches/m-russell-ballard_follow-the-doctrine-and-gospel-of-christ/1596.html'
+Kent P. Jackson 2630000
+Merrill J. Bateman 19300
+Kent W. Colton 353000
 [Errno 2] No such file or directory: 'Speeches/kerr-wm-rolfe_thanks-things-count.html'
+Kerry M. Muhlestein 1480
+Monte R. Swain 27300
+[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_challenges-21st-century.html'
+Kevin D. Stocks 25400000
 [Errno 2] No such file or directory: 'Speeches/kevin-j-worthen_12782.html'
-[Errno 2] No such file or directory: 'Speeches/kevin-j-worthen_a-founders-continuing-influence.html'
-[Errno 2] No such file or directory: 'Speeches/kevin-j-worthen_enlightened-uplifted-changed.html'
-[Errno 2] No such file or directory: 'Speeches/kevin-j-worthen_holy-places.html'
+Kevin J Worthen 15600
+[Errno 2] No such file or directory: 'Speeches/morris-thomas-h_time-a-precious-commodity-a-finite-resource.html'
+[Errno 2] No such file or directory: 'Speeches/mouritsen-maren-m_anywhere-power-one.html'
+N. Eldon Tanner 43000
+[Errno 2] No such file or directory: 'Speeches/nadauld-margaret-d_prepare-today-tomorrow.html'
+[Errno 2] No such file or directory: 'Speeches/nadauld-stephen-d_increasing-faith-reaffirming-trust-rekindling-love.html'
+[Errno 2] No such file or directory: 'Speeches/nance-joseph-r_simple-truths.html'
+Nancy Wentworth 342000
+[Errno 2] No such file or directory: 'Speeches/madsen-ann-n_differences-allow-men-privilege.html'
+[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_highest-us.html'
+[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_joy-lord-strength-nehemiah-810.html'
+Truman G. Madsen 36700
+[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_olive-press.html'
+[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_souls-aflame-prayer-heritage-latter-day-saints.html'
+Marcos Gallo 1980000
+[Errno 2] No such file or directory: 'Speeches/marcos-gallos_remember-the-harbor.html'
 [Errno 2] No such file or directory: 'Speeches/kevin-j-worthen_y-2.html'
 [Errno 2] No such file or directory: 'Speeches/kikuchi-yoshihiko_come-listen-prophets-voice.html'
 [Errno 2] No such file or directory: 'Speeches/kikuchi-yoshihiko_heighten-capacity.html'
 [Errno 2] No such file or directory: 'Speeches/kikuchi-yoshihiko_how-do-you-open-your-heart-to-heaven.html'
+Marcus B. Nash 456000
+Kim B. Clark 4130000
 [Errno 2] No such file or directory: 'Speeches/kimball-camilla-e_hope-tomorrow.html'
 [Errno 2] No such file or directory: 'Speeches/kimball-spencer-w_absolute-truth.html'
 [Errno 2] No such file or directory: 'Speeches/kimball-spencer-w_church-growth-lamanite-involvement.html'
@@ -725,112 +1017,56 @@
 [Errno 2] No such file or directory: 'Speeches/kirkham-kate-l_teachable.html'
 [Errno 2] No such file or directory: 'Speeches/kooyman-david-l_press-forward-steadfastness-christ.html'
 [Errno 2] No such file or directory: 'Speeches/kopischke-erich-w_envision-life.html'
-[Errno 2] No such file or directory: 'Speeches/l-douglas-smoot_two-great-promises.html'
-[Errno 2] No such file or directory: 'Speeches/hales-robert-d_way-none-way.html'
-[Errno 2] No such file or directory: 'Speeches/hallstrom-donald-l_living-a-reverent-life.html'
-[Errno 2] No such file or directory: 'Speeches/hallstrom-donald-l_the-heart-and-a-willing-mind.html'
-[Errno 2] No such file or directory: 'Speeches/hammond-f-melvin_everything.html'
-[Errno 2] No such file or directory: 'Speeches/hammond-f-melvin_one-man-can-make-difference.html'
-[Errno 2] No such file or directory: 'Speeches/hanks-marion-d_appreciate-opportunities.html'
-[Errno 2] No such file or directory: 'Speeches/hans-wilhelm-kelling_contemplation-beauty-avenue-communication-lord.html'
-[Errno 2] No such file or directory: 'Speeches/hans-wilhelmkelling_contemplation-beauty-avenue-communication-lord.html'
-[Errno 2] No such file or directory: 'Speeches/hansen-h-reese_love-god-neighbors.html'
-[Errno 2] No such file or directory: 'Speeches/hanson-kaye-terry_far-near.html'
-[Errno 2] No such file or directory: 'Speeches/harbertson-robert-b_families.html'
-[Errno 2] No such file or directory: 'Speeches/harold-g-hillam_strength-adversity.html'
-[Errno 2] No such file or directory: 'Speeches/harold-glen-clark_know-save-lord-commanded.html'
-[Errno 2] No such file or directory: 'Speeches/harold-hansen_observing-thanksgiving-day.html'
-[Errno 2] No such file or directory: 'Speeches/harper-james-m_seventy-times-seven.html'
-[Errno 2] No such file or directory: 'Speeches/hart-craig-h_divine-nature-life-decisions.html'
-[Errno 2] No such file or directory: 'Speeches/hart-david-w_be-excellent-becoming-who-you-are-in-todays-world.html'
-[Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_gospel.html'
-[Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_know-revelation-lord.html'
-[Errno 2] No such file or directory: 'Speeches/hartman-jr-rector_land-choice.html'
-[Errno 2] No such file or directory: 'Speeches/l-whitney-clayton_the-promised-land.html'
-[Errno 2] No such file or directory: 'Speeches/lael-j-woodbury_hello.html'
-[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_gods-love.html'
-[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_hold-tight-iron-rod.html'
-[Errno 2] No such file or directory: 'Speeches/lant-cheryl-c_prayer.html'
-[Errno 2] No such file or directory: 'Speeches/largey-dennis-l_armour-light-romans-1312.html'
-[Errno 2] No such file or directory: 'Speeches/larry-echohawk_achieving-preserving-promise-america.html'
-[Errno 2] No such file or directory: 'Speeches/larry-h-peer_beethovens-kiss-odd-reasons-brigham-youngs-excellent-university/1966.html'
-[Errno 2] No such file or directory: 'Speeches/larry-l-st-clair_choose-day/2214.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/larry-y-wilson_the-return-of-the-king.txt'
-[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_peaceable-things-kingdom.html'
-[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_personal-accountability.html'
-[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_thoughts-goal-setting-objectives-measurements.html'
-[Errno 2] No such file or directory: 'Speeches/larsen-dean-l_thoughts-thoughts.html'
-[Errno 2] No such file or directory: 'Speeches/larson-jeffry-h_expect-key-personal-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/lassetter-jane-h_lead-guide-walk-beside-life-lessons-holy-ghost.html'
-[Errno 2] No such file or directory: 'Speeches/lawrence-r-flake_pioneers-prophets.html'
-[Errno 2] No such file or directory: 'Speeches/lawrence-w-mack_pursuit-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/lebaron-e-dale_african-converts-without-baptism.html'
-[Errno 2] No such file or directory: 'Speeches/lee-george-p_walk-beauty.html'
-[Errno 2] No such file or directory: 'Speeches/lee-janet-g_crossing-street-life.html'
-[Errno 2] No such file or directory: 'Speeches/lee-janet-g_lord-doesnt-grade-curve.html'
-[Errno 2] No such file or directory: 'Speeches/lee-rex-e_honesty-integrity.html'
-[Errno 2] No such file or directory: 'Speeches/lee-tom-perry_private-service.html'
-[Errno 2] No such file or directory: 'Speeches/legrand-richards_heaven-doesnt-matter.html'
-[Errno 2] No such file or directory: 'Speeches/legrand-richards_value-testimony.html'
-[Errno 2] No such file or directory: 'Speeches/leonard-cory-w_by-persuasion-longsuffering-meekness-and-love.html'
-[Errno 2] No such file or directory: 'Speeches/lewis-chad_world-needs-see-feel-light.html'
-[Errno 2] No such file or directory: 'Speeches/lewis-john-c_thoughts-hearts.html'
-[Errno 2] No such file or directory: 'Speeches/lloyd-d-newell_fear-not/6749.html'
-[Errno 2] No such file or directory: 'Speeches/lloyd-d-newell_fear.html'
-[Errno 2] No such file or directory: 'Speeches/loren-c-dunn_doctrine-covenants-scripture-seasons.html'
-[Errno 2] No such file or directory: 'Speeches/loren-c-dunn_freedom-press-bicentennial-year.html'
-[Errno 2] No such file or directory: 'Speeches/loren-c-dunn_get-heaven.html'
-[Errno 2] No such file or directory: 'Speeches/ludlow-daniel-h_moral-free-agency.html'
-[Errno 2] No such file or directory: 'Speeches/ludlow-victor-l_covenant-teachings-scriptures.html'
-[Errno 2] No such file or directory: 'Speeches/lund-gerald-n_voice-lord.html'
-[Errno 2] No such file or directory: 'Speeches/lund-william-b_god-loved.html'
-[Errno 2] No such file or directory: 'Speeches/m-russell-ballard_follow-the-doctrine-and-gospel-of-christ/1596.html'
-[Errno 2] No such file or directory: 'Speeches/m-russell-ballard_light-hill.html'
-[Errno 2] No such file or directory: 'Speeches/madsen-ann-n_differences-allow-men-privilege.html'
-[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_highest-us.html'
-[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_joy-lord-strength-nehemiah-810.html'
-[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_olive-press.html'
-[Errno 2] No such file or directory: 'Speeches/madsen-truman-g_souls-aflame-prayer-heritage-latter-day-saints.html'
-[Errno 2] No such file or directory: 'Speeches/marcos-gallos_remember-the-harbor.html'
-[Errno 2] No such file or directory: 'Speeches/maren-m-mouritsen_anywhere-power-one.html'
-[Errno 2] No such file or directory: 'Speeches/marie-k-hafen_time-get-real.html'
+Maren M. Mouritsen 900
+Kristin L. Matthews 388000
+Kristine Hansen 433000
+Margaret D. Nadauld 8180
+L. Aldin Porter 8450
+Marie K. Hafen 59100
+Marie Tuttle 291000
 [Errno 2] No such file or directory: 'Speeches/marie-tuttle_lessons-lifelines/2277.html'
-[Errno 2] No such file or directory: 'Speeches/marilyn-s-bateman_best-gifts.html'
-[Errno 2] No such file or directory: 'Speeches/james-l-slaughter_blessings-choice/6378.html'
-[Errno 2] No such file or directory: 'Speeches/james-m-harper_seventy-times-seven.html'
-[Errno 2] No such file or directory: 'Speeches/james-m-paramore_leadership-jesus-perfect-leader.html'
-[Errno 2] No such file or directory: 'Speeches/james-m-paramore_leadership-jesus-perfect-leader/https:/speeches.byu.edu/talks/james-m-paramore_leadership-jesus-perfect-leader.html'
-[Errno 2] No such file or directory: 'Speeches/james-m-paramore_thou-wilt-perfect-come-follow.html'
-[Errno 2] No such file or directory: 'Speeches/james-o-mason_health-saints.html'
-[Errno 2] No such file or directory: 'Speeches/james-r-young_preparing-parenthood-making-sense-past.html'
-[Errno 2] No such file or directory: 'Speeches/janet-g-lee_lord-light.html'
-[Errno 2] No such file or directory: 'Speeches/janet-g-lee_pointed-right-direction.html'
-[Errno 2] No such file or directory: 'Speeches/janette-c-hales-beckham_building-environment-trust.html'
-[Errno 2] No such file or directory: 'Speeches/janette-c-hales-beckham_lessons-helped.html'
-[Errno 2] No such file or directory: 'Speeches/janielle-christensen_present-wings.html'
-[Errno 2] No such file or directory: 'Speeches/jarvis-tyler-j_thats-light-gets.html'
-[Errno 2] No such file or directory: 'Speeches/jean-bethke-elshtain_democracy-centurys-end.html'
-[Errno 2] No such file or directory: 'Speeches/jeffery-r-and-patricia-t-holland_things-learned-together.html'
-[Errno 2] No such file or directory: 'Speeches/jeffery-r-holland_lessons-liberty-jail.html'
-[Errno 2] No such file or directory: 'Speeches/jeffery-r-holland_remember-lots-wife.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-a-thompson_what-is-your-calling-in-life/1682.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-and-patricia-t-holland_inconvenient-messiah/https:/speeches.byu.edu/talks/jeffrey-r-and-patricia-t-holland_inconvenient-messiah.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_demands-discipleship.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_faithful-friend-strong-defense.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_however-long-hard-road.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_inconvenient-messiah.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_mirror-mirror-wall-look-me-decade.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_remember-lots-wife/4340.html'
-[Errno 2] No such file or directory: 'Speeches/jeffrey-r-holland_thick-lifes-urgencies.html'
-[Errno 2] No such file or directory: 'Speeches/jenkins-carri-p_solemn-obligation.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-amy-petersen_some-hopeful-words-on-media-and-agency.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_building-upon-rock.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_that-all-may-be-edified-2.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-jay-e_the-unspeakable-gift-of-the-holy-ghost.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-marlin-k_living-manner-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/jensen-michael-a_life-changing-partnership-spirit.html'
-[Errno 2] No such file or directory: 'Speeches/john-b-stohlton_think-thanksgiving.html'
-[Errno 2] No such file or directory: 'Speeches/john-d-green_zion-technology-distant-view.html'
+Merrill J. Christensen 173000
+Marilyn S. Bateman 230000
+[Errno 2] No such file or directory: 'Speeches/marilyn-s-bateman_sacred-honor/2403.html'
+L. Douglas Smoot 36300
+[Errno 2] No such file or directory: 'Speeches/marilyn-s-merrill-j-bateman_ones-personal-influencea-faith-preserves-strengthens.html'
+Marilyn W. Berrett 2310
+Michael A. Goodman 3670000
+Marion Bennion 9620
+L. Lionel Kendrick 69500
+Michael A. Jensen 6560000
+Marion D. Hanks 347000
+L. Robert Webb 4390000
+Michael D. Barnes 4310000
+[Errno 2] No such file or directory: 'Speeches/michael-d-barnes_finding-strength-christ/4298.html'
+Michael D. Brown 182000000
+Michael L. Dunn 1980000
+Michael Middleton 11500000
+Michael O’Connor 4800000
+Michael P. Thompson 6470000
+[Errno 2] No such file or directory: 'Speeches/michaelis-elaine_anxiously-engaged.html'
+Michelle Stott James 77900
+Michelle Marchant 129000
+[Errno 2] No such file or directory: 'Speeches/miller-dale-e_joyful-heart.html'
+[Errno 2] No such file or directory: 'Speeches/miller-richard-b_repentance-forgiveness-marriage.html'
+[Errno 2] No such file or directory: 'Speeches/millet-robert-l_believe-4.html'
+Mitt Romney 1780000
+[Errno 2] No such file or directory: 'Speeches/monson-dale-e_beggars.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_be-a-light-to-the-world.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_decisions-determine-destiny.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_great-expectations-2.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_principles-prophets-2.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_three-gates-open.html'
+[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_time-choose.html'
+Monte J. Brough 20300
+Marion G. Romney 28700
+Peggy H. Anderson 647000
+Peggy S. Worthen 8110
+Neal LaVaun Cox 464
+[Errno 2] No such file or directory: 'Speeches/neiger-brad_act-holiness-lord.html'
+[Errno 2] No such file or directory: 'Speeches/neil-a-maxwell_children-christ.html'
+Neil J. Anderson 3440000
+[Errno 2] No such file or directory: 'Speeches/neil-j-anderson_responding-saviors-invitation-come/4201.html'
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_choose-day-ye-will-serve.html'
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_church-american-bicentennial.html'
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_doctrine-covenants-capstone-religion.html'
@@ -841,6 +1077,7 @@
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_truth-liberty.html'
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_university-mortality.html'
 [Errno 2] No such file or directory: 'Speeches/perry-l-tom_vision.html'
+Peter M. Johnson 39300000
 [Errno 2] No such file or directory: 'Speeches/petersen-mark-e_america-world-leader.html'
 [Errno 2] No such file or directory: 'Speeches/petersen-mark-e_believe-god-eternal-father.html'
 [Errno 2] No such file or directory: 'Speeches/petersen-mark-e_great-prologue.html'
@@ -851,8 +1088,14 @@
 [Errno 2] No such file or directory: 'Speeches/peterson-h-burke_purify-thoughts.html'
 [Errno 2] No such file or directory: 'Speeches/peterson-h-burke_stones-wall.html'
 [Errno 2] No such file or directory: 'Speeches/peterson-mark-e_america-world-leader.html'
-[Errno 2] No such file or directory: 'Speeches/philip-t-sonntag_worthy.html'
-[Errno 2] No such file or directory: 'Speeches/phyllis-c-jacobson_dance-supreme-physical-manifestation-inner-convictions.html'
+Neil L. Andersen 847000
+[Errno 2] No such file or directory: 'Speeches/neil-l-andersen_a-compensatory-spiritual-power-for-the-righteous/10035.html'
+Mark A. Peterson 4480000
+Philip T. Sonntag 97100
+Phillip J. Bryson 187000
+Phoebe Romney Cook 4220
+Robert B. Harbertson 1090
+Phyllis C. Jacobson 77300
 [Errno 2] No such file or directory: 'Speeches/pinegar-patricia-p_building-kingdom-god.html'
 [Errno 2] No such file or directory: 'Speeches/pinegar-rex-d_goals-family-life.html'
 [Errno 2] No such file or directory: 'Speeches/pinegar-rex-d_honor-thy-father-thy-mother.html'
@@ -861,48 +1104,17 @@
 [Errno 2] No such file or directory: 'Speeches/pinnock-hugh-w_companion-holy-ghost.html'
 [Errno 2] No such file or directory: 'Speeches/pinnock-hugh-w_ten-keys-successful-dating-marriage-relationships.html'
 [Errno 2] No such file or directory: 'Speeches/pope-clayne-l_remember-ye-free-act.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_first-loved-us.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_learning-light-truth.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_mission-brigham-young-university.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_one-one.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_peculiar-treasure.html'
-[Errno 2] No such file or directory: 'Speeches/merrill-j-bateman_zion-university-search-truth.html'
-[Errno 2] No such file or directory: 'Speeches/michael-d-barnes_finding-strength-christ/4298.html'
-[Errno 2] No such file or directory: 'Speeches/michael-oconnor_a-few-simple-things.html'
-[Errno 2] No such file or directory: 'Speeches/michael-oconnor_laying-foundation-great-work.html'
-[Errno 2] No such file or directory: 'Speeches/michael-oconnor_retool-refocus-refine-getting-a-byu-education.html'
-[Errno 2] No such file or directory: 'Speeches/michaelis-elaine_anxiously-engaged.html'
-[Errno 2] No such file or directory: 'Speeches/miller-dale-e_joyful-heart.html'
-[Errno 2] No such file or directory: 'Speeches/miller-richard-b_repentance-forgiveness-marriage.html'
-[Errno 2] No such file or directory: 'Speeches/millet-robert-l_believe-4.html'
-[Errno 2] No such file or directory: 'Speeches/mitt-romney_life-lessons-front.html'
-[Errno 2] No such file or directory: 'Speeches/monson-dale-e_beggars.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_be-a-light-to-the-world.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_decisions-determine-destiny.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_great-expectations-2.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_principles-prophets-2.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_three-gates-open.html'
-[Errno 2] No such file or directory: 'Speeches/monson-thomas-s_time-choose.html'
-[Errno 2] No such file or directory: 'Speeches/monte-j-brough_two-gardens-law-sacrifice.html'
-[Errno 2] No such file or directory: 'Speeches/morris-thomas-h_time-a-precious-commodity-a-finite-resource.html'
-[Errno 2] No such file or directory: 'Speeches/mouritsen-maren-m_anywhere-power-one.html'
-[Errno 2] No such file or directory: 'Speeches/n-eldon-tanner_administration-restored-church.html'
-[Errno 2] No such file or directory: 'Speeches/n-eldon-tanner_going-forth-serve.html'
-[Errno 2] No such file or directory: 'Speeches/n-eldon-tanner_something-think.html'
-[Errno 2] No such file or directory: 'Speeches/n-eldon-tanner_things.html'
-[Errno 2] No such file or directory: 'Speeches/nadauld-margaret-d_prepare-today-tomorrow.html'
-[Errno 2] No such file or directory: 'Speeches/nadauld-stephen-d_increasing-faith-reaffirming-trust-rekindling-love.html'
-[Errno 2] No such file or directory: 'Speeches/nance-joseph-r_simple-truths.html'
-[Errno 2] No such file or directory: 'Speeches/neal-a-maxwell_best-faculty.html'
-[Errno 2] No such file or directory: 'Speeches/neal-a-maxwell_brim-joy.html'
-[Errno 2] No such file or directory: 'Speeches/neal-a-maxwell_children-christ.html'
-[Errno 2] No such file or directory: 'Speeches/neal-a-maxwell_hell-moved.html'
-[Errno 2] No such file or directory: 'Speeches/neiger-brad_act-holiness-lord.html'
-[Errno 2] No such file or directory: 'Speeches/neil-a-maxwell_children-christ.html'
-[Errno 2] No such file or directory: 'Speeches/neil-j-anderson_responding-saviors-invitation-come.html'
-[Errno 2] No such file or directory: 'Speeches/neil-j-anderson_responding-saviors-invitation-come/4201.html'
-[Errno 2] No such file or directory: 'Speeches/neil-l-andersen_a-compensatory-spiritual-power-for-the-righteous/10035.html'
+[Errno 2] No such file or directory: 'Speeches/pope-rulon-d_free-riding-gratitude.html'
+[Errno 2] No such file or directory: 'Speeches/porter-bruce-d_child-born.html'
+Shannon Stimpson 18700
+[Errno 2] No such file or directory: 'Speeches/sharlene-wells_whatever-better-becoming.html'
+[Errno 2] No such file or directory: 'Speeches/porter-james-p_receiving-and-recognizing-the-holy-ghost.html'
+[Errno 2] No such file or directory: 'Speeches/porter-l-aldin_heeded.html'
+[Errno 2] No such file or directory: 'Speeches/porter-larry-c_brigham-young-man-hour-will-ready-whenever-hour-strikes.html'
+[Errno 2] No such file or directory: 'Speeches/prawitt-douglas-f_line-upon-line-finding-joy-in-progress.html'
+Sharon G. Samuelson 32700
 [Errno 2] No such file or directory: 'Speeches/neil-l-andersen_preparing-spiritual-destiny/1804.html'
+Robert C. Oaks 7000000
 [Errno 2] No such file or directory: 'Speeches/nelson-brent-e_know-loveth-children.html'
 [Errno 2] No such file or directory: 'Speeches/nelson-russell-m_begin-end-mind.html'
 [Errno 2] No such file or directory: 'Speeches/nelson-russell-m_christ-savior-born.html'
@@ -918,14 +1130,35 @@
 [Errno 2] No such file or directory: 'Speeches/nelson-russell-m_thanks-covenant.html'
 [Errno 2] No such file or directory: 'Speeches/neuenschwander-dennis-b_knowing-believe-believing-know.html'
 [Errno 2] No such file or directory: 'Speeches/neuenschwander-dennis-b_remember-remember.html'
+Robert D. Hales 322000
+Quentin L. Cook 359000
 [Errno 2] No such file or directory: 'Speeches/nibley-hugh_leaders-managers.html'
 [Errno 2] No such file or directory: 'Speeches/nielson-jennifer-b_experiment-and-experience.html'
-[Errno 2] No such file or directory: 'Speeches/noel-b-reynolds_authorship-book-mormon.html'
-[Errno 2] No such file or directory: 'Speeches/nora-kay-nyland_trust-lord-thine-heart.html'
+[Errno 2] No such file or directory: 'Speeches/sharon-g-samuelson_voice-prophet/4044.html'
+Noel B. Reynolds 556000
+R. Bruce Money 4330000
+Shauna C. Anderson 327000
+[Errno 2] No such file or directory: 'Speeches/robert-d-hales_go-forth-serve-2/4111.html'
+R. J. Snow 3500000
+Shawn W. Miller 1370000
+Noel L. Owen 968000
+Sheldon F. Child 924000
+Nora Kay Nyland 4240
+R. Kent Crookston 28600
+R. Kirk Belnap 3320
+Sheri L. Dew 30300
+R. Lanier Britsch 1570
+R. Quinn Gardner 445000
+Rachel Ann Seely 28800
+Rachel Kimball Wilcox 43900
+Norma B. Smith 1010000
 [Errno 2] No such file or directory: 'Speeches/novilla-len-b_journey-of-the-soul-anchors-of-the-heart-coming-unto.html'
 [Errno 2] No such file or directory: 'Speeches/nyland-nora-kay_trust-lord-thine-heart.html'
-[Errno 2] No such file or directory: 'Speeches/o-leslie-stone_essentials-success.html'
-[Errno 2] No such file or directory: 'Speeches/o-leslie-stone_temporal-spiritual-success.html'
+Rachel Thayer 214000
+Rae Jeanne Memmott 145
+O. Leslie Stone 2910000
+Sherri Patten Palmer 9200
+Ramona O. Hopkins 248000
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_adversity.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_another-testament-jesus-christ.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_blessing-commandments.html'
@@ -936,74 +1169,6 @@
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_hold-the-banner-high.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_honest-behavior.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_judge-judging.html'
-[Errno 2] No such file or directory: 'Speeches/marilyn-s-bateman_sacred-honor/2403.html'
-[Errno 2] No such file or directory: 'Speeches/marilyn-s-bateman_thine-self-true.html'
-[Errno 2] No such file or directory: 'Speeches/marilyn-s-merrill-j-bateman_ones-personal-influencea-faith-preserves-strengthens.html'
-[Errno 2] No such file or directory: 'Speeches/marion-bennion_challenges-frontiers-knowledge.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_appreciate-opportunities.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_attitude-weightier-matters.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_be-and-not-seem.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_follow-king.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_great-commandments.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_love-god-men.html'
-[Errno 2] No such file or directory: 'Speeches/marion-d-hanks_seeking-thick-things.html'
-[Errno 2] No such file or directory: 'Speeches/marion-g-romney_jesus-savior-redeemer.html'
-[Errno 2] No such file or directory: 'Speeches/marion-g-romney_political-thought-life-j-reuben-clark-jr.html'
-[Errno 2] No such file or directory: 'Speeches/marion-g-romney_truth-knowledge.html'
-[Errno 2] No such file or directory: 'Speeches/shannon-stimpson_encircled-in-the-arms-of-love.html'
-[Errno 2] No such file or directory: 'Speeches/sharlene-wells_whatever-better-becoming.html'
-[Errno 2] No such file or directory: 'Speeches/sharon-g-samuelson_voice-prophet/4044.html'
-[Errno 2] No such file or directory: 'Speeches/shuei-chen-valerie-woo_knowledge.html'
-[Errno 2] No such file or directory: 'Speeches/shumway-eric-b_loose-let-go.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_bottles-books.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_four-great-days.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_motivations.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_resurrection.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_thanksgiving.html'
-[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_time-new-years-resolutions.html'
-[Errno 2] No such file or directory: 'Speeches/simpson-robert-l_cast-burden-upon-lord.html'
-[Errno 2] No such file or directory: 'Speeches/simpson-robert-l_tithing-law-peace-security.html'
-[Errno 2] No such file or directory: 'Speeches/skinner-andrew-c_nature-character-god.html'
-[Errno 2] No such file or directory: 'Speeches/skousen-k-fred_life-great-test.html'
-[Errno 2] No such file or directory: 'Speeches/smith-norma-b_love.html'
-[Errno 2] No such file or directory: 'Speeches/smith-timothy-b_love-savior.html'
-[Errno 2] No such file or directory: 'Speeches/smoot-l-douglas_two-great-promises.html'
-[Errno 2] No such file or directory: 'Speeches/snow-steven-e_stepping-stones-and-stumbling-blocks.html'
-[Errno 2] No such file or directory: 'Speeches/soares-ulisses_becoming-work-art.html'
-[Errno 2] No such file or directory: 'Speeches/solen-kenneth-a_nourishing-tree.html'
-[Errno 2] No such file or directory: 'Speeches/sonntag-philip-t_worthy.html'
-[Errno 2] No such file or directory: 'Speeches/sorensen-david-e_plae-book-mormon-heart.html'
-[Errno 2] No such file or directory: 'Speeches/sorensen-david-e_put-away-childish-things.html'
-[Errno 2] No such file or directory: 'Speeches/sorenson-a-don_observations-law-harvest.html'
-[Errno 2] No such file or directory: 'Speeches/spafford-belle-s_latter-day-prophet-presidents-known.html'
-[Errno 2] No such file or directory: 'Speeches/spafford-belle-s_latter-day-saint-women-todays-changing-world.html'
-[Errno 2] No such file or directory: 'Speeches/spencer-j-condie_yielding-hearts-god.html'
-[Errno 2] No such file or directory: 'Speeches/spencer-w-kimball_acquiring-spiritual-literacy.html'
-[Errno 2] No such file or directory: 'Speeches/spencer-w-kimball_church-growth-lamanite-involvement.html'
-[Errno 2] No such file or directory: 'Speeches/spencer-w-kimball_integrity-spirit-byu.html'
-[Errno 2] No such file or directory: 'Speeches/spencer-w-kimball_second-century-brigham-young-university.html'
-[Errno 2] No such file or directory: 'Speeches/st-clair-larry-l_choose-day.html'
-[Errno 2] No such file or directory: 'Speeches/staheli-donald-l_achieving-full-potential.html'
-[Errno 2] No such file or directory: 'Speeches/staheli-donald-l_strong-good-courage.html'
-[Errno 2] No such file or directory: 'Speeches/stan-l-albrecht_hopes-dreams-even-better-brigham-young-university.html'
-[Errno 2] No such file or directory: 'Speeches/stephen-d-nadauld_spiritual-leprosy.html'
-[Errno 2] No such file or directory: 'Speeches/stephen-r-b-richards_little-worlds.html'
-[Errno 2] No such file or directory: 'Speeches/sterling-w-sill_four-great-days.html'
-[Errno 2] No such file or directory: 'Speeches/sterling-w-sill_motivations.html'
-[Errno 2] No such file or directory: 'Speeches/sterling-w-sill_resurrection.html'
-[Errno 2] No such file or directory: 'Speeches/sterling-w-sill_thanksgiving.html'
-[Errno 2] No such file or directory: 'Speeches/sterling-w-sill_time-new-years-resolutions.html'
-[Errno 2] No such file or directory: 'Speeches/steven-e-benzley_magnifying-magnanimity.html'
-[Errno 2] No such file or directory: 'Speeches/steven-john-pearson_work-ahead.html'
-[Errno 2] No such file or directory: 'Speeches/stevenson-gary-e_lean-unto-thine-understanding.html'
-[Errno 2] No such file or directory: 'Speeches/sudweeks-richard-r_thinking-habits-dispositions.html'
-[Errno 2] No such file or directory: 'Speeches/susan-w-tanner_scriptures-precious-gold-sweeter-honey/4069.html'
-[Errno 2] No such file or directory: 'Speeches/swain-monte-r_cares-shoulder-wheel.html'
-[Errno 2] No such file or directory: 'Speeches/swinton-heidi-s_joseph-smith-lover-cause-christ.html'
-[Errno 2] No such file or directory: 'Speeches/swinton-heidi-s_peace-like-river.html'
-[Errno 2] No such file or directory: 'Speeches/swofford-scott_feet-forward.html'
-[Errno 2] No such file or directory: 'Speeches/tad-r-callister_book-mormon-man-made-god-given.html'
-[Errno 2] No such file or directory: 'Speeches/tad-r-callister_book-mormon-man-made-god-given.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_meeting-challenges-nineties.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_much-given.html'
 [Errno 2] No such file or directory: 'Speeches/oaks-dallin-h_revelation.html'
@@ -1033,7 +1198,8 @@
 [Errno 2] No such file or directory: 'Speeches/packer-boyd-k_snow-white-birds.html'
 [Errno 2] No such file or directory: 'Speeches/packer-boyd-k_truths-most-worth-knowing.html'
 [Errno 2] No such file or directory: 'Speeches/packer-donna-smith_calling-blessing-2.html'
-[Errno 2] No such file or directory: 'Speeches/paige-crosland-anderson_a-great-educational-inheritance.html'
+Randal Day 688000
+Paige Crosland Anderson 5310
 [Errno 2] No such file or directory: 'Speeches/palmer-gary-k_spokes-balanced-life.html'
 [Errno 2] No such file or directory: 'Speeches/palmer-sheri-patten_convenient-service.html'
 [Errno 2] No such file or directory: 'Speeches/paramore-james-m_become-little-child.html'
@@ -1042,96 +1208,258 @@
 [Errno 2] No such file or directory: 'Speeches/parkin-bonnie-d_personal-ministry-sacred-precious.html'
 [Errno 2] No such file or directory: 'Speeches/parkin-bonnie-d_remember.html'
 [Errno 2] No such file or directory: 'Speeches/parkinson-alan_saviors-example-fathers-will.html'
+Shirley R. Klein 543000
+Shuei Chen Valerie Woo 9390
+[Errno 2] No such file or directory: 'Speeches/shumway-eric-b_loose-let-go.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_bottles-books.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_four-great-days.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_motivations.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_resurrection.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_thanksgiving.html'
+[Errno 2] No such file or directory: 'Speeches/sill-sterling-w_time-new-years-resolutions.html'
+[Errno 2] No such file or directory: 'Speeches/simpson-robert-l_cast-burden-upon-lord.html'
+[Errno 2] No such file or directory: 'Speeches/simpson-robert-l_tithing-law-peace-security.html'
+[Errno 2] No such file or directory: 'Speeches/skinner-andrew-c_nature-character-god.html'
+[Errno 2] No such file or directory: 'Speeches/skousen-k-fred_life-great-test.html'
+[Errno 2] No such file or directory: 'Speeches/smith-norma-b_love.html'
+[Errno 2] No such file or directory: 'Speeches/smith-timothy-b_love-savior.html'
+[Errno 2] No such file or directory: 'Speeches/smoot-l-douglas_two-great-promises.html'
+[Errno 2] No such file or directory: 'Speeches/snow-steven-e_stepping-stones-and-stumbling-blocks.html'
+[Errno 2] No such file or directory: 'Speeches/soares-ulisses_becoming-work-art.html'
+[Errno 2] No such file or directory: 'Speeches/solen-kenneth-a_nourishing-tree.html'
+Randall L. Jones 1730000
+Parris K. Egbert 4930
 [Errno 2] No such file or directory: 'Speeches/parry-donald-w_angels-chariots-and-the-lord-of-hosts.html'
+Sondra Heaston 2610
+[Errno 2] No such file or directory: 'Speeches/sonntag-philip-t_worthy.html'
+[Errno 2] No such file or directory: 'Speeches/sorensen-david-e_plae-book-mormon-heart.html'
+[Errno 2] No such file or directory: 'Speeches/sorensen-david-e_put-away-childish-things.html'
+[Errno 2] No such file or directory: 'Speeches/sorenson-a-don_observations-law-harvest.html'
+[Errno 2] No such file or directory: 'Speeches/spafford-belle-s_latter-day-prophet-presidents-known.html'
+[Errno 2] No such file or directory: 'Speeches/spafford-belle-s_latter-day-saint-women-todays-changing-world.html'
+Randall W. Boothe 24200
+Spencer J. Condie 19800
+Randy J. Olsen 502000
+[Errno 2] No such file or directory: 'Speeches/rasband-james-r_faith-to-forgive-grievous-harms-accepting-the.html'
+[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_lord.html'
+[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_making-temple-worship-pattern-life.html'
+[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_thy-friends-stand-thee.html'
+[Errno 2] No such file or directory: 'Speeches/rasmus-carolyn-j_bond-charity.html'
+[Errno 2] No such file or directory: 'Speeches/ravert-patricia_persistence-patience-and-posies.html'
+Patricia P. Pinegar 1180
+Patricia Ravert 2440
+Ray T. Clifford 1240000
+Patricia T. Holland 1190000
+Ray L. Huntington 1440000
+[Errno 2] No such file or directory: 'Speeches/robert-e-wells_3811.html'
+Patrick Kearon 5540
 [Errno 2] No such file or directory: 'Speeches/patterson-robert-s_patriarchal-blessing-message-identity-promise-love.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_feeling-inferior.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_game-life.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_never-give-up.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_plus-sign.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_preparing-parenthood.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_press-forward.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_put-spiritual-clothes.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_seek-ye-shall-find.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_ships-life.html'
-[Errno 2] No such file or directory: 'Speeches/paul-h-dunn_spiritual-courtesy-consideration.html'
+Spencer W. Kimball 326000
+Rebecca Schroeder 439000
+[Errno 2] No such file or directory: 'Speeches/rector-hartman-jr_land-choice.html'
+[Errno 2] No such file or directory: 'Speeches/reese-c-shane_measurements-make-life.html'
+Robert E. Wells 4710000
+Paul Alan Cox 1700000
+Paul B. Farnsworth 268000
+Renata Tonks Forste 139
+[Errno 2] No such file or directory: 'Speeches/renlund-dale-g_constructing-spiritual-stability.html'
+[Errno 2] No such file or directory: 'Speeches/rex-c-reeve-sr_lords-strange-act.html'
+[Errno 2] No such file or directory: 'Speeches/rex-c-reeve-sr_whole-armor-god.html'
+Paul F. Eastman 544000
+Robert H. Daines 28100
+Rex C. Sr. Reeve 21100
+Robert H. Todd 3370000
+Paul H. Dunn 1150000
+Robert J. Matthews 2330000
+Rex D. Pinegar 965
+Robert J. Parsons 1550000
+Robert J. Smith 19400000
+Robert K. Conlee 11300
+[Errno 2] No such file or directory: 'Speeches/st-clair-larry-l_choose-day.html'
+[Errno 2] No such file or directory: 'Speeches/staheli-donald-l_achieving-full-potential.html'
+[Errno 2] No such file or directory: 'Speeches/staheli-donald-l_strong-good-courage.html'
+Rex E. and Janet G. Lee 429000
+Robert L. Backman 207000
+Stan A. Taylor 4410000
+[Errno 2] No such file or directory: 'Speeches/robert-l-backman_thine-self-true-2.html'
+Robert L. Gardner 2620000
+Stan L. Albrecht 74500
+[Errno 2] No such file or directory: 'Speeches/rex-e-lee_ascending-mt-everest-mt-zion-byu-final-decade-20th-century.html'
+Robert L. Millet 679000
+[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_1975-game-plan.html'
+Paul V. Johnson 27400000
 [Errno 2] No such file or directory: 'Speeches/paulsen-david-l_joseph-smith-problem-evil.html'
 [Errno 2] No such file or directory: 'Speeches/peek-cecilia-m_yea-they-may-forget-yet-will-i-not-forget-thee.html'
 [Errno 2] No such file or directory: 'Speeches/thomas-m-catherine_doer-deeds-speaker-words.html'
-[Errno 2] No such file or directory: 'Speeches/thomas-s-monson_time-choose.html'
+Rex E. Lee 2710000
+[Errno 2] No such file or directory: 'Speeches/rex-e-lee_byu-weve-possibilities-21st-century.html'
+Stanley A. Johnson 15800000
+Robert L. Simpson 4000000
+Thomas S. Monson 411000
+Stanley D. Neeleman 2180
+Stanley G. Ellis 916000
+Stephen D. Nadauld 1610
+Robert Marshall 7420000
+Robert P. George 66700000
+Stephen E. Robinson 4010000
+Stephen J. Bahr 62700
+Robert R. Steuer 175000
+Stephen Jones 13300000
+Thomas J. Stone 9800000
+Robert W. Blair 2310000
+Stephen R.B. Richards 663000
+[Errno 2] No such file or directory: 'Speeches/rich-marilyn-condie_serve-lord-gladness.html'
+Thomas W. Sederberg 2820
 [Errno 2] No such file or directory: 'Speeches/thompson-jeffery-a_what-is-your-calling-in-life.html'
 [Errno 2] No such file or directory: 'Speeches/thygerson-alton-l_saving-lives.html'
+Richard B. Miller 13800000
+Stephen R. Covey 606000
+Timothy B. Smith 3890000
+Richard C. Edgley 14800
+Timothy J. Powers 964000
+Robert W. Lucky 7080000
+[Errno 2] No such file or directory: 'Speeches/robinson-stephen-e_believing-christ-practical-approach-atonement.html'
+Stephen W. Liddle 40100
+Timothy W. McLain 72200
+Rodger Sorensen 44100
+[Errno 2] No such file or directory: 'Speeches/rogers-sandra_stones-serpents-swords-seeds-tears.html'
+Tina Taylor Dyches 2460
 [Errno 2] No such file or directory: 'Speeches/tingey-earl-c_law-sabbath.html'
 [Errno 2] No such file or directory: 'Speeches/tingey-earl-c_watchman-tower.html'
-[Errno 2] No such file or directory: 'Speeches/todd-a-britsch_building-upon-strong-foundations.html'
-[Errno 2] No such file or directory: 'Speeches/todd-a-britsch_building-whole-university.html'
-[Errno 2] No such file or directory: 'Speeches/todd-a-britsch_continuing-toward-excellence.html'
-[Errno 2] No such file or directory: 'Speeches/todd-a-britsch_excellence-charity-university.html'
-[Errno 2] No such file or directory: 'Speeches/todd-a-britsch_trusting-god-things-go-wrong.html'
-[Errno 2] No such file or directory: 'Speeches/tony-r-martinez_reaching-potential-lords-way.html'
-[Errno 2] No such file or directory: 'Speeches/truman-g-madsen_highest-us.html'
-[Errno 2] No such file or directory: 'Speeches/truman-g-madsen_souls-aflame-prayer-heritage-latter-day-saints.html'
-[Errno 2] No such file or directory: 'Speeches/tucker-larry_the-human-body-a-gift-and-a-responsibility.html'
-[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_atonement-part.html'
-[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_key-redemption.html'
-[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_principles-promise.html'
-[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_embark-upon-new-era.html'
-[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_truth-restored.html'
-[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_what-is-truth.html'
-[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_wind-beneath-wings.html'
-[Errno 2] No such file or directory: 'Speeches/valentine-lanae_discerning-will-lord.html'
-[Errno 2] No such file or directory: 'Speeches/vandenberg-john-h_patriotism-god.html'
-[Errno 2] No such file or directory: 'Speeches/vernon-l-heperi_building-kauri-tree-like-testimony.html'
-[Errno 2] No such file or directory: 'Speeches/victor-l-brown_eternal-priorities.html'
-[Errno 2] No such file or directory: 'Speeches/l-tom-perry_choose-day-ye-will-serve.html'
-[Errno 2] No such file or directory: 'Speeches/l-tom-perry_hath-given-law-unto-things.html'
-[Errno 2] No such file or directory: 'Speeches/l-tom-perry_purpose-waste.html'
-[Errno 2] No such file or directory: 'Speeches/robert-b-harbertson_families.html'
-[Errno 2] No such file or directory: 'Speeches/robert-d-hales_freedom-personal-liberty.html'
-[Errno 2] No such file or directory: 'Speeches/robert-d-hales_go-forth-serve-2/4111.html'
-[Errno 2] No such file or directory: 'Speeches/robert-d-hales_principles-sacrifice.html'
-[Errno 2] No such file or directory: 'Speeches/robert-d-hales_way-none-way.html'
-[Errno 2] No such file or directory: 'Speeches/robert-d-hales_ye-may-children-light.html'
-[Errno 2] No such file or directory: 'Speeches/robert-e-wells_3811.html'
-[Errno 2] No such file or directory: 'Speeches/robert-e-wells_christ-focused-beatitudes.html'
-[Errno 2] No such file or directory: 'Speeches/robert-j-parsons_cup-half-full-half-empty.html'
-[Errno 2] No such file or directory: 'Speeches/robert-j-smith_glances-past-thanksgiving-time.html'
-[Errno 2] No such file or directory: 'Speeches/robert-k-conlee_endurance.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-backman_looking-future.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-backman_thine-self-true-2.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_1975-game-plan.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_cast-burden-upon-lord.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_missionary.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_tithing-law-peace-security.html'
-[Errno 2] No such file or directory: 'Speeches/robert-l-simpson_unto-all-people.html'
-[Errno 2] No such file or directory: 'Speeches/robert-w-lucky_reflections-technology-society.html'
-[Errno 2] No such file or directory: 'Speeches/robinson-stephen-e_believing-christ-practical-approach-atonement.html'
-[Errno 2] No such file or directory: 'Speeches/rogers-sandra_stones-serpents-swords-seeds-tears.html'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/todd-a-britsch_building-upon-strong-foundations.txt'
+[Errno 2] No such file or directory: 'JustWordsSpeeches/todd-a-britsch_building-whole-university.txt'
+Rollin H. Hotchkiss 2230
 [Errno 2] No such file or directory: 'Speeches/romney-marion-g_americas-fate-ultimate-destiny.html'
 [Errno 2] No such file or directory: 'Speeches/romney-marion-g_jesus-savior-redeemer.html'
 [Errno 2] No such file or directory: 'Speeches/romney-marion-g_make-minds.html'
 [Errno 2] No such file or directory: 'Speeches/romney-mitt_life-lessons-front.html'
-[Errno 2] No such file or directory: 'Speeches/ronald-a-rasband_lord.html'
+Ronald A. Rasband 7580
+Todd A. Britsch 5130
+Sterling C. Hilton 806000
 [Errno 2] No such file or directory: 'Speeches/ronald-a-rasband_thy-friends-stand-thee/1781.html'
-[Errno 2] No such file or directory: 'Speeches/ronald-e-poelman_companions-scriptures.html'
-[Errno 2] No such file or directory: 'Speeches/rory-r-scanlon_vessels-vestures-lord-pondereth-hearts.html'
-[Errno 2] No such file or directory: 'Speeches/roy-w-doxey_accept-divine-counsel.html'
-[Errno 2] No such file or directory: 'Speeches/royden-g-derrick_gospel-concepts.html'
-[Errno 2] No such file or directory: 'Speeches/royden-g-derrick_true-value-system.html'
+Richard D. Draper 728000
+Sterling W. Sill 68900
+Ronald Brough 34700
+Ronald E. Poelman 8390
+Richard E. Bennett 3840000
+Ronald E. Terry 1450000
+Richard G. Ellsworth 331000
+Todd B. Parker 1410000
+Richard G. Hinckley 157000
+Ronald Staheli 4150
+Richard G. Scott 27000000
+Rory R. Scanlon 18600
+Tony R. Martinez 1140000
+Trenton L. Hickman 34500
+Rose Marie Reid 2190000
+Rosemary M. Wixom 9410
+Troy W. Carlton 392000
+[Errno 2] No such file or directory: 'Speeches/truman-g-madsen_highest-us.html'
+Steven C. Baugh 82800
+Rosemary Thackeray 17900
+Steven C. Wheelwright 28900
+Ross Spencer 2710000
+[Errno 2] No such file or directory: 'Speeches/tucker-larry_the-human-body-a-gift-and-a-responsibility.html'
+[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_atonement-part.html'
+[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_key-redemption.html'
+[Errno 2] No such file or directory: 'Speeches/tuttle-theodore-a_principles-promise.html'
+Roy W. Doxey 8040
+Steven E. Benzley 512
+Steven E. Snow 3860000
+Tyler J. Jarvis 376000
+[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_embark-upon-new-era.html'
+[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_truth-restored.html'
+[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_what-is-truth.html'
+[Errno 2] No such file or directory: 'Speeches/uchtdorf-dieter-f_wind-beneath-wings.html'
+Royden G. Derrick 3180
+Ulisses Soares 201000
+Steven John Pearson 899000
+Val D. Hawks 518000
+Steven L. Taylor 5140000
+Val Jo Anderson 623000
+[Errno 2] No such file or directory: 'Speeches/valentine-lanae_discerning-will-lord.html'
+Van C. Gessel 27900
+[Errno 2] No such file or directory: 'Speeches/vandenberg-john-h_patriotism-god.html'
+Steven M. Glover 740000
+[Errno 2] No such file or directory: 'Speeches/stevenson-gary-e_lean-unto-thine-understanding.html'
+[Errno 2] No such file or directory: 'Speeches/sudweeks-richard-r_thinking-habits-dispositions.html'
 [Errno 2] No such file or directory: 'Speeches/rudd-glen-l_keeping-gospel-simple.html'
+Susan Easton Black 544000
+Rulon D. Pope 2040
+Susanne Johnson Davis 400000
+[Errno 2] No such file or directory: 'Speeches/richard-g-scott_to-learn-and-to-teach-more-effectively/10582.html'
+Susan Sessions Rugh 2670
+Russell C. Taylor 4400000
+Susan W. Tanner 751000
+Russell M. Nelson 3060000
+[Errno 2] No such file or directory: 'Speeches/susan-w-tanner_scriptures-precious-gold-sweeter-honey/4069.html'
+Vaughn J. Featherstone 17100
+Richard G. Wilkins 811000
+[Errno 2] No such file or directory: 'Speeches/richard-g-wilkins_defending-family/2393.html'
+Richard H. Cracroft 2590
+Suzanne Julian 850000
+[Errno 2] No such file or directory: 'Speeches/swain-monte-r_cares-shoulder-wheel.html'
+[Errno 2] No such file or directory: 'Speeches/swinton-heidi-s_joseph-smith-lover-cause-christ.html'
+[Errno 2] No such file or directory: 'Speeches/swinton-heidi-s_peace-like-river.html'
+[Errno 2] No such file or directory: 'Speeches/swofford-scott_feet-forward.html'
+T. Jeffrey Wilks 147000
 [Errno 2] No such file or directory: 'Speeches/russell-m-nelson_exodus-repeated/2563.html'
-[Errno 2] No such file or directory: 'Speeches/russell-m-nelson_four-lessons-one-life.html'
+Richard J. Hawkins 1390000
+Tad R. Callister 6220
+[Errno 2] No such file or directory: 'Speeches/tad-r-callister_book-mormon-man-made-god-given.html'
+[Errno 2] No such file or directory: 'Speeches/tad-r-callister_book-mormon-man-made-god-given.html'
+Richard L. Gunn 732000
+Richard Lloyd Anderson 1390000
+Richard N. Williams 15500000
+[Errno 2] No such file or directory: 'Speeches/tanner-susan-w_learning-heart.html'
+[Errno 2] No such file or directory: 'Speeches/taylor-stan-a_accountable-citizenship.html'
 [Errno 2] No such file or directory: 'Speeches/russell-m-nelson_ill-go-ill-ill-three-steps-toward-monumental-life/3647.html'
-[Errno 2] No such file or directory: 'Speeches/russell-m-nelson_thanks-covenant.html'
-[Errno 2] No such file or directory: 'Speeches/russell-t-osguthorpe_education-heart.html'
-[Errno 2] No such file or directory: 'Speeches/ruth-e-brasher_agency-gift-responsibility.html'
-[Errno 2] No such file or directory: 'Speeches/ruth-h-funk_ready-receive.html'
-[Errno 2] No such file or directory: 'Speeches/ryan-matthew-scoville_avoiding-passionate-apathy.html'
-[Errno 2] No such file or directory: 'Speeches/s-dilworth-young_early-years-brigham-young.html'
-[Errno 2] No such file or directory: 'Speeches/s-dilworth-young_eternal-conflict.html'
-[Errno 2] No such file or directory: 'Speeches/s-olani-durrant_cliff-walking.html'
-[Errno 2] No such file or directory: 'Speeches/sally-h-barlow_crucibles-eternal-identity.html'
+Ted E. Brewerton 6510
+Richard Neitzel Holzapfel 1260
+[Errno 2] No such file or directory: 'Speeches/richard-nwilliams_faith-reason-knowledge-and-truth.html'
+Richard R. Sudweeks 4130
+[Errno 2] No such file or directory: 'Speeches/richards-franklin-d_talents-choice-gift-god.html'
+[Errno 2] No such file or directory: 'Speeches/richards-kent-f_lessons-from-the-saviors-young-adult-life.html'
+[Errno 2] No such file or directory: 'Speeches/richards-legrand_thanksgiving-2.html'
+Rickelle Richards 582
+Terrance D. Olson 62300
+Terry B. Ball 3550000
+Terry R. Seamons 6320
+Terryl L. Givens 9510
+[Errno 2] No such file or directory: 'Speeches/terryl-l-givens_joseph-smith-forging-community/https:/speeches.byu.edu/talks/terryl-l-givens_joseph-smith-forging-community.html'
+[Errno 2] No such file or directory: 'Speeches/tessa-meyer-santiago_covenant-toward-promised-land-section-136-latter-day-type.html'
+[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_key-redemption.html'
+[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_new-emphasis-priesthood.html'
+[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_principles-promise.html'
+Theodore M. Burton 530000
+Russell T. Osguthorpe 2270
+Vernon L. Heperi 173
+Ruth E. Brasher 16500
+Victor L. Brown 12500000
+Thomas A. Holmoe 971
+Thomas B. Griffith 2400000
+[Errno 2] No such file or directory: 'Speeches/thomas-b-griffith_root-christian-doctrine/4099.html'
+Ruth H. Funk 224000
+Ryan Holmes 4240000
+Ryan Matthew Scoville 15300
+[Errno 2] No such file or directory: 'JustWordsSpeeches/thomas-david-a_law-upon-blessings-predicated.txt'
+Ryan T. Barrett 1810000
+Victor L. Ludlow 92900
+[Errno 2] No such file or directory: 'Speeches/visick-h-hal_price-love.html'
+Thomas H. Fletcher 1630000
+Thomas H. Morris 4440000
+[Errno 2] No such file or directory: 'Speeches/thomas-h-morris_time-a-precious-commodity-a-finite-resource/1379.html'
+S. Dilworth Young 74900
+Thomas L. Erekson 4850
+W. Cole Durham Jr. 372000
+S. Kent Brown 12500000
+S. Olani Durrant 1220
+Sachiko V. Jensen 23800
+W. Eugene Hansen 557000
+Sally H. Barlow 171000
 [Errno 2] No such file or directory: 'Speeches/sally-m-todd_opportunities-faith-opposition-friends-2.html'
-[Errno 2] No such file or directory: 'Speeches/sally-taylor_holy-ghost-infallible-guide.html'
+W. Gibb Dyer Jr. 157000
+Sally Taylor 3790000
 [Errno 2] No such file or directory: 'Speeches/samuelson-cecil-o_a-time-for-optimism.html'
 [Errno 2] No such file or directory: 'Speeches/samuelson-cecil-o_be-ye-therefore-perfect.html'
 [Errno 2] No such file or directory: 'Speeches/samuelson-cecil-o_character.html'
@@ -1145,58 +1473,19 @@
 [Errno 2] No such file or directory: 'Speeches/samuelson-sharon-g_shall-laugh-shall-cry.html'
 [Errno 2] No such file or directory: 'Speeches/samuelson-sharon-g_teach-children.html'
 [Errno 2] No such file or directory: 'Speeches/sandberg-jonathan-g_healing-courage-action-grace.html'
-[Errno 2] No such file or directory: 'Speeches/sandra-rogers_stones-serpents-swords-seeds-tears.html'
-[Errno 2] No such file or directory: 'Speeches/sara-lee-gibb_mortal-body-sacred-gift.html'
+Sandra Rogers 1500000
+W. Grant Bangerter 9110
+Sara Lee Gibb 475000
+W. Mack Lawrence 762000
+Sarah M. Coyne 257000
+W. Rolfe Kerr 31100
+Sarah Westerberg 48800
 [Errno 2] No such file or directory: 'Speeches/scharffs-brett-g_important-three-things-world.html'
-[Errno 2] No such file or directory: 'Speeches/pope-rulon-d_free-riding-gratitude.html'
-[Errno 2] No such file or directory: 'Speeches/porter-bruce-d_child-born.html'
-[Errno 2] No such file or directory: 'Speeches/porter-james-p_receiving-and-recognizing-the-holy-ghost.html'
-[Errno 2] No such file or directory: 'Speeches/porter-l-aldin_heeded.html'
-[Errno 2] No such file or directory: 'Speeches/porter-larry-c_brigham-young-man-hour-will-ready-whenever-hour-strikes.html'
-[Errno 2] No such file or directory: 'Speeches/prawitt-douglas-f_line-upon-line-finding-joy-in-progress.html'
-[Errno 2] No such file or directory: 'Speeches/r-j-snow_ends-earth-shall-inquire-thy-name.html'
-[Errno 2] No such file or directory: 'Speeches/r-quinn-gardner_thoughts-process-conversion.html'
-[Errno 2] No such file or directory: 'Speeches/rachel-thayer_understanding-success.html'
-[Errno 2] No such file or directory: 'Speeches/rasband-james-r_faith-to-forgive-grievous-harms-accepting-the.html'
-[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_lord.html'
-[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_making-temple-worship-pattern-life.html'
-[Errno 2] No such file or directory: 'Speeches/rasband-ronald-a_thy-friends-stand-thee.html'
-[Errno 2] No such file or directory: 'Speeches/rasmus-carolyn-j_bond-charity.html'
-[Errno 2] No such file or directory: 'Speeches/ravert-patricia_persistence-patience-and-posies.html'
-[Errno 2] No such file or directory: 'Speeches/rector-hartman-jr_land-choice.html'
-[Errno 2] No such file or directory: 'Speeches/reese-c-shane_measurements-make-life.html'
-[Errno 2] No such file or directory: 'Speeches/renata-tonks-forste_finding-individual-path.html'
-[Errno 2] No such file or directory: 'Speeches/renlund-dale-g_constructing-spiritual-stability.html'
-[Errno 2] No such file or directory: 'Speeches/rex-c-reeve-sr_lords-strange-act.html'
-[Errno 2] No such file or directory: 'Speeches/rex-c-reeve-sr_whole-armor-god.html'
-[Errno 2] No such file or directory: 'Speeches/rex-c-sr-reeve_lords-strange-act.html'
-[Errno 2] No such file or directory: 'Speeches/rex-c-sr-reeve_whole-armor-god.html'
-[Errno 2] No such file or directory: 'Speeches/rex-d-pinegar_goals-family-life.html'
-[Errno 2] No such file or directory: 'Speeches/rex-d-pinegar_honor-thy-father-thy-mother.html'
-[Errno 2] No such file or directory: 'Speeches/rex-d-pinegar_means-establish-relationship-christ.html'
-[Errno 2] No such file or directory: 'Speeches/rex-d-pinegar_traditions-excellence.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_ascending-mt-everest-mt-zion-byu-final-decade-20th-century.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_building-byu-shared-values-challenges-opportunities.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_byu-weve-possibilities-21st-century.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_can-become-presidents-perspective.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_mt-everest-found-byu-undergraduate-education-can.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_opportunities-learning.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_proper-equipment.html'
-[Errno 2] No such file or directory: 'Speeches/rex-e-lee_state-university-sound-spiritually-academically-financially.html'
-[Errno 2] No such file or directory: 'Speeches/rich-marilyn-condie_serve-lord-gladness.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-ellsworth_spiritual-experience.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-scott_fruits-obedience.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-scott_go-forth.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-scott_to-learn-and-to-teach-more-effectively/10582.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-scott_to-live-well.html'
-[Errno 2] No such file or directory: 'Speeches/richard-g-wilkins_defending-family/2393.html'
-[Errno 2] No such file or directory: 'Speeches/richard-h-cracroft_divine-designs-tracing-lords-pattern-things.html'
-[Errno 2] No such file or directory: 'Speeches/richard-j-hawkins_consecrating-education.html'
-[Errno 2] No such file or directory: 'Speeches/richard-l-gunn_hamburgers-and-smorgasbords.html'
-[Errno 2] No such file or directory: 'Speeches/richard-nwilliams_faith-reason-knowledge-and-truth.html'
-[Errno 2] No such file or directory: 'Speeches/richards-franklin-d_talents-choice-gift-god.html'
-[Errno 2] No such file or directory: 'Speeches/richards-kent-f_lessons-from-the-saviors-young-adult-life.html'
-[Errno 2] No such file or directory: 'Speeches/richards-legrand_thanksgiving-2.html'
+Scott C. Esplin 11500
+Scott D. Sommerfeldt 10700
+W. Steve Albrecht 455000
+W. Vincent Wilding 46900
+Scott E. Ferrin 44500
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_acquire-knowledge-strength-use-wisely.html'
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_acquiring-spiritual-knowledge.html'
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_establish-secure-foundation-life.html'
@@ -1210,29 +1499,16 @@
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_to-learn-and-to-teach-more-effectively.html'
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_to-live-well.html'
 [Errno 2] No such file or directory: 'Speeches/scott-richard-g_truth-2.html'
-[Errno 2] No such file or directory: 'Speeches/seely-david-rolph_january-29-2013-byu-devotional-created-in-the-image-and-likeness-of-god.html'
-[Errno 2] No such file or directory: 'Speeches/tanner-susan-w_learning-heart.html'
-[Errno 2] No such file or directory: 'Speeches/taylor-stan-a_accountable-citizenship.html'
-[Errno 2] No such file or directory: 'Speeches/ted-e-brewerton_guidance-ongoing-guidance-needed.html'
-[Errno 2] No such file or directory: 'Speeches/terrance-d-olson_walk-light.html'
-[Errno 2] No such file or directory: 'Speeches/terryl-l-givens_joseph-smith-forging-community/https:/speeches.byu.edu/talks/terryl-l-givens_joseph-smith-forging-community.html'
-[Errno 2] No such file or directory: 'Speeches/tessa-meyer-santiago_covenant-toward-promised-land-section-136-latter-day-type.html'
-[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_key-redemption.html'
-[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_new-emphasis-priesthood.html'
-[Errno 2] No such file or directory: 'Speeches/theodore-a-tuttle_principles-promise.html'
-[Errno 2] No such file or directory: 'Speeches/theodore-m-burton_meaning-repentance.html'
-[Errno 2] No such file or directory: 'Speeches/thomas-b-griffith_root-christian-doctrine/4099.html'
-[Errno 2] No such file or directory: 'JustWordsSpeeches/thomas-david-a_law-upon-blessings-predicated.txt'
-[Errno 2] No such file or directory: 'Speeches/thomas-h-morris_time-a-precious-commodity-a-finite-resource/1379.html'
-[Errno 2] No such file or directory: 'Speeches/visick-h-hal_price-love.html'
-[Errno 2] No such file or directory: 'Speeches/w-eugene-hansen_steer-steady-course.html'
-[Errno 2] No such file or directory: 'Speeches/w-grant-bangerter_gospel-restored.html'
-[Errno 2] No such file or directory: 'Speeches/w-grant-bangerter_two-way-street.html'
-[Errno 2] No such file or directory: 'Speeches/w-mack-lawrence_pursuit-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/w-rolfe-kerr_measuring-mission.html'
+Wade J. Hollingshaus 457
+Walter F. Gonzáles 537000
 [Errno 2] No such file or directory: 'Speeches/walters-lawrence-c_citizenship.html'
 [Errno 2] No such file or directory: 'Speeches/walton-elaine_empathy-pure-love-christ.html'
 [Errno 2] No such file or directory: 'Speeches/warner-c-terry_honest-simple-solid-true.html'
+Scott Swofford 21000
+Scott W. Cameron 3720000
+[Errno 2] No such file or directory: 'Speeches/seely-david-rolph_january-29-2013-byu-devotional-created-in-the-image-and-likeness-of-god.html'
+Wendy L. Watson 661000
+Weatherford T. Clayton 83600
 [Errno 2] No such file or directory: 'Speeches/webb-brent-w_repentance-mighty-change-heart.html'
 [Errno 2] No such file or directory: 'Speeches/webb-l-robert_vast-intimate-atonement-heavens-heart.html'
 [Errno 2] No such file or directory: 'Speeches/welch-john-w_study-faith-book-mormon.html'
@@ -1251,8 +1527,14 @@
 [Errno 2] No such file or directory: 'Speeches/wilkins-richard-g_defending-family.html'
 [Errno 2] No such file or directory: 'Speeches/wilkinson-carol_becoming-overcoming.html'
 [Errno 2] No such file or directory: 'Speeches/wilks-t-jeffery_optimism-and-joy-in-the-gospel-of-jesus-christ.html'
-[Errno 2] No such file or directory: 'Speeches/william-e-berrett_life-character-prophet-joseph-smith.html'
-[Errno 2] No such file or directory: 'Speeches/william-f-edwards_living-abundantly-todays-world.html'
+Willard M. Hirschi 2160
+William A. Barrett 5740000
+William B. Lund 820000
+William E. Berrett 24600
+William F. Edwards 3180000
+William G. Eggington 3090
+William H. Baker 4330000
+William R. Bradford 1200000
 [Errno 2] No such file or directory: 'Speeches/williams-gerald-r_learning-conflicts.html'
 [Errno 2] No such file or directory: 'Speeches/williams-marleen_gospel-relationships.html'
 [Errno 2] No such file or directory: 'Speeches/williams-mary_know-known-god.html'
@@ -1268,7 +1550,6 @@
 [Errno 2] No such file or directory: 'Speeches/wirthlin-joseph-b_two-guiding-lights.html'
 [Errno 2] No such file or directory: 'Speeches/wm-grant-bangerter_light-truth.html'
 [Errno 2] No such file or directory: 'Speeches/wm-grant-bangerter_two-way-street.html'
-[Errno 2] No such file or directory: 'Speeches/wm-rolfe-kerr_thanks-things-count.html'
 [Errno 2] No such file or directory: 'Speeches/worthen-kevin-j_commemorating-divine-potential.html'
 [Errno 2] No such file or directory: 'Speeches/worthen-kevin-j_enlightened-uplifted-changed.html'
 [Errno 2] No such file or directory: 'Speeches/worthen-kevin-j_holy-places.html'
@@ -1276,6 +1557,6 @@
 [Errno 2] No such file or directory: 'Speeches/worthen-kevin-j_y-2.html'
 [Errno 2] No such file or directory: 'Speeches/worthen-peggy-s_unexpected-path.html'
 [Errno 2] No such file or directory: 'Speeches/wright-donald-n_elements-happiness.html'
-[Errno 2] No such file or directory: 'Speeches/yoshihiko-kikuchi_come-listen-prophets-voice.html'
+Yoshihiko Kikuchi 7910
 [Errno 2] No such file or directory: 'Speeches/young-joan-w_seeing-far-forever.html'
 [Errno 2] No such file or directory: 'Speeches/young-s-dilworth_eternal-conflict.html'
