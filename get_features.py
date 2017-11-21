@@ -227,8 +227,7 @@ def feat_quotes_in_quotation_marks(text):
     all_words_in_quotes = ' '.join(all_quotes).replace('"','')
     return feat_word_count(all_words_in_quotes)
 
-def feat_days_elapsed(long_text):
-    tree = etree.HTML(long_text)
+def feat_days_elapsed(tree):
     raw_date = tree.xpath('//meta[@name="date"]')[0].get('content')
     date = parse_date(raw_date)
     return (datetime.now() - date).days
@@ -244,12 +243,11 @@ def get_num_results(name):
     response = requests.get(query)
     return int(response.json()['queries']['request'][0]['totalResults'])
 
-def feat_name_search_results(long_text):
-    return get_num_results(feat_name(long_text))
+def feat_name_search_results(tree):
+    return get_num_results(feat_name(tree))
 
-def feat_name(long_text):
-    tree = etree.HTML(long_text)
-    return tree.xpath('//meta[@name="author"]')[0].get('content')
+def feat_name(tree):
+    return tree.xpath('//meta[@name="author"]')[0].get('content').strip("'")
 
 def read_file(link, parent, ext):
     path = join(parent, re.sub(r'^/talks/', '', link).rstrip('/').lower() + '.' + ext)
@@ -272,6 +270,7 @@ if __name__ == '__main__':
         try:
             long_text = get_long_text(link)
             speech = get_speech(link)
+            tree = etree.HTML(long_text)
 
             def dispatch(f):
                 argname = inspect.getargspec(f)[0][0]
@@ -279,6 +278,8 @@ if __name__ == '__main__':
                     return f(link)
                 elif argname == 'long_text':
                     return f(long_text)
+                elif argname == 'tree':
+                    return f(tree)
                 return f(speech)
 
             return [dispatch(f) for f in fns]
