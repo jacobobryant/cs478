@@ -8,6 +8,4 @@ def get_num_results(name):
              "alt=json&fields=queries(request(totalResults))&" +
             urlencode(params))
     response = requests.get(query)
-    ret = int(response.json()['queries']['request'][0]['totalResults'])
-    print(name, ret)
-    return ret
+    return int(response.json()['queries']['request'][0]['totalResults'])
