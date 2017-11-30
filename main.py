@@ -95,7 +95,8 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 	#This will increment every time we find a talk that has no text. Duh.
 	speeches_with_no_text, speeches_with_text = 0, 0
 
-	print len(links_from_ga)
+	tot = len(links_from_ga)
+	print (tot)
 
 	#----- If the output file is empty, initialize it with the column names -----#
 	long_factor_list = ['Speech','Gender','WordCount','StoryNames','Popularity','Subjectivity','OT','NT','BoM','PoGP','AllScriptureCount','FleschReading','Talking Speed','AuthorityMentions',
@@ -106,7 +107,7 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 	#----------------------------------------------------------------------------#
 
 	#3
-	for index in tqdm(xrange(len((links_from_ga)))): #This is only better because enumerate confuses tqdm
+	for index in tqdm(range(tot)): #This is only better because enumerate confuses tqdm
 		value = links_from_ga[index]
 
 		#Read in the stuff correctly
@@ -130,13 +131,14 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 		#b.2
 		try: #TODO 
 			long_text = functions.get_text_of_page(link)
-		except IOError:
+		except IOError as e:
+			print (e)
 			continue
 
 		print ('get_text', time.time()-start)
 		start = time.time()
 
-		speech = functions.just_speech(long_text)
+		speech = functions.just_speech(link)
 		if len(speech) < 600: #This has empirically been shown to be good.
 			print (speech)
 			speeches_with_no_text += 1
@@ -235,7 +237,7 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 		start = time.time()
 
 		#b.15
-		speaker_position = functions.get_speaker_position(long_text)[0]
+		speaker_position = functions.get_speaker_position(long_text)
 		one_speech['SpeakerPosition'] = speaker_position
 
 		print ('position', time.time()-start)
@@ -262,16 +264,17 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 		one_speech['Pageviews'] = organic_pageviews
 
 		print ('pageviews', time.time()-start)
-		start = time.time()
 
 		#Add the dictionary to the dictinary of dictionaries.
 		all_speeches[link] = one_speech #Because it's a dictionary it loses all order...
 
 		#-------------------- b --------------------#
 
+		start = time.time()
 		spit_out_CSV('PARTIAL')
+		print ('spit', time.time()-start)
 
-	print "\n\nTexted speeches:\t{0}\nUntexted speeches\t{1}".format(speeches_with_text, speeches_with_no_text)
+	print ("\n\nTexted speeches:\t{0}\nUntexted speeches\t{1}".format(speeches_with_text, speeches_with_no_text))
 	spit_out_CSV('FULL')
 #--------------------------------- Main ----------------------------#
 
@@ -534,9 +537,11 @@ if __name__ == '__main__':
 
 	if len(sys.argv) > 1:
 		if sys.argv[1] == 'none':
-				print main(d, [])
+				main(d, [])
 		else:
-			print main(d, sys.argv[1:])
+			main(d, sys.argv[1:])
 	else:
-		print main(d, all_topics)
+		main(d, all_topics)
 
+
+#TODO I've broken this.

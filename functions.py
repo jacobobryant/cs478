@@ -18,12 +18,14 @@ import sys
 sys.path.append('/Users/benjafek/Desktop/MakePopularityCSV/background/') #With this, we'll be able to import from background/
 
 import requests
-import HTMLParser
+# import HTMLParser
 import unicodedata
 import re
 from textblob import TextBlob
 from my_textstat import textstatistics #from background.
 from bs4 import BeautifulSoup
+import data
+from datetime import datetime
 
 
 
@@ -106,19 +108,24 @@ def get_speaker_gender(link, baby_names):
 #2 #This will get us everything that is encoded into the webpage. Then we'll shimmy it down in just_speech()
 # Actually, update this so that we're just reading what we've already downloaded.
 def get_text_of_page(link):	
+	if link[:24]=='https://speeches.byu.edu':
+		link = link[24:]
+	print (link)
 	fname = link.split('/')[2]
-	with open('Speeches/{}.html'.format(fname)) as f:
+
+
+	with open('Speeches/{}.html'.format(fname), 'r') as f:
 		html = f.read()
 
-	parser = HTMLParser.HTMLParser()
-	em_dash = parser.unescape("&#8212;") #This is an em-dash!
-	html = html.replace(em_dash, ' - ') #Instead of those, we want space-dash-space.
+	# parser = HTMLParser.HTMLParser()
+	# em_dash = parser.unescape("&#8212;") #This is an em-dash!
+	# html = html.replace(str(em_dash), ' - ') #Instead of those, we want space-dash-space.
 
-	#Changing out fancy left and right quotations for regular quotations is important for getting quotes.
-	left_quote = parser.unescape("&#8220;") 
-	right_quote = parser.unescape("&#8221;") 
-	for quotes in [left_quote, right_quote]:
-		html = html.replace(quotes, '"')
+	# Changing out fancy left and right quotations for regular quotations is important for getting quotes.
+	# left_quote = parser.unescape("&#8220;") 
+	# right_quote = parser.unescape("&#8221;") 
+	# for quotes in [left_quote, right_quote]:
+		# html = html.replace(quotes, '"')
 
 	
 	html = unicodedata.normalize('NFKD', html).encode('ascii', 'ignore')
@@ -127,9 +134,9 @@ def get_text_of_page(link):
 #3
 def just_speech(html, first_words='<p>', last_words='All rights reserved.'):
 	soup = BeautifulSoup(html, 'html.parser')
-	l = soup.find_all(name=['p'])
-	speech = '\n'.join(list([str(i) for i in l]))
-	# speech = soup.meta(['content'])
+	# l = soup.find_all(name=['p'])
+	# speech = '\n'.join(list([str(i) for i in l]))
+	speech = soup.meta(['content'])
 	return speech
 
 #4
@@ -291,3 +298,22 @@ def get_speaker_position(long_text):
 	speaker_position = re.findall(r'(?<=\<span class="speech__speaker-position"\>).+?(?=\<\/span\>)', long_text)
 	return speaker_position
 
+
+#20
+#With this information, we could get:
+#(1) days since the speech was given,
+#(2) month given (I think this would be valuable since it would give us 'in school' or 'out of school' info)
+def get_speech_date(long_text):
+	long_text = str(long_text)
+	date_delivered = re.findall(r'(?<=\<meta class=\"swiftype\" name=\"date\" data-type=\"string\" content=\").+?(?=\" \/\>)', long_text)[0]
+	date_formatted = str(datetime.strptime(date_delivered, '%B %d, %Y'))
+	just_date = date_formatted.split(' ')[0]
+	YY,MM,DD = just_date.split('-')
+	return int(YY), int(MM), int(DD)
+
+
+if __name__ == '__main__':
+	for link in data.links:
+		t = get_text_of_page(link)
+		d = get_speech_date(t)
+		print (d)

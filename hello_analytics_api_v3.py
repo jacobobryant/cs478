@@ -192,8 +192,3 @@ def get_views_from_facebook(service, post_page, profile_id, post_date, days_view
     filters='ga:medium==organic', #This doesn't make sense, we don't want to filter for just organic if we're trying to find the influence of Facebook.
     start_index='1',
     max_results=max_results).execute() 
-
-if __name__ == '__main__':
-  start='2017-08-08'
-  end='2017-08-15'
-  print hello_analytics_main('0', start, end)
