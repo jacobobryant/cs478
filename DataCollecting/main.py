@@ -95,7 +95,8 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 	#This will increment every time we find a talk that has no text. Duh.
 	speeches_with_no_text, speeches_with_text = 0, 0
 
-	print len(links_from_ga)
+	tot = len(links_from_ga)
+	print (tot)
 
 	#----- If the output file is empty, initialize it with the column names -----#
 	long_factor_list = ['Speech','Gender','WordCount','StoryNames','Popularity','Subjectivity','OT','NT','BoM','PoGP','AllScriptureCount','FleschReading','Talking Speed','AuthorityMentions',
@@ -106,11 +107,17 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 	#----------------------------------------------------------------------------#
 
 	#3
-	for index in tqdm(xrange(len((links_from_ga)))): #This is only better because enumerate confuses tqdm
+	for index in tqdm(range(tot)): #This is only better because 'enumerate' confuses tqdm
+		
 		value = links_from_ga[index]
 
 		#Read in the stuff correctly
 		link, organic_pageviews = value
+		
+		#we're not going to worry about URLs that have spaces in them. There are ~400 of them, out of 5,200
+		#That's significant, but most of them are repeats, and there is no pattern to whether spaces should be removed or replaced with something else.
+		if ' ' in link or '\xad' in link: #The other one is some unicode space...
+			continue 
 
 		#-------------------- a --------------------#
 		one_speech = {}
@@ -120,56 +127,36 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 
 
 		#-------------------- b --------------------#
-		start = time.time()
 		#b.1
 		gender = functions.get_speaker_gender(link, baby_names)
 		one_speech['Gender'] = gender
+		
+		#b.2 
+		long_text = functions.get_text_of_page(link)
 
-		print ('gender', time.time()-start)
-		start = time.time()
-		#b.2
-		try: #TODO 
-			long_text = functions.get_text_of_page(link)
-		except IOError:
-			continue
-
-		print ('get_text', time.time()-start)
-		start = time.time()
-
-		speech = functions.just_speech(long_text)
+		speech = functions.just_speech(link)
 		if len(speech) < 600: #This has empirically been shown to be good.
-			print (speech)
 			speeches_with_no_text += 1
 			continue
 		else:
 			speeches_with_text +=1
 
-		print ('speech', time.time()-start)
-		start = time.time()
 		#b.3
 		word_count = functions.get_word_count(speech)
 		one_speech['WordCount'] = word_count
 
-		print ('word count', time.time()-start)
-		start = time.time()
 		#b.4
 		name_mentions = functions.get_name_mentions(speech, story_names)
 		one_speech['StoryNames'] = name_mentions
 
-		print ('storynames', time.time()-start)
-		start = time.time()
 		#b.5
 		polarity = functions.get_polarity(speech)
 		one_speech['Polarity'] = polarity
 
-		print ('polarity', time.time()-start)
-		start = time.time()
 		#b.6
 		subjectivity = functions.get_subjectivity(speech)
 		one_speech['Subjectivity'] = subjectivity
 
-		print ('subjectivity', time.time()-start)
-		start = time.time()
 		#b.7
 		scripture_references = functions.get_just_scripture_ref_count(speech, OT_books, NT_books, BoM_books, DyC, PoGP_books)
 		ot_count, nt_count, bom_count, dyc_count, pogp_count = scripture_references
@@ -182,64 +169,40 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 		one_speech['PoGP'] = pogp_count
 		one_speech['AllScriptureCount'] = total_scriptures
 
-		print ('scriptures', time.time()-start)
-		start = time.time()
-		#b.8
-		flesch_reading = functions.get_flesch_reading_ease(speech)
-		one_speech['FleschReading'] = flesch_reading
+		#b.8 THIS IS VERY SLOW
+		#flesch_reading = functions.get_flesch_reading_ease(speech)
+		#one_speech['FleschReading'] = flesch_reading
 
-		print ('fleschreading', time.time()-start)
-		start = time.time()
 		#b.9
 		seconds_audio = functions.get_time_elapsed(long_text)
 		one_speech['Talking Speed'] = word_count / seconds_audio
 
-		print ('talkspeed', time.time()-start)
-		start = time.time()
 		#b.10
 		authority_count = functions.get_appeal_to_authority(speech)
 		one_speech['AuthorityMentions'] = authority_count
 
-		print ('authority', time.time()-start)
-		start = time.time()
 		#b.11
 		we_you_ratio = functions.get_we_to_you_ratio(speech)
 		one_speech['WeToYouRatio'] = we_you_ratio
 
-		print ('weyouratio', time.time()-start)
-		start = time.time()
 		#b.12
 		num_different_words = functions.get_how_many_different_words_do_you_use(speech)
 		one_speech['WordQuantity'] = num_different_words
 
-		print ('wordquant', time.time()-start)
-		start = time.time()
 		#b.13
 		use_of_I = functions.get_use_of_I(speech)
 		one_speech['FirstPersonPronoun'] = use_of_I
 
-
-		print ('firstperson', time.time()-start)
-		start = time.time()
 		#b.14
 		words_in_italics = functions.get_words_in_italics(long_text)
 		one_speech['PercentInItalics'] = words_in_italics / word_count
 
-		print ('italics', time.time()-start)
-		start = time.time()
-
 		words_in_quotes = functions.get_quotes_in_quotation_marks(speech)
 		one_speech['PercentInQuotes'] = words_in_quotes / word_count
 
-		print ('quotes', time.time()-start)
-		start = time.time()
-
 		#b.15
-		speaker_position = functions.get_speaker_position(long_text)[0]
+		speaker_position = functions.get_speaker_position(long_text)
 		one_speech['SpeakerPosition'] = speaker_position
-
-		print ('position', time.time()-start)
-		start = time.time()
 
 		#b.16-b.n
 		for search_word in all_topics: #Here is where we use the word frequency
@@ -254,24 +217,24 @@ def main(links_from_ga, all_topics, baby_names=baby_names, all_speeches=all_spee
 			else: #we've got a problem.
 				continue
 
-		print ('wtopic words', (time.time()-start)/float(len(all_topics)))
-		start = time.time()
-
 		#b.n+1
 		organic_pageviews = int(organic_pageviews.replace(',',''))
 		one_speech['Pageviews'] = organic_pageviews
+		
+		#b.ikd
+		days_elapsed, month_given, year_given = functions.get_date(long_text)
+		one_speech['DaysElapsed'] = days_elapsed
+		one_speech['MonthGiven'] = month_given
+		one_speech['YearGiven'] = year_given
 
-		print ('pageviews', time.time()-start)
-		start = time.time()
-
-		#Add the dictionary to the dictinary of dictionaries.
+		#Add the dictionary to the dictionary of dictionaries.
 		all_speeches[link] = one_speech #Because it's a dictionary it loses all order...
 
 		#-------------------- b --------------------#
 
 		spit_out_CSV('PARTIAL')
 
-	print "\n\nTexted speeches:\t{0}\nUntexted speeches\t{1}".format(speeches_with_text, speeches_with_no_text)
+	print ("\n\nTexted speeches:\t{0}\nUntexted speeches\t{1}".format(speeches_with_text, speeches_with_no_text))
 	spit_out_CSV('FULL')
 #--------------------------------- Main ----------------------------#
 
@@ -516,9 +479,9 @@ if __name__ == '__main__':
 				'Zion'] #Zion
 	
 	#OK so now that this is allowing for saving and coming back, we don't want the end_date to be RIGHT NOW, because that is subject to change. We'll have it be some recent date.
-	end_date = '2017-11-18'
+	end_date = '2017-11-29'
 
-	start_date = '2016-04-01' #This is when our data got fixes
+	start_date = '2016-04-01' #This is when our data got fixed
 
 	d = hello_analytics_api_v3.hello_analytics_main(argv='e', start_date=start_date, 
 					end_date=end_date, max_results=10000, metrics='ga:sessions', 
@@ -534,9 +497,9 @@ if __name__ == '__main__':
 
 	if len(sys.argv) > 1:
 		if sys.argv[1] == 'none':
-				print main(d, [])
+				main(d, [])
 		else:
-			print main(d, sys.argv[1:])
+			main(d, sys.argv[1:])
 	else:
-		print main(d, all_topics)
+		main(d, all_topics)
 

@@ -18,14 +18,12 @@ import sys
 sys.path.append('/Users/benjafek/Desktop/MakePopularityCSV/background/') #With this, we'll be able to import from background/
 
 import requests
-import HTMLParser
-import unicodedata
 import re
 from textblob import TextBlob
 from my_textstat import textstatistics #from background.
 from bs4 import BeautifulSoup
-
-
+import download_words
+from datetime import datetime
 
 #1
 def get_speaker_gender(link, baby_names):
@@ -42,11 +40,14 @@ def get_speaker_gender(link, baby_names):
 	try:
 		first, last = speaker.split('-') #No middle initial
 	except:
-		if '-and-' in speaker: #It's a combo talk, we're done.
-			gender = 'Combo'
-			return gender
-		else:
-			first, middle, last = speaker.split('-')[:3] #Just the first 3 names
+		try:
+			if '-and-' in speaker: #It's a combo talk, we're done.
+				gender = 'Combo'
+				return gender
+			else:
+				first, middle, last = speaker.split('-')[:3] #Just the first 3 names
+		except:
+			return 'Female'
 
 	if len(first) == 1: #If they go by their middle name
 		first = middle
@@ -106,31 +107,43 @@ def get_speaker_gender(link, baby_names):
 #2 #This will get us everything that is encoded into the webpage. Then we'll shimmy it down in just_speech()
 # Actually, update this so that we're just reading what we've already downloaded.
 def get_text_of_page(link):	
-	fname = link.split('/')[2]
-	with open('Speeches/{}.html'.format(fname)) as f:
-		html = f.read()
-
-	parser = HTMLParser.HTMLParser()
-	em_dash = parser.unescape("&#8212;") #This is an em-dash!
-	html = html.replace(em_dash, ' - ') #Instead of those, we want space-dash-space.
-
-	#Changing out fancy left and right quotations for regular quotations is important for getting quotes.
-	left_quote = parser.unescape("&#8220;") 
-	right_quote = parser.unescape("&#8221;") 
-	for quotes in [left_quote, right_quote]:
-		html = html.replace(quotes, '"')
-
-	
-	html = unicodedata.normalize('NFKD', html).encode('ascii', 'ignore')
-	return html
+	try:
+		fname = link.split('/')[2]
+		with open('Speeches/{}.html'.format(fname)) as f:
+			justtalk = f.read()
+		return justtalk
+	except FileNotFoundError:
+		download_words.download_talks([link]) #First, download the HTML file.
+		
+		#This will happen if the URL is bad
+		msg = download_words.download_talks([link]) #First, download the HTML file.
+		if msg == 'BAD':
+			return '0'
+			
+		#clunk clunk clunk
+		fname = link.split('/')[2]
+		with open('Speeches/{}.html'.format(fname)) as f:
+			justtalk = f.read()
+		return justtalk
 
 #3
-def just_speech(html, first_words='<p>', last_words='All rights reserved.'):
-	soup = BeautifulSoup(html, 'html.parser')
-	l = soup.find_all(name=['p'])
-	speech = '\n'.join(list([str(i) for i in l]))
-	# speech = soup.meta(['content'])
-	return speech
+def just_speech(link):
+	try:
+		fname = link.split('/')[2]
+		with open('JustWordsSpeeches/{}.html'.format(fname)) as f:
+			justtalk = f.read()
+		return justtalk
+	except FileNotFoundError:
+		#This will happen if the URL is bad
+		msg = download_words.download_talks([link]) #First, download the HTML file.
+		if msg == 'BAD':
+			return '0'
+			
+		#clunk clunk clunk
+		fname = link.split('/')[2]
+		with open('JustWordsSpeeches/{}.html'.format(fname)) as f:
+			justtalk = f.read()
+		return justtalk
 
 #4
 def get_polarity(text):
@@ -271,7 +284,7 @@ def get_words_in_italics(long_text):
 		pass
 
 
-	l = re.findall(r'\<p\>\<i\>.{3,}\<\/\i\>.{0,15}\<\/p\>', long_text) #So we're looking for anything that's italicized and on its own line. Also we allow for characters between the <i> and <p> due to <sup>11</sup>, eg.
+	l = re.findall(r'\<p\>\<i\>.{3,}\<\/i\>.{0,15}\<\/p\>', long_text) #So we're looking for anything that's italicized and on its own line. Also we allow for characters between the <i> and <p> due to <sup>11</sup>, eg.
 
 	all_words_in_italics = ' '.join(l) #We're going to combine this into a single string.
 	all_words_in_italics = re.sub(r'\<.{1,3}\>',' ', all_words_in_italics) #and take out the italics and bold parts.
@@ -289,5 +302,22 @@ def get_quotes_in_quotation_marks(text):
 #Problem: some of the people who should have titles aren't listed.
 def get_speaker_position(long_text):
 	speaker_position = re.findall(r'(?<=\<span class="speech__speaker-position"\>).+?(?=\<\/span\>)', long_text)
-	return speaker_position
+	if len(speaker_position) > 0:
+		return speaker_position[0]
+	else:
+		return 'Unknown'
 
+def get_date(long_text):
+	FINAL_DATE = '2017-11-29'
+	final_date = datetime.strptime(FINAL_DATE, '%Y-%m-%d')
+	date = re.findall(r'(?<=\<meta class=\"swiftype\" name\=\"date\" data-type\=\"string\" content\=\").+?(?=\" \/\>)', long_text)[0] #This should always work...
+	date = datetime.strptime(date, '%B %d, %Y')
+	
+	days_elapsed = (final_date - date).days	
+	
+	return days_elapsed, date.month, date.year
+
+	
+	
+	
+	

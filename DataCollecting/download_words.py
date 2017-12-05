@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 import os
 import requests
 
+"""
+#ONLY USE THIS FUNCTION IF YOU HAVE THE CHROMEDRIVER
 def get_urls_from_topic_page():
 	base_url = 'https://speeches.byu.edu/topics/?L='
 	letters = string.ascii_uppercase
@@ -32,20 +34,24 @@ def get_urls_from_topic_page():
 		driver.quit()
 
 	return list(set(talks_we_want))
+"""
+
 
 def download_talks(list_of_urls):
 	l = []
-	print (len(list_of_urls))
 	for url in list_of_urls:
+		print('Downloading URL {}'.format(url))
+		
 		fname = '{}.html'.format(url.split('/')[2])
 		if not os.path.isfile(fname):
 			link = 'https://speeches.byu.edu' + url
 			text = requests.get(link).text
 			html = BeautifulSoup(text, 'html.parser')
-			speech = str(html.meta['content']) #should be unnecessary with python3 TODO.
-			l.append(len(speech))
-			continue
-
+			
+			try:
+				speech = str(html.meta['content']) #should be unnecessary with python3 TODO.
+			except KeyError:
+				return 'BAD'
 
 			with open('Speeches/{}'.format(fname), 'w') as outfile:
 				outfile.write(text)
@@ -53,14 +59,12 @@ def download_talks(list_of_urls):
 				outfile.write(speech)
 
 		else:
+			print ('already exists...')
 			pass
 
-	l.sort()
-	plt.plot(l)
-	plt.show()
 	return l 
 
 if __name__ == '__main__':
-	whole_list = get_urls_from_topic_page()
-	print download_talks(whole_list)
-	# pass
+	#whole_list = get_urls_from_topic_page()
+	new_list = ['/talks/cassy-budd_on-failing-and-finishing/']
+	download_talks(new_list)
