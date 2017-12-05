@@ -15,15 +15,14 @@ from datetime import datetime
 from urllib.parse import urlencode
 import traceback
 import secrets
+import pandas
 
 search_engine_id = "017178850987838406603:vp0vn2nince"
 
 memory = Memory(cachedir='joblib_cache', verbose=0)
 
-#dfall_names = pd.read_csv('background/all_names.csv')
-#baby_names = dfall_names.values
-baby_names = []
-
+dfall_names = pandas.read_csv('all_names.csv')
+baby_names = dfall_names.values
 
 OT_books = ['Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua', 'Judges', 'Ruth', 'Samuel', 'Kings', 'Chronicles',
             'Ezra', 'Nehemiah', 'Esther', 'Job', 'Psalm', 'Psalms', 'Proverbs', 'Ecclesiastes', 'Solomon', 'Isaiah', 'Jeremiah', 'Lamentations',
@@ -51,79 +50,79 @@ def get_story_names():
     return set([i for i in good_story_names if i not in names_to_ignore])
 story_names = get_story_names()
 
-#def feat_speaker_gender(link):
-#    _, speakerlink = link.split('/talks/')
-#
-#    #Get the speaker's first name.
-#    try:
-#        speaker, title = speakerlink.split('_')
-#    except:
-#        speaker = speakerlink
-#
-#    try:
-#        first, last = speaker.split('-') #No middle initial
-#    except:
-#        if '-and-' in speaker: #It's a combo talk, we're done.
-#            gender = 'Combo'
-#            return gender
-#        else:
-#            first, middle, last = speaker.split('-')[:3] #Just the first 3 names
-#
-#    if len(first) == 1: #If they go by their middle name
-#        first = middle
-#
-#    first = first.title()
-#
-#    #Ok so now we have the first name, we need to see if it's a male name or a female name
-#    try:
-#        just_names = list(baby_names[:,0])
-#        just_names = list(baby_names[:,0])
-#        this_name = baby_names[just_names.index(first)]
-#        name, females, males, mfratio = this_name
-#
-#    except ValueError: #If just_names.index can't find the name we're looking for
-#        #---------- Check a lot of unisex names whose gender we know. ------------------#
-#        if speaker in set(['terryl-l-givens', 'kerry-m-muhlestein', 'c-terry-warner', 'marion-g-romney', 'val-d-hawks', 'merrill-j-bateman',
-#                    'merrill-j-christensen', 'parris-k-egbert', 'angel-abrea', 'marion-d-hanks', 'casey-c-peterson', 'noel-b-reynolds',
-#                    'loren-c-dunn', 'terry-r-seamons', 'lee-wakefield', 'val-jo-anderson', 'terry-b-ball', 'lee-h-radebaugh', 'r-quinn-gardner',
-#                    'holland-jeffrey-r', 'lee-f-braithwaite', 'mickey-edwards', 'f-enzio-busche', 'uchtdorf-dieter-f', 'alwi-shihab',
-#                    'mitt-romney', 'christoffel-golden-jr', 'worthen-kevin-j', 'mcconkie-bruce-r', 'eyring-henry-b', 'callister-tad-r',
-#                    'wirthlin-joseph-b', 'callister-douglas-l', 'largey-dennis-l', 'christensen-joe-j', 'oaks-dallin-h', 'groberg-john-h',
-#                    'rasband-ronald-a', 'neiger-brad', 'nibley-hugh', 'hinckley-gordon-b', 'rasband-james-r', 'renlund-dale-g', 'osguthorpe-russell-t',
-#                    'christensen-clayton', 'hafen-bruce-c', 'swofford-scott', 'packer-boyd-k', 'causse-gerald', 'pinnock-hugh-w', 'featherstone-vaughn-j',
-#                    'monson-thomas-s', 'skinner-andrew-c', 'stayner-richards', 'samuelson-cecil-o', 'petersen-mark-e', 'ludlow-victor-l', 'durrant-george',
-#                    'hales-robert-d', 'asay-carlos-e', 'cook-gene-r', 'busche-f-enzio', 'kearon-patrick', 'groberg-john-h', 'dunn-michael-l', 'condie-spencer-j',
-#                    'wilks-t-jeffery', 'scharffs-brett-g', 'cowley-matthew', 'staheli-donald-l', 'sill-sterling-w', 'bateman-merrill-j', 'pinegar-rex-d', 'welch-john-w',
-#                    'j-w-marriott-jr', 'black-susan-easton', 'brough-monte-j', 'erlend-d-peterson', 'backman-robert-l', 'tuttle-theodore-a', 'daines-robert-h', 'givens-terryl-l',
-#                    'shumway-eric-b', 'tingey-earl-c', 'kopischke-erich-w', 'echohawk-larry', 'hotchkiss-rollin-h', 'r-j-snow', 'petersen-mark-e', 'steuer-robert-r', 'carmack-john-k',
-#                    'hallstrom-donald-l', 'visick-h-hal', 'sonne-alma', 'caffaro-e-j', 'rosenberg-john-r', 'nadauld-stephen-d', 'conlee-robert-k', 'mckinlay-douglas-r', 'luthy-melvin-j',
-#                    'britsch-todd-a', 'beeman-richard-r', 'brau-james-c', 'sandberg-jonathan-g', 'adney-y-komatsu', 's-olani-durrant', 'vai-sikahema', 'goaslind-jack-h', 'fyans-j-thomas',
-#                    'buehner-carl-w', 'albrecht-w-steve', 'shumway-j-matthew', 'child-sheldon-f', 'kikuchi-yoshihiko', 'paramore-james-m', 'sommerfeldt-scott-d', 'stice-james-d',
-#                    'schwendiman-fred-a', 'komatsu-adney-y', 'heperi-vernon-l', 'britsch-r-lanier', 'kowallis-bart-j', 'hanks-marion-d']): #Set searching is faster than list searching
-#            return 'Male'
-#
-#        elif speaker in set(['dwan-j-young', 'sorenson-sorenson', 'dew-sheri-l', 'parkin-bonnie-d', 'abegglen-jo-ann-c', 'baroness-emma-nicholson',
-#                        'edmunds-mary-ellen', 'fronk-camille', 'esplin-cheryl-a', 'wilkinson-carol', 'kapp-ardeth-g', 'swinton-heidi-s', 'maughan-erin-d', 'oaks-kristen-m',
-#                        'lant-cheryl-c', 'pinegar-patricia-p', 'smoot-mary-ellen', 'nyland-nora-kay', 'nielson-jennifer-b', 'ravert-patricia', 'michaelis-elaine', 'durrant-earlene',
-#                        'spafford-belle-s', 'winder-barbara-w', 'funk-ruth-h', 'mouritsen-maren-m', 'penfield-janie', 'clegg-gayle', 'rikelle-richards', 'wixom-rosemary-m', 'samuelson-sharon-g',
-#                        'thackeray-rosemary']):
-#            return 'Female'
-#        else:
-#            return 'Unknown'
-#        #-------------------------------------------------------------------------------#    
-#    
-#    #Ok so now we know how many males and females have been named that name, we want to classify the speaker.
-#    if males == 0:
-#        return 'Female'
-#    elif females == 0:
-#        return 'Male'
-#    elif mfratio > 5:
-#        return 'Male'
-#    elif mfratio < 0.4:
-#        return'Female'
-#    
-#    else: #if 0.4 <= mfratio <= 5, AND it's not in the top (LONG) list of popular unisex names, we're just going to forget it.
-#        return 'Unknown'
+def feat_gender(link):
+    _, speakerlink = link.split('/talks/')
+
+    #Get the speaker's first name.
+    try:
+        speaker, title = speakerlink.split('_')
+    except:
+        speaker = speakerlink
+
+    try:
+        first, last = speaker.split('-') #No middle initial
+    except:
+        if '-and-' in speaker: #It's a combo talk, we're done.
+            gender = 'Combo'
+            return gender
+        else:
+            first, middle, last = speaker.split('-')[:3] #Just the first 3 names
+
+    if len(first) == 1: #If they go by their middle name
+        first = middle
+
+    first = first.title()
+
+    #Ok so now we have the first name, we need to see if it's a male name or a female name
+    try:
+        just_names = list(baby_names[:,0])
+        just_names = list(baby_names[:,0])
+        this_name = baby_names[just_names.index(first)]
+        name, females, males, mfratio = this_name
+
+    except ValueError: #If just_names.index can't find the name we're looking for
+        #---------- Check a lot of unisex names whose gender we know. ------------------#
+        if speaker in set(['terryl-l-givens', 'kerry-m-muhlestein', 'c-terry-warner', 'marion-g-romney', 'val-d-hawks', 'merrill-j-bateman',
+                    'merrill-j-christensen', 'parris-k-egbert', 'angel-abrea', 'marion-d-hanks', 'casey-c-peterson', 'noel-b-reynolds',
+                    'loren-c-dunn', 'terry-r-seamons', 'lee-wakefield', 'val-jo-anderson', 'terry-b-ball', 'lee-h-radebaugh', 'r-quinn-gardner',
+                    'holland-jeffrey-r', 'lee-f-braithwaite', 'mickey-edwards', 'f-enzio-busche', 'uchtdorf-dieter-f', 'alwi-shihab',
+                    'mitt-romney', 'christoffel-golden-jr', 'worthen-kevin-j', 'mcconkie-bruce-r', 'eyring-henry-b', 'callister-tad-r',
+                    'wirthlin-joseph-b', 'callister-douglas-l', 'largey-dennis-l', 'christensen-joe-j', 'oaks-dallin-h', 'groberg-john-h',
+                    'rasband-ronald-a', 'neiger-brad', 'nibley-hugh', 'hinckley-gordon-b', 'rasband-james-r', 'renlund-dale-g', 'osguthorpe-russell-t',
+                    'christensen-clayton', 'hafen-bruce-c', 'swofford-scott', 'packer-boyd-k', 'causse-gerald', 'pinnock-hugh-w', 'featherstone-vaughn-j',
+                    'monson-thomas-s', 'skinner-andrew-c', 'stayner-richards', 'samuelson-cecil-o', 'petersen-mark-e', 'ludlow-victor-l', 'durrant-george',
+                    'hales-robert-d', 'asay-carlos-e', 'cook-gene-r', 'busche-f-enzio', 'kearon-patrick', 'groberg-john-h', 'dunn-michael-l', 'condie-spencer-j',
+                    'wilks-t-jeffery', 'scharffs-brett-g', 'cowley-matthew', 'staheli-donald-l', 'sill-sterling-w', 'bateman-merrill-j', 'pinegar-rex-d', 'welch-john-w',
+                    'j-w-marriott-jr', 'black-susan-easton', 'brough-monte-j', 'erlend-d-peterson', 'backman-robert-l', 'tuttle-theodore-a', 'daines-robert-h', 'givens-terryl-l',
+                    'shumway-eric-b', 'tingey-earl-c', 'kopischke-erich-w', 'echohawk-larry', 'hotchkiss-rollin-h', 'r-j-snow', 'petersen-mark-e', 'steuer-robert-r', 'carmack-john-k',
+                    'hallstrom-donald-l', 'visick-h-hal', 'sonne-alma', 'caffaro-e-j', 'rosenberg-john-r', 'nadauld-stephen-d', 'conlee-robert-k', 'mckinlay-douglas-r', 'luthy-melvin-j',
+                    'britsch-todd-a', 'beeman-richard-r', 'brau-james-c', 'sandberg-jonathan-g', 'adney-y-komatsu', 's-olani-durrant', 'vai-sikahema', 'goaslind-jack-h', 'fyans-j-thomas',
+                    'buehner-carl-w', 'albrecht-w-steve', 'shumway-j-matthew', 'child-sheldon-f', 'kikuchi-yoshihiko', 'paramore-james-m', 'sommerfeldt-scott-d', 'stice-james-d',
+                    'schwendiman-fred-a', 'komatsu-adney-y', 'heperi-vernon-l', 'britsch-r-lanier', 'kowallis-bart-j', 'hanks-marion-d']): #Set searching is faster than list searching
+            return 'Male'
+
+        elif speaker in set(['dwan-j-young', 'sorenson-sorenson', 'dew-sheri-l', 'parkin-bonnie-d', 'abegglen-jo-ann-c', 'baroness-emma-nicholson',
+                        'edmunds-mary-ellen', 'fronk-camille', 'esplin-cheryl-a', 'wilkinson-carol', 'kapp-ardeth-g', 'swinton-heidi-s', 'maughan-erin-d', 'oaks-kristen-m',
+                        'lant-cheryl-c', 'pinegar-patricia-p', 'smoot-mary-ellen', 'nyland-nora-kay', 'nielson-jennifer-b', 'ravert-patricia', 'michaelis-elaine', 'durrant-earlene',
+                        'spafford-belle-s', 'winder-barbara-w', 'funk-ruth-h', 'mouritsen-maren-m', 'penfield-janie', 'clegg-gayle', 'rikelle-richards', 'wixom-rosemary-m', 'samuelson-sharon-g',
+                        'thackeray-rosemary']):
+            return 'Female'
+        else:
+            return 'Unknown'
+        #-------------------------------------------------------------------------------#    
+    
+    #Ok so now we know how many males and females have been named that name, we want to classify the speaker.
+    if males == 0:
+        return 'Female'
+    elif females == 0:
+        return 'Male'
+    elif mfratio > 5:
+        return 'Male'
+    elif mfratio < 0.4:
+        return'Female'
+    
+    else: #if 0.4 <= mfratio <= 5, AND it's not in the top (LONG) list of popular unisex names, we're just going to forget it.
+        return 'Unknown'
 
 def feat_polarity(text):
     Text = TextBlob(text)
@@ -288,7 +287,7 @@ if __name__ == '__main__':
                 traceback.print_exc()
             else:
                 print(e, file=sys.stderr)
-            return None
+            return []
     
     pool = multiprocessing.Pool()
     results = [r for r in pool.map(get_features, links)

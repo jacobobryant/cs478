@@ -11,9 +11,9 @@ from math import sqrt
 raw_attributes = ['Polarity', 'Subjectivity', 'WordCount', 'FleschReadingEase', 'Ot', 'Nt',
         'Bom', 'Dyc', 'Pogp', 'AllScriptureCount', 'NameMentions', 'TimeElapsed',
         'AppealToAuthority', 'WeToYouRatio', 'WordQuantity', 'UseOfI', 'WordsInItalics',
-        'QuotesInQuotationMarks', 'NameSearchResults', 'Pageviews']
-attributes = raw_attributes
-#attributes = ["female", "male", "gender_unknown"] + raw_attributes
+        'QuotesInQuotationMarks', 'NameSearchResults', 'DaysElapsed', 'Pageviews']
+#attributes = raw_attributes
+attributes = ["female", "male", "gender_unknown"] + raw_attributes
 
 def parse(csv_contents):
     raw_data = [line.split(',') for line in csv_contents.strip().split('\n')]
@@ -23,19 +23,19 @@ def parse(csv_contents):
     used_data = np.array(raw_data[1:])[:,indices].astype(float)
     normalized_data = stats.zscore(used_data[:,:-1], axis=1)
 
-#    def gender_vector(gender):
-#        if gender == 'female':
-#            return [1, 0, 0]
-#        elif gender == 'male':
-#            return [0, 1, 0]
-#        return [0, 0, 1]
-#
-#    gender_index = headers.index('Gender')
-#    gender_features = np.array([gender_vector(row[gender_index].lower())
-#                                for row in raw_data[1:]], dtype=float)
-#
-    #return np.concatenate((gender_features, normalized_data,
-    return np.concatenate((normalized_data,
+    def gender_vector(gender):
+        if gender == 'female':
+            return [1, 0, 0]
+        elif gender == 'male':
+            return [0, 1, 0]
+        return [0, 0, 1]
+
+    gender_index = headers.index('Gender')
+    gender_features = np.array([gender_vector(row[gender_index].lower())
+                                for row in raw_data[1:]], dtype=float)
+
+    return np.concatenate((gender_features, normalized_data,
+    #return np.concatenate((normalized_data,
                            used_data[:,-1].reshape((-1,1))), axis=1)
 
 def read_data():
