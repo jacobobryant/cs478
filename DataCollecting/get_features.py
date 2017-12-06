@@ -1,11 +1,9 @@
 import sys
 import requests
 from html.parser import HTMLParser
-import unicodedata
 import re
 from textblob import TextBlob
 from my_textstat import textstatistics as textstat
-from os.path import join
 from functools import partial
 from code import interact
 from lxml import etree
@@ -15,7 +13,6 @@ from urllib.parse import urlencode
 import traceback
 import pandas
 from os.path import realpath, dirname, join
-from data import links, pageviews
 import multiprocessing
 import os
 import inspect
@@ -231,13 +228,26 @@ def featPercentInQuotes(text):
     return feat_word_count(all_words_in_quotes) / featWordCount(long_text)
 
 def featDaysElapsed(tree):
+    FINAL_DATE = '2017-11-29'
+    final_date = datetime.strptime(FINAL_DATE, '%Y-%m-%d')
     raw_date = tree.xpath('//meta[@name="date"]')[0].get('content')
     date = parse_date(raw_date)
-    return (datetime.now() - date).days
+    return (final_date - date).days
+
+def get_name(tree):
+    return tree.xpath('//meta[@name="author"]')[0].get('content').strip("'")
 
 def featNameSearchResults(tree):
-    return None
-    name = feat_name(tree)
+    name = get_name(tree)
+    conn = sqlite3.connect(dbname)
+    c = conn.cursor()
+    result = c.execute('select hits from num_results_cache '
+            'where name = ? and hits is not null', (name,)).fetchall()
+
+    if len(result):
+        conn.close()
+        return result[0][0]
+
     params = {'key': google_custom_search_api_key,
               'cx': search_engine_id,
               'q': name}
@@ -245,19 +255,36 @@ def featNameSearchResults(tree):
              "alt=json&fields=queries(request(totalResults))&" +
             urlencode(params))
     response = requests.get(query)
-    return int(response.json()['queries']['request'][0]['totalResults'])
+    try:
+        ret = int(response.json()['queries']['request'][0]['totalResults'])
+    except KeyError:
+        conn.close()
+        return None
+    c.execute('insert or replace into num_results_cache (name, hits) '
+              'values (?, ?)', (name, ret))
+    conn.commit()
+    conn.close()
+    return ret
 
 def featPageviews(link):
     return None
 
-def featMonthGiven(link):
-    return None
+def featMonthGiven(tree):
+    raw_date = tree.xpath('//meta[@name="date"]')[0].get('content')
+    date = parse_date(raw_date)
+    return date.month
 
-def featYearGiven(link):
-    return None
+def featYearGiven(tree):
+    raw_date = tree.xpath('//meta[@name="date"]')[0].get('content')
+    date = parse_date(raw_date)
+    return date.year
 
-def featSpeakerPosition(link):
-    return None
+def featSpeakerPosition(long_text):
+    speaker_position = re.findall(r'(?<=\<span class="speech__speaker-position"\>).+?(?=\<\/span\>)', long_text)
+    if len(speaker_position) > 0:
+        return speaker_position[0]
+    else:
+        return 'Unknown'
 
 def read_file(link, parent, ext):
     path = join(parent, re.sub(r'^/talks/', '', link).rstrip('/').lower() + '.' + ext)
@@ -282,12 +309,20 @@ def init_db():
               ', '.join(['{} blob'.format(t) for t in titles]) +
               ')')
 
+    c.execute('create table if not exists num_results_cache ('
+              'name text primary key, '
+              'hits integer)')
+    
+
+
     # TODO auto add new columns
 
+    # This code was used to merge all the csv data into the sql db, but it isn't
+    # needed anymore.
+    #from data import links
     #csvs = [path_from_root('DataCollecting', 'features.csv'),
     #        path_from_root('STATS.csv'),
     #        path_from_root('Learning', 'FULL_speech_popularity.csv')]
-
     #for p in csvs:
     #    with open(p, 'r') as f:
     #        data = [[convert(x) for x in line.split(',')]
@@ -307,6 +342,21 @@ def init_db():
     #                  ' where link=?',
     #                  list(insert_data.values()) + [link])
 
+    #for row in c.execute('select link, NameSearchResults from features').fetchall():
+    #    link, nresults = row
+    #    if nresults is None:
+    #        continue
+    #    try:
+    #        long_text = get_long_text(link)
+    #        tree = etree.HTML(long_text)
+    #    except Exception as e:
+    #        if 'No such file or directory' not in str(e):
+    #            traceback.print_exc()
+    #        continue
+    #    name = get_name(tree)
+    #    c.execute('insert or replace into num_results_cache (name, hits) '
+    #              'values (?, ?)', (name, nresults))
+
     conn.commit()
     conn.close()
 
@@ -321,7 +371,11 @@ def fill_in_features():
     nupdated = 0
     n_missing_talks = 0
 
-    for row in c.execute('select ' + ', '.join(colnames) + ' from features').fetchall():
+    results = c.execute('select ' + ', '.join(colnames) +
+            ' from features').fetchall()
+    conn.close()
+
+    for row in results:
         link = row[0]
         empty_cols = [col for col, val in zip(colnames, row) if val is None]
 
@@ -336,8 +390,7 @@ def fill_in_features():
             if 'No such file or directory' not in str(e):
                 traceback.print_exc()
             else:
-                #print(e, file=sys.stderr)
-                pass
+                print(e, file=sys.stderr)
             n_missing_talks += 1
             continue
 
@@ -357,9 +410,13 @@ def fill_in_features():
         
         values = [dispatch(f) for f in fns]
         print(empty_cols, values, link)
+        conn = sqlite3.connect(dbname)
+        c = conn.cursor()
         c.execute('update features set ' +
                   ', '.join([k + '=?' for k in empty_cols]) +
                   ' where link=?', values + [link])
+        conn.commit()
+        conn.close()
         nupdated += len([x for x in values if x is not None])
 
     print()
@@ -367,8 +424,6 @@ def fill_in_features():
     print("missing features before update:", all_empty)
     print("n missing features before update:", nmissing)
     print("n updated features:", nupdated)
-    conn.commit()
-    conn.close()
 
 def sql_interact():
     conn = sqlite3.connect(dbname)
