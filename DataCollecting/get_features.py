@@ -433,10 +433,10 @@ def sql_interact():
 
 def gen_csv():
     with open(csvname, 'w') as f:
-        print(*titles, sep=',', file=f)
+        csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
+        print(*csv_titles, sep=',', file=f)
         conn = sqlite3.connect(dbname)
         c = conn.cursor()
-        csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
         for row in c.execute('select ' + ', '.join(csv_titles) +
                              ' from features').fetchall():
             if None not in row:

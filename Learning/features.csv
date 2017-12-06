@@ -1,4 +1,4 @@
-Gender,Polarity,Subjectivity,WordCount,FleschReading,OT,NT,BoM,DC,PoGP,AllScriptureCount,StoryNames,TalkingSpeed,AuthorityMentions,WeToYouRatio,WordQuantity,FirstPersonPronoun,PercentInItalics,PercentInQuotes,DaysElapsed,NameSearchResults,Pageviews,MonthGiven,YearGiven,SpeakerPosition
+Gender,Polarity,Subjectivity,WordCount,FleschReading,OT,NT,BoM,DC,PoGP,AllScriptureCount,StoryNames,TalkingSpeed,AuthorityMentions,WeToYouRatio,WordQuantity,FirstPersonPronoun,PercentInItalics,PercentInQuotes,DaysElapsed,NameSearchResults,Pageviews,MonthGiven,YearGiven
 Male,0.16,0.52,4278.0,5.61,14.0,0.0,3.0,6.0,0.0,23.0,10.0,2.7642325453166996,3.0,13.349,1321.0,16.0,0.1895745675549322,0.0,10851,322000.0,2786.0,3.0,1988.0
 Male,0.14,0.51,3605.0,3.66,0.0,8.0,8.0,3.0,0.0,19.0,8.0,1.867875648,6.0,143.115,1055.0,67.0,0.032177531,0.270180305,2332,220000.0,21.0,7,2011
 Male,0.19,0.49,5630.0,6.77,0.0,1.0,2.0,4.0,0.0,7.0,7.0,2.587316176,3.0,529.0,1219.0,35.0,0.054706927,0.034635879,13695,20200.0,5.0,6,1980
