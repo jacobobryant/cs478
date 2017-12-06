@@ -8,10 +8,15 @@ from code import interact
 from functools import partial
 from math import sqrt
 
-raw_attributes = ['Polarity', 'Subjectivity', 'WordCount', 'FleschReadingEase', 'Ot', 'Nt',
-        'Bom', 'Dyc', 'Pogp', 'AllScriptureCount', 'NameMentions', 'TimeElapsed',
-        'AppealToAuthority', 'WeToYouRatio', 'WordQuantity', 'UseOfI', 'WordsInItalics',
-        'QuotesInQuotationMarks', 'NameSearchResults', 'DaysElapsed', 'Pageviews']
+# Note: Pageviews should be the last feature
+raw_attributes = ('Polarity,Subjectivity,WordCount,FleschReading,OT,NT,BoM,DC,PoGP,'
+        'AllScriptureCount,StoryNames,TalkingSpeed,AuthorityMentions,WeToYouRatio,WordQuantity,'
+        'FirstPersonPronoun,PercentInItalics,PercentInQuotes,DaysElapsed,NameSearchResults,'
+        'MonthGiven,YearGiven,Pageviews').split(',')
+# attributes not included: SpeakerPosition, Gender
+# (need to generalize the code so it handles categorical features instead of just having a
+# janky special case for gender).
+
 #attributes = raw_attributes
 attributes = ["female", "male", "gender_unknown"] + raw_attributes
 

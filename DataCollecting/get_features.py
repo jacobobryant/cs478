@@ -20,10 +20,12 @@ import sqlite3
 
 path_from_root = lambda *args: join(dirname(dirname(realpath(__file__))), *args)
 dbname = path_from_root("DataCollecting", "features.db")
+csvname = path_from_root("Learning", "features.csv")
+
 search_engine_id = "017178850987838406603:vp0vn2nince"
 google_custom_search_api_key = 'AIzaSyAQOvYZXc3z90zNf3urf8j2i1wuu2CGUDw'
 
-dfall_names = pandas.read_csv('all_names.csv')
+dfall_names = pandas.read_csv(path_from_root('DataCollecting', 'all_names.csv'))
 baby_names = dfall_names.values
 
 OT_books = ['Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua', 'Judges', 'Ruth', 'Samuel', 'Kings', 'Chronicles',
@@ -312,8 +314,6 @@ def init_db():
     c.execute('create table if not exists num_results_cache ('
               'name text primary key, '
               'hits integer)')
-    
-
 
     # TODO auto add new columns
 
@@ -389,8 +389,8 @@ def fill_in_features():
         except Exception as e:
             if 'No such file or directory' not in str(e):
                 traceback.print_exc()
-            else:
-                print(e, file=sys.stderr)
+            #else:
+            #    print(e, file=sys.stderr)
             n_missing_talks += 1
             continue
 
@@ -431,9 +431,22 @@ def sql_interact():
     interact(local=locals())
     conn.close()
 
+def gen_csv():
+    with open(csvname, 'w') as f:
+        print(*titles, sep=',', file=f)
+        conn = sqlite3.connect(dbname)
+        c = conn.cursor()
+        csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
+        for row in c.execute('select ' + ', '.join(csv_titles) +
+                             ' from features').fetchall():
+            if None not in row:
+                print(*row, sep=',', file=f)
+        conn.close()
+
 if __name__ == '__main__':
     titles, fns = zip(*[(re.sub(r'^feat', '', member), globals()[member])
                         for member in globals() if member.startswith('feat')])
     init_db()
     #sql_interact()
     fill_in_features()
+    gen_csv()
