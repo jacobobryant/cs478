@@ -431,6 +431,42 @@ def sql_interact():
     interact(local=locals())
     conn.close()
 
+def merge_duplicates():
+    conn = sqlite3.connect(dbname)
+    c = conn.cursor()
+    query = """
+        select a.link, b.link, a.Pageviews, b.Pageviews from features a inner join features b where 
+        a.link != b.link and
+        a.Gender = b.Gender and
+        a.Polarity = b.Polarity and
+        a.Subjectivity = b.Subjectivity and
+        a.WordCount = b.WordCount and
+        a.FleschReading = b.FleschReading and
+        a.OT = b.OT and
+        a.NT = b.NT and
+        a.BoM = b.BoM and
+        a.DC = b.DC and
+        a.PoGP = b.PoGP and
+        a.AllScriptureCount = b.AllScriptureCount and
+        a.StoryNames = b.StoryNames and
+        a.TalkingSpeed = b.TalkingSpeed and
+        a.AuthorityMentions = b.AuthorityMentions and
+        a.WeToYouRatio = b.WeToYouRatio and
+        a.WordQuantity = b.WordQuantity and
+        a.FirstPersonPronoun = b.FirstPersonPronoun and
+        a.PercentInItalics = b.PercentInItalics and
+        a.PercentInQuotes = b.PercentInQuotes and
+        a.DaysElapsed = b.DaysElapsed and
+        a.NameSearchResults = b.NameSearchResults and
+        a.MonthGiven = b.MonthGiven and
+        a.YearGiven = b.YearGiven;"""
+    for linka, linkb, pga, pgb in c.execute(query).fetchall():
+        c.execute('update features set Pageviews = ? where link = ?',
+                (pga + pgb, linka))
+        c.execute('delete from features where link = ?', (linkb,))
+    conn.commit()
+    conn.close()
+
 def gen_csv():
     with open(csvname, 'w') as f:
         csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
@@ -453,4 +489,5 @@ if __name__ == '__main__':
     #init_db()
     #sql_interact()
     #fill_in_features()
+    merge_duplicates()
     gen_csv()
