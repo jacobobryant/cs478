@@ -471,16 +471,17 @@ def gen_csv():
     with open(csvname, 'w') as f:
         csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
 
-        print(*(csv_titles + ['Popular']), sep=',', file=f)
+        print(*(csv_titles + ['PopularByRate', 'PopularByAbsolute']), sep=',', file=f)
         conn = sqlite3.connect(dbname)
         c = conn.cursor()
         for row in c.execute('select ' + ', '.join(csv_titles) +
                              ' from features').fetchall():
             if None not in row:
                 rowmap = {h: x for h, x in zip(csv_titles, row)}
-                popular = ('y' if rowmap['Pageviews'] / rowmap['DaysElapsed'] >
-                        0.64085041761579342 else 'n')  # 80th percentile
-                print(*(row + (popular,)), sep=',', file=f)
+                popular_by_rate = ('y' if rowmap['Pageviews'] / rowmap['DaysElapsed'] >
+                        0.6229082515868436 else 'n')  # 80th percentile
+                popular_by_absolute = ('y' if rowmap['Pageviews'] > 2607.0 else 'n')  # 80th percentile
+                print(*(row + (popular_by_rate, popular_by_absolute)), sep=',', file=f)
         conn.close()
 
 if __name__ == '__main__':
@@ -489,5 +490,5 @@ if __name__ == '__main__':
     #init_db()
     #sql_interact()
     #fill_in_features()
-    merge_duplicates()
+    #merge_duplicates()
     gen_csv()
