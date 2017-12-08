@@ -434,19 +434,23 @@ def sql_interact():
 def gen_csv():
     with open(csvname, 'w') as f:
         csv_titles = [t for t in titles if t not in ('SpeakerPosition',)]
-        print(*csv_titles, sep=',', file=f)
+
+        print(*(csv_titles + ['Popular']), sep=',', file=f)
         conn = sqlite3.connect(dbname)
         c = conn.cursor()
         for row in c.execute('select ' + ', '.join(csv_titles) +
                              ' from features').fetchall():
             if None not in row:
-                print(*row, sep=',', file=f)
+                rowmap = {h: x for h, x in zip(csv_titles, row)}
+                popular = ('y' if rowmap['Pageviews'] / rowmap['DaysElapsed'] >
+                        0.64085041761579342 else 'n')  # 80th percentile
+                print(*(row + (popular,)), sep=',', file=f)
         conn.close()
 
 if __name__ == '__main__':
     titles, fns = zip(*[(re.sub(r'^feat', '', member), globals()[member])
                         for member in globals() if member.startswith('feat')])
-    init_db()
+    #init_db()
     #sql_interact()
-    fill_in_features()
+    #fill_in_features()
     gen_csv()
