@@ -1,0 +1,254 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TalkingSpeed <= 0.7651: n (366.0/20.0)
+TalkingSpeed > 0.7651
+|   WordCount <= 2431
+|   |   YearGiven <= 1992
+|   |   |   StoryNames <= 7: n (7.0)
+|   |   |   StoryNames > 7
+|   |   |   |   Polarity <= 0.17: n (2.0)
+|   |   |   |   Polarity > 0.17: y (4.0)
+|   |   YearGiven > 1992: n (105.0)
+|   WordCount > 2431
+|   |   YearGiven <= 2008
+|   |   |   Subjectivity <= 0.45: n (53.0/4.0)
+|   |   |   Subjectivity > 0.45
+|   |   |   |   Polarity <= 0.2
+|   |   |   |   |   Polarity <= 0.1
+|   |   |   |   |   |   MonthGiven <= 2: y (6.0)
+|   |   |   |   |   |   MonthGiven > 2
+|   |   |   |   |   |   |   AllScriptureCount <= 7: n (8.0)
+|   |   |   |   |   |   |   AllScriptureCount > 7
+|   |   |   |   |   |   |   |   PoGP <= 0: y (11.0/3.0)
+|   |   |   |   |   |   |   |   PoGP > 0
+|   |   |   |   |   |   |   |   |   FleschReading <= 5.73: y (3.0/1.0)
+|   |   |   |   |   |   |   |   |   FleschReading > 5.73: n (2.0)
+|   |   |   |   |   Polarity > 0.1
+|   |   |   |   |   |   Subjectivity <= 0.52
+|   |   |   |   |   |   |   Gender = Male
+|   |   |   |   |   |   |   |   OT <= 5
+|   |   |   |   |   |   |   |   |   PercentInItalics <= 0.21278
+|   |   |   |   |   |   |   |   |   |   NT <= 8
+|   |   |   |   |   |   |   |   |   |   |   OT <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes <= 0.007451
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven <= 1991
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames <= 15
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   OT <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Subjectivity <= 0.47: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Subjectivity > 0.47
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   DC <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   DaysElapsed <= 14442: y (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   DaysElapsed > 14442: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   DC > 1: n (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   OT > 1: n (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames > 15: y (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven > 1991
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 5: n (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP <= 0: y (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BoM <= 18: n (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   BoM > 18: y (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames > 11: n (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes > 0.007451: y (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MonthGiven > 5
+|   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 7: n (30.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames <= 23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP <= 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven <= 1997
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT <= 4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT <= 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 73300: n (12.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 73300
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames <= 7: n (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames > 7
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Polarity <= 0.17: n (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Polarity > 0.17: y (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT > 0: y (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT > 2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   OT <= 1: y (9.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   OT > 1: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   NT > 4: n (7.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven > 1997: n (22.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP > 1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Polarity <= 0.15: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Polarity > 0.15: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames > 23
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FirstPersonPronoun <= 99: y (8.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   FirstPersonPronoun > 99: n (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   PoGP > 2: n (7.0)
+|   |   |   |   |   |   |   |   |   |   |   OT > 3: n (13.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NT > 8
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 15000: n (5.0)
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 15000
+|   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 224000: y (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 224000
+|   |   |   |   |   |   |   |   |   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 7: y (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions > 7: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PoGP > 0: n (5.0)
+|   |   |   |   |   |   |   |   |   PercentInItalics > 0.21278: n (33.0/1.0)
+|   |   |   |   |   |   |   |   OT > 5: n (19.0/1.0)
+|   |   |   |   |   |   |   Gender = Female
+|   |   |   |   |   |   |   |   AllScriptureCount <= 30
+|   |   |   |   |   |   |   |   |   AuthorityMentions <= 13
+|   |   |   |   |   |   |   |   |   |   NT <= 0
+|   |   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 4: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   AuthorityMentions > 4: n (7.0)
+|   |   |   |   |   |   |   |   |   |   NT > 0: n (27.0)
+|   |   |   |   |   |   |   |   |   AuthorityMentions > 13
+|   |   |   |   |   |   |   |   |   |   Subjectivity <= 0.49: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Subjectivity > 0.49: y (3.0)
+|   |   |   |   |   |   |   |   AllScriptureCount > 30: y (3.0)
+|   |   |   |   |   |   |   Gender = Unknown
+|   |   |   |   |   |   |   |   DC <= 3: n (14.0)
+|   |   |   |   |   |   |   |   DC > 3
+|   |   |   |   |   |   |   |   |   Subjectivity <= 0.47: n (2.0)
+|   |   |   |   |   |   |   |   |   Subjectivity > 0.47
+|   |   |   |   |   |   |   |   |   |   Polarity <= 0.18: y (3.0)
+|   |   |   |   |   |   |   |   |   |   Polarity > 0.18: n (4.0/1.0)
+|   |   |   |   |   |   |   Gender = Combo
+|   |   |   |   |   |   |   |   OT <= 1: n (11.0/1.0)
+|   |   |   |   |   |   |   |   OT > 1: y (2.0)
+|   |   |   |   |   |   Subjectivity > 0.52
+|   |   |   |   |   |   |   BoM <= 9
+|   |   |   |   |   |   |   |   Gender = Male
+|   |   |   |   |   |   |   |   |   YearGiven <= 1974: y (4.0)
+|   |   |   |   |   |   |   |   |   YearGiven > 1974
+|   |   |   |   |   |   |   |   |   |   OT <= 0
+|   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 6: n (10.0)
+|   |   |   |   |   |   |   |   |   |   |   MonthGiven > 6
+|   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes <= 0.000556
+|   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames <= 11
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   WordCount <= 4509: n (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   WordCount > 4509
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 9: y (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven > 9: n (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   StoryNames > 11: y (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes > 0.000556: n (2.0)
+|   |   |   |   |   |   |   |   |   |   OT > 0
+|   |   |   |   |   |   |   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   FleschReading <= 7.56
+|   |   |   |   |   |   |   |   |   |   |   |   |   PercentInItalics <= 0.12132: y (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   PercentInItalics > 0.12132: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FleschReading > 7.56: n (5.0)
+|   |   |   |   |   |   |   |   |   |   |   PoGP > 0: n (11.0/2.0)
+|   |   |   |   |   |   |   |   Gender = Female: n (7.0/1.0)
+|   |   |   |   |   |   |   |   Gender = Unknown: n (7.0/1.0)
+|   |   |   |   |   |   |   |   Gender = Combo: n (0.0)
+|   |   |   |   |   |   |   BoM > 9
+|   |   |   |   |   |   |   |   OT <= 4: y (9.0)
+|   |   |   |   |   |   |   |   OT > 4: n (4.0/1.0)
+|   |   |   |   Polarity > 0.2
+|   |   |   |   |   StoryNames <= 6
+|   |   |   |   |   |   Polarity <= 0.23
+|   |   |   |   |   |   |   BoM <= 2
+|   |   |   |   |   |   |   |   StoryNames <= 2: y (3.0/1.0)
+|   |   |   |   |   |   |   |   StoryNames > 2: n (8.0)
+|   |   |   |   |   |   |   BoM > 2: y (7.0/1.0)
+|   |   |   |   |   |   Polarity > 0.23: n (12.0/2.0)
+|   |   |   |   |   StoryNames > 6: n (164.0/17.0)
+|   |   YearGiven > 2008
+|   |   |   YearGiven <= 2016
+|   |   |   |   WordCount <= 5932
+|   |   |   |   |   Gender = Male: n (194.0/69.0)
+|   |   |   |   |   Gender = Female
+|   |   |   |   |   |   PercentInQuotes <= 0.003994
+|   |   |   |   |   |   |   NT <= 4
+|   |   |   |   |   |   |   |   PercentInItalics <= 0.126165
+|   |   |   |   |   |   |   |   |   PercentInItalics <= 0.091347
+|   |   |   |   |   |   |   |   |   |   DC <= 3
+|   |   |   |   |   |   |   |   |   |   |   PercentInQuotes <= 0.0002
+|   |   |   |   |   |   |   |   |   |   |   |   FleschReading <= 6.78: n (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   FleschReading > 6.78: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   PercentInQuotes > 0.0002: y (2.0)
+|   |   |   |   |   |   |   |   |   |   DC > 3: n (10.0)
+|   |   |   |   |   |   |   |   |   PercentInItalics > 0.091347: y (6.0)
+|   |   |   |   |   |   |   |   PercentInItalics > 0.126165: n (11.0)
+|   |   |   |   |   |   |   NT > 4: y (3.0)
+|   |   |   |   |   |   PercentInQuotes > 0.003994: n (10.0)
+|   |   |   |   |   Gender = Unknown: n (5.0/1.0)
+|   |   |   |   |   Gender = Combo: n (2.0)
+|   |   |   |   WordCount > 5932
+|   |   |   |   |   AllScriptureCount <= 1: n (2.0)
+|   |   |   |   |   AllScriptureCount > 1: y (12.0)
+|   |   |   YearGiven > 2016
+|   |   |   |   NameSearchResults <= 3020000
+|   |   |   |   |   Subjectivity <= 0.52: y (10.0)
+|   |   |   |   |   Subjectivity > 0.52
+|   |   |   |   |   |   NameSearchResults <= 298000: y (4.0/1.0)
+|   |   |   |   |   |   NameSearchResults > 298000: n (2.0)
+|   |   |   |   NameSearchResults > 3020000: n (4.0)
+
+Number of Leaves  : 	96
+
+Size of the tree : 	185
+
+
+Time taken to build model: 0.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1162               76.6491 %
+Incorrectly Classified Instances       354               23.3509 %
+Kappa statistic                          0.1596
+Mean absolute error                      0.2748
+Root mean squared error                  0.448 
+Relative absolute error                 85.8497 %
+Root relative squared error            112.0171 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.241    0.102    0.371      0.241    0.292      0.165    0.617     0.299     y
+                 0.898    0.759    0.826      0.898    0.860      0.165    0.617     0.834     n
+Weighted Avg.    0.766    0.628    0.735      0.766    0.747      0.165    0.617     0.727     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   73  230 |    a = y
+  124 1089 |    b = n
+

@@ -1,0 +1,16 @@
+info gain and correlation attribute orderings are fairly similar. backwards
+wrapper matches those rankings more than forwards wrapper (I think--didn't look
+too closely).
+
+mlp had worst precision, decision tree had best. naive bayes had best f1 score,
+but we don't care as much about recall. good example of why f1 score doesn't fit
+our needs.
+
+pca file looks interesting but probably needs a fair amount of time to analyze.
+There might be interesting things in there.
+
+TODO:
+based on attribute selection output, make one or more subset data sets. rerun
+all the models on them. analyze.
+create step-by-step procedure (e.g. for use in the speeches team) for how to
+evaluate the helpfullness of a new feature/whether or not to keep it.
