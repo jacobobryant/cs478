@@ -1,0 +1,42 @@
+baysenet.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.033    0.023    0.263      0.033    0.059      0.025    0.680     0.303     y
+                 0.977    0.967    0.802      0.977    0.881      0.025    0.680     0.895     n
+Weighted Avg.    0.788    0.778    0.694      0.788    0.716      0.025    0.680     0.777     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   10  293 |    a = y
+   28 1185 |    b = n
+
+
+
+j48.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.112    0.062    0.312      0.112    0.165      0.078    0.628     0.274     y
+                 0.938    0.888    0.809      0.938    0.869      0.078    0.628     0.846     n
+Weighted Avg.    0.773    0.723    0.710      0.773    0.728      0.078    0.628     0.732     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   34  269 |    a = y
+   75 1138 |    b = n
+
+
+
+mlp.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.122    0.059    0.339      0.122    0.180      0.097    0.688     0.303     y
+                 0.941    0.878    0.811      0.941    0.871      0.097    0.688     0.898     n
+Weighted Avg.    0.777    0.714    0.717      0.777    0.733      0.097    0.688     0.779     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   37  266 |    a = y
+   72 1141 |    b = n
+
+
+

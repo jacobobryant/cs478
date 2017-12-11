@@ -9,6 +9,16 @@ our needs.
 pca file looks interesting but probably needs a fair amount of time to analyze.
 There might be interesting things in there.
 
+How does weka's wrapper algorithms choose when to stop adding/removing features?
+is it whenever the metric stops improving? Seems unlikely because the decision
+tree with all the features has a higher f1 score than the decision trees using
+subsets.
+
+subset_wrapperforward/j48.txt has the highest precision.
+
+Seems like it'd be nice to have a wrapper algorithm that optimizes f0.2 score or
+something like that.
+
 TODO:
 based on attribute selection output, make one or more subset data sets. rerun
 all the models on them. analyze.

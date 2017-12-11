@@ -1,0 +1,175 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R2,7,9,11-12,15,17-18,20
+Instances:    1516
+Attributes:   15
+              Gender
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              BoM
+              PoGP
+              TalkingSpeed
+              AuthorityMentions
+              WordQuantity
+              PercentInQuotes
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+TalkingSpeed <= 0.7651: n (366.0/20.0)
+TalkingSpeed > 0.7651
+|   WordCount <= 2431: n (118.0/4.0)
+|   WordCount > 2431
+|   |   YearGiven <= 2008
+|   |   |   Subjectivity <= 0.45: n (53.0/4.0)
+|   |   |   Subjectivity > 0.45
+|   |   |   |   YearGiven <= 1974
+|   |   |   |   |   YearGiven <= 1973
+|   |   |   |   |   |   OT <= 0: y (10.0/2.0)
+|   |   |   |   |   |   OT > 0: n (8.0/2.0)
+|   |   |   |   |   YearGiven > 1973
+|   |   |   |   |   |   WordCount <= 5068: n (8.0/1.0)
+|   |   |   |   |   |   WordCount > 5068: y (4.0)
+|   |   |   |   YearGiven > 1974
+|   |   |   |   |   BoM <= 6
+|   |   |   |   |   |   PoGP <= 2
+|   |   |   |   |   |   |   NameSearchResults <= 78900
+|   |   |   |   |   |   |   |   MonthGiven <= 1
+|   |   |   |   |   |   |   |   |   WordCount <= 4560: n (6.0)
+|   |   |   |   |   |   |   |   |   WordCount > 4560
+|   |   |   |   |   |   |   |   |   |   Subjectivity <= 0.5: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Subjectivity > 0.5: y (7.0/1.0)
+|   |   |   |   |   |   |   |   MonthGiven > 1: n (176.0/16.0)
+|   |   |   |   |   |   |   NameSearchResults > 78900
+|   |   |   |   |   |   |   |   Gender = Male
+|   |   |   |   |   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 12
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 360000
+|   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes <= 0.000271
+|   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven <= 2002
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 175000
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   WordQuantity <= 1372: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   WordQuantity > 1372: y (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 175000: y (11.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   YearGiven > 2002
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BoM <= 2: n (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   BoM > 2: y (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   PercentInQuotes > 0.000271: n (2.0)
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 360000: n (118.0/37.0)
+|   |   |   |   |   |   |   |   |   |   AuthorityMentions > 12
+|   |   |   |   |   |   |   |   |   |   |   OT <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   YearGiven <= 1993: n (10.0)
+|   |   |   |   |   |   |   |   |   |   |   |   YearGiven > 1993: y (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   OT > 0: n (17.0/1.0)
+|   |   |   |   |   |   |   |   |   PoGP > 0
+|   |   |   |   |   |   |   |   |   |   TalkingSpeed <= 2.266839: n (22.0)
+|   |   |   |   |   |   |   |   |   |   TalkingSpeed > 2.266839
+|   |   |   |   |   |   |   |   |   |   |   BoM <= 3
+|   |   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 8
+|   |   |   |   |   |   |   |   |   |   |   |   |   FleschReading <= 4.44: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   FleschReading > 4.44: n (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   MonthGiven > 8: y (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   BoM > 3: n (5.0)
+|   |   |   |   |   |   |   |   Gender = Female
+|   |   |   |   |   |   |   |   |   NameSearchResults <= 12500000
+|   |   |   |   |   |   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   |   |   |   |   |   WordQuantity <= 1520: n (23.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   WordQuantity > 1520: y (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   PoGP > 0: n (9.0/1.0)
+|   |   |   |   |   |   |   |   |   NameSearchResults > 12500000: y (2.0)
+|   |   |   |   |   |   |   |   Gender = Unknown: n (9.0/1.0)
+|   |   |   |   |   |   |   |   Gender = Combo
+|   |   |   |   |   |   |   |   |   OT <= 1: n (9.0)
+|   |   |   |   |   |   |   |   |   OT > 1: y (2.0)
+|   |   |   |   |   |   PoGP > 2: n (33.0/2.0)
+|   |   |   |   |   BoM > 6
+|   |   |   |   |   |   Gender = Male
+|   |   |   |   |   |   |   PercentInQuotes <= 0.004485
+|   |   |   |   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   |   |   |   YearGiven <= 1994
+|   |   |   |   |   |   |   |   |   |   OT <= 1
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 30700: n (7.0)
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 30700
+|   |   |   |   |   |   |   |   |   |   |   |   YearGiven <= 1990: y (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   YearGiven > 1990: n (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   OT > 1: y (4.0)
+|   |   |   |   |   |   |   |   |   YearGiven > 1994
+|   |   |   |   |   |   |   |   |   |   TalkingSpeed <= 2.996021
+|   |   |   |   |   |   |   |   |   |   |   WordQuantity <= 1599
+|   |   |   |   |   |   |   |   |   |   |   |   OT <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven <= 5: y (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   MonthGiven > 5: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   OT > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 11: n (16.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions > 11: y (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   WordQuantity > 1599: y (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   TalkingSpeed > 2.996021: n (12.0)
+|   |   |   |   |   |   |   |   PoGP > 0: n (64.0/12.0)
+|   |   |   |   |   |   |   PercentInQuotes > 0.004485
+|   |   |   |   |   |   |   |   PoGP <= 1: n (3.0/1.0)
+|   |   |   |   |   |   |   |   PoGP > 1: y (4.0)
+|   |   |   |   |   |   Gender = Female
+|   |   |   |   |   |   |   BoM <= 11
+|   |   |   |   |   |   |   |   NameSearchResults <= 10400: y (2.0)
+|   |   |   |   |   |   |   |   NameSearchResults > 10400: n (8.0)
+|   |   |   |   |   |   |   BoM > 11: y (5.0)
+|   |   |   |   |   |   Gender = Unknown
+|   |   |   |   |   |   |   PoGP <= 1: y (3.0/1.0)
+|   |   |   |   |   |   |   PoGP > 1: n (3.0)
+|   |   |   |   |   |   Gender = Combo: n (2.0)
+|   |   YearGiven > 2008
+|   |   |   YearGiven <= 2016
+|   |   |   |   WordCount <= 5932: n (249.0/83.0)
+|   |   |   |   WordCount > 5932
+|   |   |   |   |   FleschReading <= 6.39: y (11.0)
+|   |   |   |   |   FleschReading > 6.39: n (3.0/1.0)
+|   |   |   YearGiven > 2016
+|   |   |   |   NameSearchResults <= 3020000
+|   |   |   |   |   Subjectivity <= 0.52: y (10.0)
+|   |   |   |   |   Subjectivity > 0.52
+|   |   |   |   |   |   NameSearchResults <= 298000: y (4.0/1.0)
+|   |   |   |   |   |   NameSearchResults > 298000: n (2.0)
+|   |   |   |   NameSearchResults > 3020000: n (4.0)
+
+Number of Leaves  : 	60
+
+Size of the tree : 	115
+
+
+Time taken to build model: 0.34 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1172               77.3087 %
+Incorrectly Classified Instances       344               22.6913 %
+Kappa statistic                          0.0663
+Mean absolute error                      0.298 
+Root mean squared error                  0.4276
+Relative absolute error                 93.0959 %
+Root relative squared error            106.9173 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.112    0.062    0.312      0.112    0.165      0.078    0.628     0.274     y
+                 0.938    0.888    0.809      0.938    0.869      0.078    0.628     0.846     n
+Weighted Avg.    0.773    0.723    0.710      0.773    0.728      0.078    0.628     0.732     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   34  269 |    a = y
+   75 1138 |    b = n
+
