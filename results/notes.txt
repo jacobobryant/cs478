@@ -19,6 +19,14 @@ subset_wrapperforward/j48.txt has the highest precision.
 Seems like it'd be nice to have a wrapper algorithm that optimizes f0.2 score or
 something like that.
 
+I modified the weka source code so it would use f0, f0.2 and f0.05 score when
+running the subset wrapper for feature selection. the selection made with f0 had
+the highest precision (0.5), but it only classified 8 instances as positive.
+f0.2 didn't select any different features from f1. f0.05 selected slightly
+different features, but its precision was actually worse than compared with f1.
+So using other f-measures doesn't seem to be helpful (maybe that's why weka only
+includes f1).
+
 TODO:
 based on attribute selection output, make one or more subset data sets. rerun
 all the models on them. analyze.
