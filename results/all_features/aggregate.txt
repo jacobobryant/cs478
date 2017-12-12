@@ -1,0 +1,56 @@
+bayesnet_full.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.221    0.096    0.366      0.221    0.276      0.154    0.683     0.304     y
+                 0.904    0.779    0.823      0.904    0.862      0.154    0.683     0.894     n
+Weighted Avg.    0.768    0.642    0.732      0.768    0.745      0.154    0.683     0.776     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   67  236 |    a = y
+  116 1097 |    b = n
+
+
+
+j48_full.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.241    0.102    0.371      0.241    0.292      0.165    0.617     0.299     y
+                 0.898    0.759    0.826      0.898    0.860      0.165    0.617     0.834     n
+Weighted Avg.    0.766    0.628    0.735      0.766    0.747      0.165    0.617     0.727     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   73  230 |    a = y
+  124 1089 |    b = n
+
+
+
+mlp_full.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.211    0.120    0.306      0.211    0.250      0.106    0.665     0.313     y
+                 0.880    0.789    0.817      0.880    0.848      0.106    0.665     0.885     n
+Weighted Avg.    0.747    0.655    0.715      0.747    0.728      0.106    0.665     0.771     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   64  239 |    a = y
+  145 1068 |    b = n
+
+
+
+naivebayes_full.txt
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.376    0.196    0.324      0.376    0.348      0.171    0.670     0.293     y
+                 0.804    0.624    0.838      0.804    0.820      0.171    0.670     0.877     n
+Weighted Avg.    0.718    0.538    0.735      0.718    0.726      0.171    0.670     0.760     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 114 189 |   a = y
+ 238 975 |   b = n
+
+
+

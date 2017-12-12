@@ -1,0 +1,74 @@
+***
+Like correlation.txt, but with information gain instead of correlation
+***
+
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 24 PopularByAbsolute):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.03717   13 TalkingSpeed
+ 0.02289    4 WordCount
+ 0.02118   16 WordQuantity
+ 0.01847   11 AllScriptureCount
+ 0.01242   20 DaysElapsed
+ 0.01211   23 YearGiven
+ 0.01153    8 BoM
+ 0.00929    5 FleschReading
+ 0.00818   17 FirstPersonPronoun
+ 0.00791   14 AuthorityMentions
+ 0.00654    2 Polarity
+ 0.00648    7 NT
+ 0.00598   22 MonthGiven
+ 0.0057     1 Gender
+ 0          9 DC
+ 0         19 PercentInQuotes
+ 0         21 NameSearchResults
+ 0          3 Subjectivity
+ 0         18 PercentInItalics
+ 0         10 PoGP
+ 0          6 OT
+ 0         15 WeToYouRatio
+ 0         12 StoryNames
+
+Selected attributes: 13,4,16,11,20,23,8,5,17,14,2,7,22,1,9,19,21,3,18,10,6,15,12 : 23
+

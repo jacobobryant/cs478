@@ -1,0 +1,208 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                            Class
+Attribute                       y            n
+                            (0.2)        (0.8)
+===============================================
+Gender
+  Male                       250.0        905.0
+  Female                      44.0        217.0
+  Unknown                      8.0         76.0
+  Combo                        5.0         19.0
+  [total]                    307.0       1217.0
+
+Polarity
+  mean                      0.1687       0.1815
+  std. dev.                 0.0473       0.0483
+  weight sum                   303         1213
+  precision                 0.0106       0.0106
+
+Subjectivity
+  mean                      0.5061       0.5013
+  std. dev.                 0.0329       0.0366
+  weight sum                   303         1213
+  precision                 0.0108       0.0108
+
+WordCount
+  mean                   4721.6048    4147.7059
+  std. dev.               1307.789    1543.9011
+  weight sum                   303         1213
+  precision                13.8101      13.8101
+
+FleschReading
+  mean                      5.8058       6.2493
+  std. dev.                  1.315       1.5431
+  weight sum                   303         1213
+  precision                 0.1273       0.1273
+
+OT
+  mean                      1.3348       1.0693
+  std. dev.                 2.3664       2.7395
+  weight sum                   303         1213
+  precision                 2.8889       2.8889
+
+NT
+  mean                      4.1972       3.2611
+  std. dev.                 4.9306       4.7306
+  weight sum                   303         1213
+  precision                 1.8485       1.8485
+
+BoM
+  mean                       4.792       3.3059
+  std. dev.                 6.2235       5.8477
+  weight sum                   303         1213
+  precision                 2.5429       2.5429
+
+DC
+  mean                      2.9914       3.2109
+  std. dev.                  3.761       4.1615
+  weight sum                   303         1213
+  precision                   1.76         1.76
+
+PoGP
+  mean                      0.7173       0.7123
+  std. dev.                 1.4068       1.4915
+  weight sum                   303         1213
+  precision                 1.3333       1.3333
+
+AllScriptureCount
+  mean                     14.2064       10.543
+  std. dev.                12.9641      12.8077
+  weight sum                   303         1213
+  precision                 2.0143       2.0143
+
+StoryNames
+  mean                     14.4129      12.9135
+  std. dev.                 9.2835        8.259
+  weight sum                   303         1213
+  precision                   1.58         1.58
+
+TalkingSpeed
+  mean                      2.3482       1.9224
+  std. dev.                 0.7131       1.0606
+  weight sum                   303         1213
+  precision                 0.0061       0.0061
+
+AuthorityMentions
+  mean                      8.9659       8.1072
+  std. dev.                10.5272       9.0309
+  weight sum                   303         1213
+  precision                 2.1786       2.1786
+
+WeToYouRatio
+  mean                    142.3893     134.2181
+  std. dev.               227.0973     263.6893
+  weight sum                   303         1213
+  precision                 2.7388       2.7388
+
+WordQuantity
+  mean                   1342.8786    1220.2014
+  std. dev.               287.1695     353.4497
+  weight sum                   303         1213
+  precision                 4.2093       4.2093
+
+FirstPersonPronoun
+  mean                     74.9468      66.3389
+  std. dev.                49.6726      44.5624
+  weight sum                   303         1213
+  precision                 2.5204       2.5204
+
+PercentInItalics
+  mean                      0.0987       0.1027
+  std. dev.                 0.0702       0.0885
+  weight sum                   303         1213
+  precision                 0.0004       0.0004
+
+PercentInQuotes
+  mean                      0.0041       0.0049
+  std. dev.                   0.02       0.0234
+  weight sum                   303         1213
+  precision                 0.0012       0.0012
+
+DaysElapsed
+  mean                   6799.0953    7779.2042
+  std. dev.              5291.0415    4909.3556
+  weight sum                   303         1213
+  precision                35.3185      35.3185
+
+NameSearchResults
+  mean                 3130379.414 2536997.3717
+  std. dev.          10918267.138910357496.0688
+  weight sum                   303         1213
+  precision            277016.6362  277016.6362
+
+MonthGiven
+  mean                      5.8548        6.235
+  std. dev.                 3.5328       3.2255
+  weight sum                   303         1213
+  precision                      1            1
+
+YearGiven
+  mean                   1998.8082    1996.1051
+  std. dev.                14.4307       13.436
+  weight sum                   303         1213
+  precision                 2.3148       2.3148
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1089               71.8338 %
+Incorrectly Classified Instances       427               28.1662 %
+Kappa statistic                          0.1697
+Mean absolute error                      0.3178
+Root mean squared error                  0.4416
+Relative absolute error                 99.268  %
+Root relative squared error            110.4213 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.376    0.196    0.324      0.376    0.348      0.171    0.670     0.293     y
+                 0.804    0.624    0.838      0.804    0.820      0.171    0.670     0.877     n
+Weighted Avg.    0.718    0.538    0.735      0.718    0.726      0.171    0.670     0.760     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 114 189 |   a = y
+ 238 975 |   b = n
+

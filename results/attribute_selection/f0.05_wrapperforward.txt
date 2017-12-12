@@ -1,0 +1,66 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.trees.J48 -F 5 -T 0.01 -R 1 -E F-MEAS -- -C 0.25 -M 2
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 286
+	Merit of best subset found:    0.741
+
+Attribute Subset Evaluator (supervised, Class (nominal): 24 PopularByAbsolute):
+	Wrapper Subset Evaluator
+	Learning scheme: weka.classifiers.trees.J48
+	Scheme options: -C 0.25 -M 2 
+	Subset evaluation: F-measure 
+	Number of folds for accuracy estimation: 5
+
+Selected attributes: 2,3,6,8,10,11,14,16,17,19,20,23 : 12
+                     Polarity
+                     Subjectivity
+                     OT
+                     BoM
+                     PoGP
+                     AllScriptureCount
+                     AuthorityMentions
+                     WordQuantity
+                     FirstPersonPronoun
+                     PercentInQuotes
+                     DaysElapsed
+                     YearGiven
+

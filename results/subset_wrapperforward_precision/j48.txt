@@ -1,0 +1,63 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R1,3,5,7-15,17-23
+Instances:    1516
+Attributes:   5
+              Polarity
+              WordCount
+              OT
+              WordQuantity
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+Polarity <= 0.1
+|   OT <= 1: n (40.0/10.0)
+|   OT > 1
+|   |   OT <= 2: y (5.0)
+|   |   OT > 2
+|   |   |   Polarity <= 0.06: y (2.0)
+|   |   |   Polarity > 0.06
+|   |   |   |   WordQuantity <= 1454: n (7.0/1.0)
+|   |   |   |   WordQuantity > 1454
+|   |   |   |   |   WordQuantity <= 1738: y (4.0)
+|   |   |   |   |   WordQuantity > 1738: n (3.0/1.0)
+Polarity > 0.1: n (1455.0/280.0)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1213               80.0132 %
+Incorrectly Classified Instances       303               19.9868 %
+Kappa statistic                          0.0156
+Mean absolute error                      0.3166
+Root mean squared error                  0.4002
+Relative absolute error                 98.92   %
+Root relative squared error            100.0854 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.013    0.003    0.500      0.013    0.500      0.055    0.503     0.208     y
+                 0.997    0.987    0.802      0.997    0.802      0.055    0.503     0.800     n
+Weighted Avg.    0.800    0.790    0.741      0.800    0.741      0.055    0.503     0.682     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+    4  299 |    a = y
+    4 1209 |    b = n
+

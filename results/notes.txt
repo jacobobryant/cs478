@@ -1,0 +1,34 @@
+info gain and correlation attribute orderings are fairly similar. backwards
+wrapper matches those rankings more than forwards wrapper (I think--didn't look
+too closely).
+
+mlp had worst precision, decision tree had best. naive bayes had best f1 score,
+but we don't care as much about recall. good example of why f1 score doesn't fit
+our needs.
+
+pca file looks interesting but probably needs a fair amount of time to analyze.
+There might be interesting things in there.
+
+How does weka's wrapper algorithms choose when to stop adding/removing features?
+is it whenever the metric stops improving? Seems unlikely because the decision
+tree with all the features has a higher f1 score than the decision trees using
+subsets.
+
+subset_wrapperforward/j48.txt has the highest precision.
+
+Seems like it'd be nice to have a wrapper algorithm that optimizes f0.2 score or
+something like that.
+
+I modified the weka source code so it would use f0, f0.2 and f0.05 score when
+running the subset wrapper for feature selection. the selection made with f0 had
+the highest precision (0.5), but it only classified 8 instances as positive.
+f0.2 didn't select any different features from f1. f0.05 selected slightly
+different features, but its precision was actually worse than compared with f1.
+So using other f-measures doesn't seem to be helpful (maybe that's why weka only
+includes f1).
+
+TODO:
+based on attribute selection output, make one or more subset data sets. rerun
+all the models on them. analyze.
+create step-by-step procedure (e.g. for use in the speeches team) for how to
+evaluate the helpfullness of a new feature/whether or not to keep it.

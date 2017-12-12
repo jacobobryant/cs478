@@ -1,0 +1,78 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R2,7,9,11-12,15,17-18,20
+Instances:    1516
+Attributes:   15
+              Gender
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              BoM
+              PoGP
+              TalkingSpeed
+              AuthorityMentions
+              WordQuantity
+              PercentInQuotes
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=15 #classindex=14
+Network structure (nodes followed by parents)
+Gender(4): PopularByAbsolute 
+Subjectivity(1): PopularByAbsolute 
+WordCount(2): PopularByAbsolute 
+FleschReading(2): PopularByAbsolute 
+OT(1): PopularByAbsolute 
+BoM(2): PopularByAbsolute 
+PoGP(1): PopularByAbsolute 
+TalkingSpeed(2): PopularByAbsolute 
+AuthorityMentions(1): PopularByAbsolute 
+WordQuantity(2): PopularByAbsolute 
+PercentInQuotes(1): PopularByAbsolute 
+NameSearchResults(1): PopularByAbsolute 
+MonthGiven(1): PopularByAbsolute 
+YearGiven(2): PopularByAbsolute 
+PopularByAbsolute(2): 
+LogScore Bayes: -5768.1620395706095
+LogScore BDeu: -5788.901139649259
+LogScore MDL: -5800.277010948135
+LogScore ENTROPY: -5730.700620569214
+LogScore AIC: -5749.700620569214
+
+
+Time taken to build model: 0.1 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1195               78.8259 %
+Incorrectly Classified Instances       321               21.1741 %
+Kappa statistic                          0.0148
+Mean absolute error                      0.3015
+Root mean squared error                  0.3908
+Relative absolute error                 94.1981 %
+Root relative squared error             97.7297 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.033    0.023    0.263      0.033    0.059      0.025    0.680     0.303     y
+                 0.977    0.967    0.802      0.977    0.881      0.025    0.680     0.895     n
+Weighted Avg.    0.788    0.778    0.694      0.788    0.716      0.025    0.680     0.777     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   10  293 |    a = y
+   28 1185 |    b = n
+

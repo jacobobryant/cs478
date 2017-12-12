@@ -1,0 +1,96 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Bayes Network Classifier
+not using ADTree
+#attributes=24 #classindex=23
+Network structure (nodes followed by parents)
+Gender(4): PopularByAbsolute 
+Polarity(1): PopularByAbsolute 
+Subjectivity(1): PopularByAbsolute 
+WordCount(2): PopularByAbsolute 
+FleschReading(2): PopularByAbsolute 
+OT(1): PopularByAbsolute 
+NT(1): PopularByAbsolute 
+BoM(2): PopularByAbsolute 
+DC(1): PopularByAbsolute 
+PoGP(1): PopularByAbsolute 
+AllScriptureCount(2): PopularByAbsolute 
+StoryNames(1): PopularByAbsolute 
+TalkingSpeed(2): PopularByAbsolute 
+AuthorityMentions(1): PopularByAbsolute 
+WeToYouRatio(1): PopularByAbsolute 
+WordQuantity(2): PopularByAbsolute 
+FirstPersonPronoun(1): PopularByAbsolute 
+PercentInItalics(1): PopularByAbsolute 
+PercentInQuotes(1): PopularByAbsolute 
+DaysElapsed(2): PopularByAbsolute 
+NameSearchResults(1): PopularByAbsolute 
+MonthGiven(1): PopularByAbsolute 
+YearGiven(2): PopularByAbsolute 
+PopularByAbsolute(2): 
+LogScore Bayes: -7332.148896791216
+LogScore BDeu: -7356.323797752355
+LogScore MDL: -7369.018601310576
+LogScore ENTROPY: -7284.79454979925
+LogScore AIC: -7307.79454979925
+
+
+Time taken to build model: 0.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1164               76.781  %
+Incorrectly Classified Instances       352               23.219  %
+Kappa statistic                          0.1474
+Mean absolute error                      0.3014
+Root mean squared error                  0.4016
+Relative absolute error                 94.1655 %
+Root relative squared error            100.4345 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.221    0.096    0.366      0.221    0.276      0.154    0.683     0.304     y
+                 0.904    0.779    0.823      0.904    0.862      0.154    0.683     0.894     n
+Weighted Avg.    0.768    0.642    0.732      0.768    0.745      0.154    0.683     0.776     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   67  236 |    a = y
+  116 1097 |    b = n
+
