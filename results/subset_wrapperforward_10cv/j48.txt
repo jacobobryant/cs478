@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R1,4-5,7-8,12-13,16,18
+Instances:    1516
+Attributes:   15
+              Polarity
+              Subjectivity
+              OT
+              DC
+              PoGP
+              AllScriptureCount
+              AuthorityMentions
+              WeToYouRatio
+              FirstPersonPronoun
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+AllScriptureCount <= 0.014184: n (291.0/23.0)
+AllScriptureCount > 0.014184
+|   YearGiven <= 0.944
+|   |   Polarity <= 0.235294
+|   |   |   AllScriptureCount <= 0.035461: n (10.0/1.0)
+|   |   |   AllScriptureCount > 0.035461: y (33.0/14.0)
+|   |   Polarity > 0.235294: n (964.0/174.0)
+|   YearGiven > 0.944
+|   |   AllScriptureCount <= 0.099291
+|   |   |   YearGiven <= 0.976: n (83.0/19.0)
+|   |   |   YearGiven > 0.976
+|   |   |   |   PoGP <= 0
+|   |   |   |   |   WeToYouRatio <= 0.004962: n (8.0)
+|   |   |   |   |   WeToYouRatio > 0.004962
+|   |   |   |   |   |   OT <= 0.019231
+|   |   |   |   |   |   |   AllScriptureCount <= 0.021277: y (5.0)
+|   |   |   |   |   |   |   AllScriptureCount > 0.021277
+|   |   |   |   |   |   |   |   AuthorityMentions <= 0.098361
+|   |   |   |   |   |   |   |   |   OT <= 0
+|   |   |   |   |   |   |   |   |   |   PercentInQuotes <= 0.005145
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults <= 0.000109: n (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   NameSearchResults > 0.000109: y (6.0)
+|   |   |   |   |   |   |   |   |   |   PercentInQuotes > 0.005145: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   OT > 0
+|   |   |   |   |   |   |   |   |   |   NameSearchResults <= 0.000014: y (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   NameSearchResults > 0.000014: n (4.0)
+|   |   |   |   |   |   |   |   AuthorityMentions > 0.098361: n (7.0)
+|   |   |   |   |   |   OT > 0.019231: y (7.0)
+|   |   |   |   PoGP > 0
+|   |   |   |   |   YearGiven <= 0.992: n (6.0)
+|   |   |   |   |   YearGiven > 0.992
+|   |   |   |   |   |   NameSearchResults <= 0.016593: y (3.0)
+|   |   |   |   |   |   NameSearchResults > 0.016593: n (3.0)
+|   |   AllScriptureCount > 0.099291
+|   |   |   Polarity <= 0.264706: y (5.0)
+|   |   |   Polarity > 0.264706
+|   |   |   |   AuthorityMentions <= 0.008197: n (4.0)
+|   |   |   |   AuthorityMentions > 0.008197
+|   |   |   |   |   AllScriptureCount <= 0.390071
+|   |   |   |   |   |   DC <= 0.181818
+|   |   |   |   |   |   |   AllScriptureCount <= 0.120567
+|   |   |   |   |   |   |   |   AuthorityMentions <= 0.172131: y (10.0)
+|   |   |   |   |   |   |   |   AuthorityMentions > 0.172131: n (3.0/1.0)
+|   |   |   |   |   |   |   AllScriptureCount > 0.120567
+|   |   |   |   |   |   |   |   AuthorityMentions <= 0.131148
+|   |   |   |   |   |   |   |   |   AuthorityMentions <= 0.016393: y (3.0)
+|   |   |   |   |   |   |   |   |   AuthorityMentions > 0.016393
+|   |   |   |   |   |   |   |   |   |   FirstPersonPronoun <= 0.1417
+|   |   |   |   |   |   |   |   |   |   |   FirstPersonPronoun <= 0.058704
+|   |   |   |   |   |   |   |   |   |   |   |   Polarity <= 0.5: n (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Polarity > 0.5: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   FirstPersonPronoun > 0.058704: n (15.0)
+|   |   |   |   |   |   |   |   |   |   FirstPersonPronoun > 0.1417
+|   |   |   |   |   |   |   |   |   |   |   Subjectivity <= 0.518519: y (7.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Subjectivity > 0.518519: n (2.0)
+|   |   |   |   |   |   |   |   AuthorityMentions > 0.131148: y (4.0)
+|   |   |   |   |   |   DC > 0.181818: y (9.0)
+|   |   |   |   |   AllScriptureCount > 0.390071: n (8.0/1.0)
+
+Number of Leaves  : 	30
+
+Size of the tree : 	59
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1175               77.5066 %
+Incorrectly Classified Instances       341               22.4934 %
+Kappa statistic                          0.0965
+Mean absolute error                      0.2994
+Root mean squared error                  0.4284
+Relative absolute error                 93.5322 %
+Root relative squared error            107.1285 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.142    0.067    0.347      0.142    0.201      0.110    0.571     0.260     y
+                 0.933    0.858    0.813      0.933    0.869      0.110    0.571     0.818     n
+Weighted Avg.    0.775    0.700    0.720      0.775    0.736      0.110    0.571     0.706     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   43  260 |    a = y
+   81 1132 |    b = n
+

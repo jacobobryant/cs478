@@ -1,0 +1,510 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    6.316104397857169
+    Node 2    -2.6161588457329046
+    Node 3    -1.0343876457396235
+    Node 4    -2.0407544228631522
+    Node 5    -4.502286278901267
+    Node 6    -7.0364078275019075
+    Node 7    -4.150358647870489
+    Node 8    -3.363709546970904
+    Node 9    -4.878030373497523
+    Node 10    -5.107814020249312
+    Node 11    -3.1689390836973548
+    Node 12    -2.5235864464241695
+    Node 13    -2.2255227621860607
+    Node 14    -6.334008890370238
+    Node 15    -3.910240292804065
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -6.3166532454512865
+    Node 2    2.6162653664157065
+    Node 3    1.0310679736436126
+    Node 4    2.04072348443564
+    Node 5    4.502683702047946
+    Node 6    7.035946005761088
+    Node 7    4.1505438779490555
+    Node 8    3.363405538242499
+    Node 9    4.87991250282114
+    Node 10    5.108413677784585
+    Node 11    3.181633726095035
+    Node 12    2.5236602689581735
+    Node 13    2.2252370787144664
+    Node 14    6.335337292655788
+    Node 15    3.9105379642493205
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -4.3846485115938325
+    Attrib Gender=Male    2.0288411703804115
+    Attrib Gender=Female    -1.3806104080932975
+    Attrib Gender=Unknown    3.961256516616177
+    Attrib Gender=Combo    4.143039038049091
+    Attrib Polarity    -10.104254783298055
+    Attrib Subjectivity    -7.75189493300248
+    Attrib WordCount    -3.7330489628358667
+    Attrib FleschReading    -0.859700592891459
+    Attrib OT    6.585214729295874
+    Attrib NT    -5.602060300882257
+    Attrib BoM    2.617330380056792
+    Attrib DC    -1.25264089376082
+    Attrib PoGP    -1.0492641490827892
+    Attrib AllScriptureCount    -8.34438453277284
+    Attrib StoryNames    4.799732192777463
+    Attrib TalkingSpeed    7.899710772584106
+    Attrib AuthorityMentions    3.5333713510824927
+    Attrib WeToYouRatio    -2.8574052102231975
+    Attrib WordQuantity    1.4404818636723955
+    Attrib FirstPersonPronoun    3.8878922138999337
+    Attrib PercentInItalics    -3.418449301674588
+    Attrib PercentInQuotes    5.91917622916387
+    Attrib DaysElapsed    -2.2031110522645423
+    Attrib NameSearchResults    -4.752530528989627
+    Attrib MonthGiven    5.5837069027472745
+    Attrib YearGiven    2.149415388007248
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.5306443701377059
+    Attrib Gender=Male    0.7834499064461276
+    Attrib Gender=Female    -1.6913185002214128
+    Attrib Gender=Unknown    0.13892108234360595
+    Attrib Gender=Combo    1.7099463333971854
+    Attrib Polarity    2.6197183759349714
+    Attrib Subjectivity    -1.364523761728937
+    Attrib WordCount    -4.434977685913491
+    Attrib FleschReading    0.968811873155102
+    Attrib OT    0.2665801184617503
+    Attrib NT    4.341125645992684
+    Attrib BoM    2.2282546708578064
+    Attrib DC    -0.22155312562222373
+    Attrib PoGP    2.036423031677438
+    Attrib AllScriptureCount    1.8278006112233678
+    Attrib StoryNames    2.444978741090433
+    Attrib TalkingSpeed    2.6449294345789234
+    Attrib AuthorityMentions    0.6996241100642063
+    Attrib WeToYouRatio    -0.826000963286851
+    Attrib WordQuantity    0.7662643191445693
+    Attrib FirstPersonPronoun    -0.2481928795140951
+    Attrib PercentInItalics    -1.0273373670256485
+    Attrib PercentInQuotes    -1.1881500468297823
+    Attrib DaysElapsed    -1.8544905779210101
+    Attrib NameSearchResults    -2.6242563997032944
+    Attrib MonthGiven    -1.0312712149529615
+    Attrib YearGiven    1.900428531622886
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.596940197989428
+    Attrib Gender=Male    5.22812414156712
+    Attrib Gender=Female    -1.139149159173407
+    Attrib Gender=Unknown    -0.7465366644117113
+    Attrib Gender=Combo    1.817362781938822
+    Attrib Polarity    5.754367505664377
+    Attrib Subjectivity    -8.597645390373978
+    Attrib WordCount    -8.361754272164509
+    Attrib FleschReading    3.6105182480893268
+    Attrib OT    3.5984392622451082
+    Attrib NT    2.555582265378272
+    Attrib BoM    -2.205922798121261
+    Attrib DC    0.14106639097586826
+    Attrib PoGP    4.882751011665484
+    Attrib AllScriptureCount    -3.32673697185434
+    Attrib StoryNames    -4.126860183709755
+    Attrib TalkingSpeed    -2.876807513663967
+    Attrib AuthorityMentions    3.6892670289792164
+    Attrib WeToYouRatio    2.628254682386755
+    Attrib WordQuantity    -1.596245413602976
+    Attrib FirstPersonPronoun    -0.8921114016412014
+    Attrib PercentInItalics    3.8700248994900353
+    Attrib PercentInQuotes    -3.5131238232031987
+    Attrib DaysElapsed    -0.25170497411460585
+    Attrib NameSearchResults    0.18416964178965692
+    Attrib MonthGiven    -6.2192188773572985
+    Attrib YearGiven    0.25965760326335807
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -2.3928197596634058
+    Attrib Gender=Male    -5.130613333529514
+    Attrib Gender=Female    7.366218224137291
+    Attrib Gender=Unknown    1.9352710791427727
+    Attrib Gender=Combo    0.5815891866324708
+    Attrib Polarity    -4.283482801679568
+    Attrib Subjectivity    0.40076443367957015
+    Attrib WordCount    -4.548923203760638
+    Attrib FleschReading    -3.087145814851486
+    Attrib OT    3.0604826583590294
+    Attrib NT    0.14472051898346797
+    Attrib BoM    -3.3388997438228754
+    Attrib DC    -1.3546656493952793
+    Attrib PoGP    3.6078370127226203
+    Attrib AllScriptureCount    -3.7847231544929922
+    Attrib StoryNames    -2.777766440364548
+    Attrib TalkingSpeed    -5.190501391041476
+    Attrib AuthorityMentions    4.350488597027776
+    Attrib WeToYouRatio    3.5239574066381043
+    Attrib WordQuantity    -4.9399746870179655
+    Attrib FirstPersonPronoun    1.580831767440482
+    Attrib PercentInItalics    2.3266263875003776
+    Attrib PercentInQuotes    0.24721542402273547
+    Attrib DaysElapsed    8.86668806158173
+    Attrib NameSearchResults    -4.178397073270102
+    Attrib MonthGiven    -3.777097056680623
+    Attrib YearGiven    -8.886076955162576
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -0.4316214600176945
+    Attrib Gender=Male    -2.522308080378595
+    Attrib Gender=Female    -1.5889492386199051
+    Attrib Gender=Unknown    1.0007034707920748
+    Attrib Gender=Combo    4.0675584739580355
+    Attrib Polarity    2.0867970320105127
+    Attrib Subjectivity    -6.010115164353377
+    Attrib WordCount    -0.9293786327099277
+    Attrib FleschReading    -0.6087703240644031
+    Attrib OT    4.556830809570448
+    Attrib NT    0.2170458854875322
+    Attrib BoM    -4.510659834791236
+    Attrib DC    4.524543416512547
+    Attrib PoGP    1.4301418516820117
+    Attrib AllScriptureCount    0.42417224983975205
+    Attrib StoryNames    2.087014729379609
+    Attrib TalkingSpeed    -25.587532879655118
+    Attrib AuthorityMentions    -7.030392806947717
+    Attrib WeToYouRatio    1.3801403399434222
+    Attrib WordQuantity    1.2434029334614027
+    Attrib FirstPersonPronoun    5.344522245934352
+    Attrib PercentInItalics    3.922313084595067
+    Attrib PercentInQuotes    6.893315401415837
+    Attrib DaysElapsed    -0.45389207722654923
+    Attrib NameSearchResults    2.260983215894812
+    Attrib MonthGiven    3.614279164444154
+    Attrib YearGiven    0.36535381965993036
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -1.7904539308312097
+    Attrib Gender=Male    -2.8984425954543283
+    Attrib Gender=Female    5.733127244410198
+    Attrib Gender=Unknown    1.8130154386126662
+    Attrib Gender=Combo    -0.9751010922802917
+    Attrib Polarity    -4.55402862840221
+    Attrib Subjectivity    -6.742036832734163
+    Attrib WordCount    -4.0254637046711
+    Attrib FleschReading    0.653296906224262
+    Attrib OT    0.5011241423395927
+    Attrib NT    -0.9144333227381385
+    Attrib BoM    0.7185250265540513
+    Attrib DC    6.527350437477088
+    Attrib PoGP    2.769824626098564
+    Attrib AllScriptureCount    -2.102791561041047
+    Attrib StoryNames    6.1333095861778935
+    Attrib TalkingSpeed    0.9152727907027297
+    Attrib AuthorityMentions    2.1541178459165735
+    Attrib WeToYouRatio    3.9659572189170036
+    Attrib WordQuantity    -1.364501504801425
+    Attrib FirstPersonPronoun    -1.0622262094795087
+    Attrib PercentInItalics    -0.3520625207218841
+    Attrib PercentInQuotes    -3.3024378796662015
+    Attrib DaysElapsed    0.8532097593136798
+    Attrib NameSearchResults    -3.304898454754462
+    Attrib MonthGiven    -8.553846189082018
+    Attrib YearGiven    -0.7885037487309994
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -3.82320327293509
+    Attrib Gender=Male    -0.32441649591451666
+    Attrib Gender=Female    0.8997386514905114
+    Attrib Gender=Unknown    2.373060269029206
+    Attrib Gender=Combo    4.831563770995056
+    Attrib Polarity    0.9654854764949544
+    Attrib Subjectivity    6.745354907092658
+    Attrib WordCount    -11.546032647330824
+    Attrib FleschReading    6.779628055575937
+    Attrib OT    4.966502416656872
+    Attrib NT    -2.7826539875366016
+    Attrib BoM    -3.3493551681063893
+    Attrib DC    2.1604193688032254
+    Attrib PoGP    4.528585090121406
+    Attrib AllScriptureCount    -5.40851459463257
+    Attrib StoryNames    3.4496038402740243
+    Attrib TalkingSpeed    -0.14427088321119091
+    Attrib AuthorityMentions    2.1821509398551906
+    Attrib WeToYouRatio    -0.35756135559067304
+    Attrib WordQuantity    -4.687126041036262
+    Attrib FirstPersonPronoun    -0.13362303278065632
+    Attrib PercentInItalics    -2.110875447719863
+    Attrib PercentInQuotes    2.3988866593047304
+    Attrib DaysElapsed    -2.646834228691202
+    Attrib NameSearchResults    -1.4147816238490878
+    Attrib MonthGiven    2.92940881855682
+    Attrib YearGiven    2.608255834682993
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.05248667170196
+    Attrib Gender=Male    -0.3166569479629831
+    Attrib Gender=Female    -0.740542686174447
+    Attrib Gender=Unknown    1.0731977927532848
+    Attrib Gender=Combo    2.021649634333072
+    Attrib Polarity    3.4986163254176725
+    Attrib Subjectivity    -2.0587487800341964
+    Attrib WordCount    -8.267588431974108
+    Attrib FleschReading    -1.3583001294808394
+    Attrib OT    2.820886018522936
+    Attrib NT    1.7701903861665995
+    Attrib BoM    7.281598249700296
+    Attrib DC    -1.1143756273908247
+    Attrib PoGP    -2.487516924999303
+    Attrib AllScriptureCount    3.462683936261083
+    Attrib StoryNames    3.2997375721649287
+    Attrib TalkingSpeed    6.044466413677049
+    Attrib AuthorityMentions    -3.587260832442997
+    Attrib WeToYouRatio    3.9552852435171464
+    Attrib WordQuantity    -4.086342133843846
+    Attrib FirstPersonPronoun    8.419380981004739
+    Attrib PercentInItalics    -11.828455387340657
+    Attrib PercentInQuotes    -0.04314271002665988
+    Attrib DaysElapsed    -2.0992389518421435
+    Attrib NameSearchResults    -0.5583214044573567
+    Attrib MonthGiven    1.6032209415118899
+    Attrib YearGiven    2.135954935879306
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -5.94058777472671
+    Attrib Gender=Male    9.066049577223296
+    Attrib Gender=Female    2.2069191262746966
+    Attrib Gender=Unknown    1.0075559784417936
+    Attrib Gender=Combo    -0.3266244247987598
+    Attrib Polarity    -7.724931252221378
+    Attrib Subjectivity    7.5580209004102485
+    Attrib WordCount    -11.974496681812342
+    Attrib FleschReading    11.392939729100048
+    Attrib OT    -4.584252856664915
+    Attrib NT    -10.509398116481258
+    Attrib BoM    -3.1645151246651513
+    Attrib DC    -3.1907614527933994
+    Attrib PoGP    -2.498376462903021
+    Attrib AllScriptureCount    -8.536033183879669
+    Attrib StoryNames    -0.2801683790029598
+    Attrib TalkingSpeed    -0.49137226962442243
+    Attrib AuthorityMentions    -3.960404888486939
+    Attrib WeToYouRatio    -5.407031575984433
+    Attrib WordQuantity    -0.23058979333919646
+    Attrib FirstPersonPronoun    -8.435410366866211
+    Attrib PercentInItalics    0.1573525375182744
+    Attrib PercentInQuotes    11.868118657474323
+    Attrib DaysElapsed    14.698650202361906
+    Attrib NameSearchResults    0.3207288485430964
+    Attrib MonthGiven    4.964685784067227
+    Attrib YearGiven    -14.827928094392984
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -1.561184937480613
+    Attrib Gender=Male    0.24798916800895274
+    Attrib Gender=Female    -0.4521250422301126
+    Attrib Gender=Unknown    0.8824113583275822
+    Attrib Gender=Combo    2.3936599953363937
+    Attrib Polarity    1.7769535036441986
+    Attrib Subjectivity    -2.2386933866462497
+    Attrib WordCount    -5.740879188500717
+    Attrib FleschReading    -1.5136976587277622
+    Attrib OT    0.35254223108364396
+    Attrib NT    4.3125752334127
+    Attrib BoM    2.488545000488382
+    Attrib DC    -1.4201145133455109
+    Attrib PoGP    2.593128599420388
+    Attrib AllScriptureCount    0.2273469232080429
+    Attrib StoryNames    3.5489166693420735
+    Attrib TalkingSpeed    1.9943695739024643
+    Attrib AuthorityMentions    0.6266834543817293
+    Attrib WeToYouRatio    0.30436121850093095
+    Attrib WordQuantity    -0.8631060531381525
+    Attrib FirstPersonPronoun    -0.732381070590847
+    Attrib PercentInItalics    2.218859242458696
+    Attrib PercentInQuotes    -0.7013424106083626
+    Attrib DaysElapsed    -1.9335503949449104
+    Attrib NameSearchResults    -2.9720202010975187
+    Attrib MonthGiven    -2.2071912099480437
+    Attrib YearGiven    2.0027776038223046
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -2.153840787313627
+    Attrib Gender=Male    -1.0450698702335297
+    Attrib Gender=Female    1.8249407928124795
+    Attrib Gender=Unknown    2.741352146174443
+    Attrib Gender=Combo    0.7605547226534545
+    Attrib Polarity    0.41643414587581185
+    Attrib Subjectivity    -2.962045407494209
+    Attrib WordCount    -1.867129967630082
+    Attrib FleschReading    1.1618888662775593
+    Attrib OT    -0.47897004984137037
+    Attrib NT    -1.1870293633869846
+    Attrib BoM    -0.8672738957950789
+    Attrib DC    -0.04633519301256375
+    Attrib PoGP    3.2777460256024744
+    Attrib AllScriptureCount    -3.716407574108466
+    Attrib StoryNames    1.1505714057375618
+    Attrib TalkingSpeed    5.4333018507743285
+    Attrib AuthorityMentions    1.8143704080692717
+    Attrib WeToYouRatio    -0.45259323550701713
+    Attrib WordQuantity    1.9294976392595344
+    Attrib FirstPersonPronoun    1.7966538811022938
+    Attrib PercentInItalics    -0.7321365507898251
+    Attrib PercentInQuotes    -0.38041979310332646
+    Attrib DaysElapsed    1.8917006935134701
+    Attrib NameSearchResults    -4.229221488386271
+    Attrib MonthGiven    3.4706111643277326
+    Attrib YearGiven    -1.9470106551895863
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -0.39962208917843306
+    Attrib Gender=Male    1.4070906294558196
+    Attrib Gender=Female    1.9300107021150181
+    Attrib Gender=Unknown    -4.926933804306537
+    Attrib Gender=Combo    2.45682303201459
+    Attrib Polarity    3.894306506917845
+    Attrib Subjectivity    -4.293003407249015
+    Attrib WordCount    -9.344455071820434
+    Attrib FleschReading    -3.5187327340403107
+    Attrib OT    -4.072072158349863
+    Attrib NT    5.571033639380372
+    Attrib BoM    -0.45986822323243004
+    Attrib DC    0.6415380452076949
+    Attrib PoGP    11.214453610099499
+    Attrib AllScriptureCount    -3.577510343342967
+    Attrib StoryNames    -1.8861005230092327
+    Attrib TalkingSpeed    12.887729148003638
+    Attrib AuthorityMentions    2.6214940210255633
+    Attrib WeToYouRatio    2.00339303005566
+    Attrib WordQuantity    3.566099583553572
+    Attrib FirstPersonPronoun    -5.420797347388953
+    Attrib PercentInItalics    10.1051235830952
+    Attrib PercentInQuotes    -3.7085223561567897
+    Attrib DaysElapsed    1.5957328428371063
+    Attrib NameSearchResults    -10.316384963731807
+    Attrib MonthGiven    2.423927052910368
+    Attrib YearGiven    -1.5653731198795109
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -1.4521063817596567
+    Attrib Gender=Male    -0.6782620105547025
+    Attrib Gender=Female    -2.450421282652696
+    Attrib Gender=Unknown    3.3513440739076934
+    Attrib Gender=Combo    2.702507486536034
+    Attrib Polarity    4.738524996054907
+    Attrib Subjectivity    -2.479292735728461
+    Attrib WordCount    -6.554691204053578
+    Attrib FleschReading    0.14846005552958655
+    Attrib OT    1.376612333281971
+    Attrib NT    5.030137855868753
+    Attrib BoM    3.713706767063014
+    Attrib DC    -0.6996912068854108
+    Attrib PoGP    1.1684199986872463
+    Attrib AllScriptureCount    3.137978174518531
+    Attrib StoryNames    3.8384338405700213
+    Attrib TalkingSpeed    2.908168136220303
+    Attrib AuthorityMentions    -2.375185142772687
+    Attrib WeToYouRatio    -0.060863371469990886
+    Attrib WordQuantity    -2.544312753454447
+    Attrib FirstPersonPronoun    5.4498230488676125
+    Attrib PercentInItalics    -6.9800582598119965
+    Attrib PercentInQuotes    0.5579352260620523
+    Attrib DaysElapsed    -2.420664213865597
+    Attrib NameSearchResults    -1.4254266472480168
+    Attrib MonthGiven    -2.5638362106719965
+    Attrib YearGiven    2.404927679993296
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -3.6698396765851253
+    Attrib Gender=Male    -2.2970989178024683
+    Attrib Gender=Female    3.8168394905685585
+    Attrib Gender=Unknown    2.7515702972087563
+    Attrib Gender=Combo    3.1251713241340386
+    Attrib Polarity    12.8569368777848
+    Attrib Subjectivity    -0.31883195597767966
+    Attrib WordCount    -9.3337673234439
+    Attrib FleschReading    -6.083217398386823
+    Attrib OT    -3.42721942357835
+    Attrib NT    0.6113578494983537
+    Attrib BoM    -6.200053838738083
+    Attrib DC    3.5497899509414594
+    Attrib PoGP    4.765106562363222
+    Attrib AllScriptureCount    -8.517081850568976
+    Attrib StoryNames    2.4291025482083164
+    Attrib TalkingSpeed    -10.786690890488984
+    Attrib AuthorityMentions    -0.023549885314894797
+    Attrib WeToYouRatio    3.1818050746107573
+    Attrib WordQuantity    -6.05252855498424
+    Attrib FirstPersonPronoun    5.131991048667611
+    Attrib PercentInItalics    0.26000215411177247
+    Attrib PercentInQuotes    5.542005039188737
+    Attrib DaysElapsed    3.059274330143165
+    Attrib NameSearchResults    -0.2991507133516701
+    Attrib MonthGiven    2.3637465019983583
+    Attrib YearGiven    -3.0536621452379404
+Class y
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 7.83 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1131               74.6042 %
+Incorrectly Classified Instances       385               25.3958 %
+Kappa statistic                          0.1101
+Mean absolute error                      0.2792
+Root mean squared error                  0.4322
+Relative absolute error                 87.2164 %
+Root relative squared error            108.0837 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.221    0.123    0.310      0.221    0.258      0.112    0.663     0.316     y
+                 0.877    0.779    0.818      0.877    0.847      0.112    0.663     0.885     n
+Weighted Avg.    0.746    0.648    0.717      0.746    0.729      0.112    0.663     0.771     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   67  236 |    a = y
+  149 1064 |    b = n
+
+
