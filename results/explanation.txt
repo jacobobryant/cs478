@@ -1,4 +1,7 @@
-Note that all the data in this directory has been normalized.
+NOTES:
+ - all the data in this directory has been normalized.
+ - f-measure (I believe) is the metric we should use for evaluating model
+   performance. This measure is included in all the output files.
 
 .
 ├── all_features
