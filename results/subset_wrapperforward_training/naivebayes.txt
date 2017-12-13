@@ -1,0 +1,130 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R1,4-5,7,9,12-13,15,18,21-22
+Instances:    1516
+Attributes:   13
+              Polarity
+              Subjectivity
+              OT
+              BoM
+              PoGP
+              AllScriptureCount
+              AuthorityMentions
+              WordQuantity
+              FirstPersonPronoun
+              PercentInQuotes
+              DaysElapsed
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                       Class
+Attribute                  y       n
+                       (0.2)   (0.8)
+=====================================
+Polarity
+  mean                 0.4353  0.4728
+  std. dev.            0.1383  0.1425
+  weight sum              303    1213
+  precision            0.0313  0.0313
+
+Subjectivity
+  mean                 0.5068  0.4892
+  std. dev.            0.1289   0.142
+  weight sum              303    1213
+  precision              0.04    0.04
+
+OT
+  mean                 0.0257  0.0206
+  std. dev.            0.0455  0.0527
+  weight sum              303    1213
+  precision            0.0556  0.0556
+
+BoM
+  mean                 0.0538  0.0371
+  std. dev.            0.0699  0.0657
+  weight sum              303    1213
+  precision            0.0286  0.0286
+
+PoGP
+  mean                 0.0448  0.0445
+  std. dev.            0.0879  0.0932
+  weight sum              303    1213
+  precision            0.0833  0.0833
+
+AllScriptureCount
+  mean                 0.1008  0.0748
+  std. dev.            0.0919  0.0908
+  weight sum              303    1213
+  precision            0.0143  0.0143
+
+AuthorityMentions
+  mean                 0.0735  0.0665
+  std. dev.            0.0863   0.074
+  weight sum              303    1213
+  precision            0.0179  0.0179
+
+WordQuantity
+  mean                 0.2955  0.2616
+  std. dev.            0.0793  0.0976
+  weight sum              303    1213
+  precision            0.0012  0.0012
+
+FirstPersonPronoun
+  mean                 0.1517  0.1343
+  std. dev.            0.1006  0.0902
+  weight sum              303    1213
+  precision            0.0051  0.0051
+
+PercentInQuotes
+  mean                 0.0137  0.0163
+  std. dev.            0.0671  0.0786
+  weight sum              303    1213
+  precision            0.0041  0.0041
+
+DaysElapsed
+  mean                 0.1465  0.1679
+  std. dev.            0.1152  0.1069
+  weight sum              303    1213
+  precision            0.0008  0.0008
+
+YearGiven
+  mean                 0.8551   0.833
+  std. dev.            0.1168  0.1082
+  weight sum              303    1213
+  precision            0.0185  0.0185
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1169               77.1108 %
+Incorrectly Classified Instances       347               22.8892 %
+Kappa statistic                          0.0777
+Mean absolute error                      0.317 
+Root mean squared error                  0.4159
+Relative absolute error                 99.0306 %
+Root relative squared error            104.0083 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.129    0.068    0.320      0.129    0.184      0.089    0.633     0.273     y
+                 0.932    0.871    0.811      0.932    0.867      0.089    0.633     0.863     n
+Weighted Avg.    0.771    0.711    0.712      0.771    0.730      0.089    0.633     0.745     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   39  264 |    a = y
+   83 1130 |    b = n
+
