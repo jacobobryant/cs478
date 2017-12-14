@@ -1,0 +1,62 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.WrapperSubsetEval -B weka.classifiers.trees.J48 -F 5 -T 0.01 -R 1 -E F-MEAS -- -C 0.25 -M 2
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Evaluation mode:    10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+number of folds (%)  attribute
+           0(  0 %)     1 Gender
+           9( 90 %)     2 Polarity
+           6( 60 %)     3 Subjectivity
+           2( 20 %)     4 WordCount
+           4( 40 %)     5 FleschReading
+           5( 50 %)     6 OT
+           3( 30 %)     7 NT
+           3( 30 %)     8 BoM
+           5( 50 %)     9 DC
+           7( 70 %)    10 PoGP
+           7( 70 %)    11 AllScriptureCount
+           4( 40 %)    12 StoryNames
+           3( 30 %)    13 TalkingSpeed
+           5( 50 %)    14 AuthorityMentions
+           8( 80 %)    15 WeToYouRatio
+           1( 10 %)    16 WordQuantity
+           5( 50 %)    17 FirstPersonPronoun
+           3( 30 %)    18 PercentInItalics
+           7( 70 %)    19 PercentInQuotes
+           7( 70 %)    20 DaysElapsed
+           5( 50 %)    21 NameSearchResults
+           6( 60 %)    22 MonthGiven
+           5( 50 %)    23 YearGiven
+

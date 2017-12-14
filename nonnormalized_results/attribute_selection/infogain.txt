@@ -1,8 +1,12 @@
+***
+Like correlation.txt, but with information gain instead of correlation
+***
+
 === Run information ===
 
 Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
 Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
-Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25
+Relation:     features-weka.filters.unsupervised.attribute.Remove-R22,25
 Instances:    1516
 Attributes:   24
               Gender

@@ -1,0 +1,208 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25
+Instances:    1516
+Attributes:   24
+              Gender
+              Polarity
+              Subjectivity
+              WordCount
+              FleschReading
+              OT
+              NT
+              BoM
+              DC
+              PoGP
+              AllScriptureCount
+              StoryNames
+              TalkingSpeed
+              AuthorityMentions
+              WeToYouRatio
+              WordQuantity
+              FirstPersonPronoun
+              PercentInItalics
+              PercentInQuotes
+              DaysElapsed
+              NameSearchResults
+              MonthGiven
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                       Class
+Attribute                  y       n
+                       (0.2)   (0.8)
+=====================================
+Gender
+  Male                  250.0   905.0
+  Female                 44.0   217.0
+  Unknown                 8.0    76.0
+  Combo                   5.0    19.0
+  [total]               307.0  1217.0
+
+Polarity
+  mean                 0.4353  0.4728
+  std. dev.            0.1383  0.1425
+  weight sum              303    1213
+  precision            0.0313  0.0313
+
+Subjectivity
+  mean                 0.5068  0.4892
+  std. dev.            0.1289   0.142
+  weight sum              303    1213
+  precision              0.04    0.04
+
+WordCount
+  mean                 0.2444  0.2115
+  std. dev.            0.0749  0.0884
+  weight sum              303    1213
+  precision            0.0008  0.0008
+
+FleschReading
+  mean                 0.3828  0.4282
+  std. dev.            0.1347  0.1571
+  weight sum              303    1213
+  precision             0.013   0.013
+
+OT
+  mean                 0.0257  0.0206
+  std. dev.            0.0455  0.0527
+  weight sum              303    1213
+  precision            0.0556  0.0556
+
+NT
+  mean                 0.0688  0.0535
+  std. dev.            0.0808  0.0776
+  weight sum              303    1213
+  precision            0.0303  0.0303
+
+BoM
+  mean                 0.0538  0.0371
+  std. dev.            0.0699  0.0657
+  weight sum              303    1213
+  precision            0.0286  0.0286
+
+DC
+  mean                  0.068   0.073
+  std. dev.            0.0855  0.0946
+  weight sum              303    1213
+  precision              0.04    0.04
+
+PoGP
+  mean                 0.0448  0.0445
+  std. dev.            0.0879  0.0932
+  weight sum              303    1213
+  precision            0.0833  0.0833
+
+AllScriptureCount
+  mean                 0.1008  0.0748
+  std. dev.            0.0919  0.0908
+  weight sum              303    1213
+  precision            0.0143  0.0143
+
+StoryNames
+  mean                 0.1696  0.1515
+  std. dev.            0.1171  0.1044
+  weight sum              303    1213
+  precision              0.02    0.02
+
+TalkingSpeed
+  mean                 0.2566   0.209
+  std. dev.            0.0797  0.1186
+  weight sum              303    1213
+  precision            0.0007  0.0007
+
+AuthorityMentions
+  mean                 0.0735  0.0665
+  std. dev.            0.0863   0.074
+  weight sum              303    1213
+  precision            0.0179  0.0179
+
+WeToYouRatio
+  mean                 0.0409  0.0386
+  std. dev.            0.0653  0.0757
+  weight sum              303    1213
+  precision            0.0008  0.0008
+
+WordQuantity
+  mean                 0.2955  0.2616
+  std. dev.            0.0793  0.0976
+  weight sum              303    1213
+  precision            0.0012  0.0012
+
+FirstPersonPronoun
+  mean                 0.1517  0.1343
+  std. dev.            0.1006  0.0902
+  weight sum              303    1213
+  precision            0.0051  0.0051
+
+PercentInItalics
+  mean                 0.1564  0.1628
+  std. dev.            0.1113  0.1403
+  weight sum              303    1213
+  precision            0.0007  0.0007
+
+PercentInQuotes
+  mean                 0.0137  0.0163
+  std. dev.            0.0671  0.0786
+  weight sum              303    1213
+  precision            0.0041  0.0041
+
+DaysElapsed
+  mean                 0.1465  0.1679
+  std. dev.            0.1152  0.1069
+  weight sum              303    1213
+  precision            0.0008  0.0008
+
+NameSearchResults
+  mean                 0.0173   0.014
+  std. dev.              0.06  0.0569
+  weight sum              303    1213
+  precision            0.0019  0.0019
+
+MonthGiven
+  mean                 0.4413  0.4759
+  std. dev.            0.3212  0.2932
+  weight sum              303    1213
+  precision            0.0909  0.0909
+
+YearGiven
+  mean                 0.8551   0.833
+  std. dev.            0.1168  0.1082
+  weight sum              303    1213
+  precision            0.0185  0.0185
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1086               71.6359 %
+Incorrectly Classified Instances       430               28.3641 %
+Kappa statistic                          0.1668
+Mean absolute error                      0.3179
+Root mean squared error                  0.4416
+Relative absolute error                 99.3167 %
+Root relative squared error            110.4245 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.376    0.199    0.321      0.376    0.347      0.168    0.670     0.293     y
+                 0.801    0.624    0.837      0.801    0.819      0.168    0.670     0.877     n
+Weighted Avg.    0.716    0.539    0.734      0.716    0.724      0.168    0.670     0.760     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 114 189 |   a = y
+ 241 972 |   b = n
+

@@ -1,0 +1,59 @@
+NOTES:
+ - all the data in this directory has been normalized.
+ - f-measure (I believe) is the metric we should use for evaluating model
+   performance. This measure is included in all the output files.
+
+.
+├── all_features
+│   ├── bayesnet.txt
+│   ├── data.arff
+│   ├── j48.txt         <- decision tree
+│   ├── mlp.txt
+│   └── naivebayes.txt
+
+    all_features contains the results of the models (bayesnet, j48, mlp and
+    naive bayes) when ran on the entire dataset.
+
+
+├── attribute_selection
+│   ├── correlation.txt
+│   ├── infogain.txt
+│   ├── wrapperforward_10cv.txt
+│   └── wrapperforward_training.txt
+
+    After running models on the entire data set, I ran various feature selection
+    algorithms in weka.
+
+    correlation.txt: listing of the pearson correlation between each attribute
+                     and the output class.
+    infogain.txt: like correlation.txt, but with information gain instead of
+                  pearson correlation.
+    wrapperforward_10cv.txt: an optimal subset of features chosen by a wrapper
+                             algorithm. This algorithm evaluated each subset
+                             with j48 and optimized f-measure. The entire
+                             wrapper algorithm ran 10 times (leaving one fold
+                             out each time), and then the output is the number
+                             of times each attribute was ultimately included in
+                             the optimal subset.
+    wrapperforward_training.txt: like wrapperforward_10cv.txt, but instead of
+                                 running 10 times, it only ran once. Output is
+                                 a single optimal subset of features.
+
+├── subset_wrapperforward_10cv
+│   ├── bayesnet.txt
+│   ├── data.arff
+│   ├── j48.txt
+│   ├── mlp.txt
+│   └── naivebayes.txt
+
+    Model results when using only the features from wrapperforward_10cv.txt that
+    were included at least 5 times.
+
+└── subset_wrapperforward_training
+    ├── bayesnet.txt
+    ├── data.arff
+    ├── j48.txt
+    └── mlp.txt
+
+    Model results when using only the features selected in
+    wrapperforward_training.txt.

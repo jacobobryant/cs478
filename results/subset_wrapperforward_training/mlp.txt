@@ -1,0 +1,183 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R1,4-5,7,9,12-13,15,18,21-22
+Instances:    1516
+Attributes:   13
+              Polarity
+              Subjectivity
+              OT
+              BoM
+              PoGP
+              AllScriptureCount
+              AuthorityMentions
+              WordQuantity
+              FirstPersonPronoun
+              PercentInQuotes
+              DaysElapsed
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    2.7254591211519807
+    Node 2    -2.403644933957922
+    Node 3    -1.9378162584130574
+    Node 4    -4.971569959429191
+    Node 5    -2.310426702123374
+    Node 6    -4.233130988662745
+    Node 7    -4.612627118866288
+    Node 8    -1.21411401799209
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.725244673789999
+    Node 2    2.4036481492896065
+    Node 3    1.9376669213710307
+    Node 4    4.97390283623626
+    Node 5    2.310332146055422
+    Node 6    4.237127139353667
+    Node 7    4.613096619643054
+    Node 8    1.1895849683759874
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    2.258442923771888
+    Attrib Polarity    9.730310826111612
+    Attrib Subjectivity    -9.952749733573441
+    Attrib OT    5.431251082951206
+    Attrib BoM    1.2336202820374076
+    Attrib PoGP    1.0912788064355268
+    Attrib AllScriptureCount    -11.781812635911495
+    Attrib AuthorityMentions    2.806758280671465
+    Attrib WordQuantity    -0.9626557750199864
+    Attrib FirstPersonPronoun    -2.2681807532484264
+    Attrib PercentInQuotes    6.171453278439215
+    Attrib DaysElapsed    -6.528579389012144
+    Attrib YearGiven    6.0038920457163245
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    8.504900965144106
+    Attrib Polarity    -0.042649800571000394
+    Attrib Subjectivity    -5.4369326705185355
+    Attrib OT    -5.413986323536744
+    Attrib BoM    1.2374679357638134
+    Attrib PoGP    1.761091077790568
+    Attrib AllScriptureCount    -10.963638396249731
+    Attrib AuthorityMentions    0.9136866417426819
+    Attrib WordQuantity    -6.078065500554266
+    Attrib FirstPersonPronoun    -4.747617031650011
+    Attrib PercentInQuotes    -1.9623284711283322
+    Attrib DaysElapsed    14.740791854109816
+    Attrib YearGiven    -15.94241705972259
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -4.493902862570723
+    Attrib Polarity    0.6108139197505076
+    Attrib Subjectivity    5.005016941129126
+    Attrib OT    6.809580947880963
+    Attrib BoM    -6.791474170740859
+    Attrib PoGP    13.100410255095058
+    Attrib AllScriptureCount    -8.034548540403307
+    Attrib AuthorityMentions    0.6611048863993358
+    Attrib WordQuantity    -8.70072575017407
+    Attrib FirstPersonPronoun    -5.69576296280171
+    Attrib PercentInQuotes    4.447300639742184
+    Attrib DaysElapsed    -1.4258651295935036
+    Attrib YearGiven    0.7153325844481472
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -4.3187448964353425
+    Attrib Polarity    -2.0434370943080373
+    Attrib Subjectivity    -4.46694380803935
+    Attrib OT    0.2426059334430288
+    Attrib BoM    0.5885950095890743
+    Attrib PoGP    4.590147155502513
+    Attrib AllScriptureCount    -4.731122056376527
+    Attrib AuthorityMentions    2.211064637538063
+    Attrib WordQuantity    -5.3612838181166325
+    Attrib FirstPersonPronoun    -2.3354885115264405
+    Attrib PercentInQuotes    1.9974341472193957
+    Attrib DaysElapsed    -0.11772322133330507
+    Attrib YearGiven    -0.18897159897803123
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    0.8009723185218108
+    Attrib Polarity    2.8903408234255537
+    Attrib Subjectivity    -1.5252801775029892
+    Attrib OT    5.110267889574058
+    Attrib BoM    1.9679688802556643
+    Attrib PoGP    0.5802874000924194
+    Attrib AllScriptureCount    7.534816781667837
+    Attrib AuthorityMentions    -3.354630036833261
+    Attrib WordQuantity    0.9015916888980753
+    Attrib FirstPersonPronoun    -1.971379877993954
+    Attrib PercentInQuotes    -0.3863524076926569
+    Attrib DaysElapsed    0.3940766673656721
+    Attrib YearGiven    -0.33955179916694217
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    2.535480359667957
+    Attrib Polarity    1.0161390301853592
+    Attrib Subjectivity    5.879158983177281
+    Attrib OT    4.25077829487488
+    Attrib BoM    1.7037232716595592
+    Attrib PoGP    -0.9789666331327027
+    Attrib AllScriptureCount    7.554758786626166
+    Attrib AuthorityMentions    -7.0601035950562085
+    Attrib WordQuantity    -1.2582609131613731
+    Attrib FirstPersonPronoun    1.7922862198807044
+    Attrib PercentInQuotes    -1.4835192103927433
+    Attrib DaysElapsed    4.619427709973018
+    Attrib YearGiven    -4.451917925576586
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.5149236794811441
+    Attrib Polarity    1.4233122158569236
+    Attrib Subjectivity    0.7331952151266533
+    Attrib OT    1.702654511990365
+    Attrib BoM    1.0897792407476168
+    Attrib PoGP    1.6669632592614652
+    Attrib AllScriptureCount    1.6804752098324234
+    Attrib AuthorityMentions    -0.7480185496345559
+    Attrib WordQuantity    -2.262228147247669
+    Attrib FirstPersonPronoun    -1.4331669213303422
+    Attrib PercentInQuotes    2.743118015007988
+    Attrib DaysElapsed    -0.4810762638335051
+    Attrib YearGiven    0.31718151179583
+Class y
+    Input
+    Node 0
+Class n
+    Input
+    Node 1
+
+
+Time taken to build model: 2.64 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1175               77.5066 %
+Incorrectly Classified Instances       341               22.4934 %
+Kappa statistic                          0.1079
+Mean absolute error                      0.298 
+Root mean squared error                  0.3978
+Relative absolute error                 93.1016 %
+Root relative squared error             99.4631 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.155    0.070    0.356      0.155    0.216      0.121    0.662     0.319     y
+                 0.930    0.845    0.815      0.930    0.869      0.121    0.662     0.871     n
+Weighted Avg.    0.775    0.690    0.723      0.775    0.738      0.121    0.662     0.761     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   47  256 |    a = y
+   85 1128 |    b = n
+

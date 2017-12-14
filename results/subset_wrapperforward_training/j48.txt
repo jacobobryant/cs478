@@ -1,0 +1,134 @@
+
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     features-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Remove-R22,25-weka.filters.unsupervised.attribute.Remove-R1,4-5,7,9,12-13,15,18,21-22
+Instances:    1516
+Attributes:   13
+              Polarity
+              Subjectivity
+              OT
+              BoM
+              PoGP
+              AllScriptureCount
+              AuthorityMentions
+              WordQuantity
+              FirstPersonPronoun
+              PercentInQuotes
+              DaysElapsed
+              YearGiven
+              PopularByAbsolute
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+WordQuantity <= 0.166022: n (171.0/6.0)
+WordQuantity > 0.166022
+|   YearGiven <= 0.92
+|   |   Polarity <= 0.235294
+|   |   |   AllScriptureCount <= 0.035461: n (15.0/1.0)
+|   |   |   AllScriptureCount > 0.035461: y (31.0/13.0)
+|   |   Polarity > 0.235294
+|   |   |   BoM <= 0.11236: n (876.0/134.0)
+|   |   |   BoM > 0.11236
+|   |   |   |   Subjectivity <= 0.592593: n (75.0/17.0)
+|   |   |   |   Subjectivity > 0.592593
+|   |   |   |   |   WordQuantity <= 0.305249: n (8.0/1.0)
+|   |   |   |   |   WordQuantity > 0.305249: y (9.0/1.0)
+|   YearGiven > 0.92
+|   |   AllScriptureCount <= 0.099291
+|   |   |   YearGiven <= 0.976
+|   |   |   |   BoM <= 0
+|   |   |   |   |   PoGP <= 0.125: n (36.0/3.0)
+|   |   |   |   |   PoGP > 0.125: y (3.0/1.0)
+|   |   |   |   BoM > 0
+|   |   |   |   |   WordQuantity <= 0.329558
+|   |   |   |   |   |   WordQuantity <= 0.303039
+|   |   |   |   |   |   |   AuthorityMentions <= 0.106557: n (82.0/16.0)
+|   |   |   |   |   |   |   AuthorityMentions > 0.106557
+|   |   |   |   |   |   |   |   Subjectivity <= 0.407407: n (4.0)
+|   |   |   |   |   |   |   |   Subjectivity > 0.407407: y (7.0/1.0)
+|   |   |   |   |   |   WordQuantity > 0.303039: y (12.0/2.0)
+|   |   |   |   |   WordQuantity > 0.329558: n (15.0)
+|   |   |   YearGiven > 0.976
+|   |   |   |   Polarity <= 0.264706: y (4.0)
+|   |   |   |   Polarity > 0.264706
+|   |   |   |   |   PoGP <= 0
+|   |   |   |   |   |   OT <= 0.019231
+|   |   |   |   |   |   |   AuthorityMentions <= 0.106557
+|   |   |   |   |   |   |   |   OT <= 0
+|   |   |   |   |   |   |   |   |   Subjectivity <= 0.296296: n (4.0)
+|   |   |   |   |   |   |   |   |   Subjectivity > 0.296296
+|   |   |   |   |   |   |   |   |   |   WordQuantity <= 0.267127
+|   |   |   |   |   |   |   |   |   |   |   DaysElapsed <= 0.016923
+|   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 0.04918: n (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   AuthorityMentions > 0.04918: y (2.0)
+|   |   |   |   |   |   |   |   |   |   |   DaysElapsed > 0.016923: n (3.0)
+|   |   |   |   |   |   |   |   |   |   WordQuantity > 0.267127: y (8.0)
+|   |   |   |   |   |   |   |   OT > 0
+|   |   |   |   |   |   |   |   |   AuthorityMentions <= 0.04918: n (8.0/1.0)
+|   |   |   |   |   |   |   |   |   AuthorityMentions > 0.04918: y (3.0/1.0)
+|   |   |   |   |   |   |   AuthorityMentions > 0.106557: n (8.0)
+|   |   |   |   |   |   OT > 0.019231: y (7.0/1.0)
+|   |   |   |   |   PoGP > 0
+|   |   |   |   |   |   BoM <= 0.033708: n (7.0)
+|   |   |   |   |   |   BoM > 0.033708: y (3.0/1.0)
+|   |   AllScriptureCount > 0.099291
+|   |   |   WordQuantity <= 0.356354
+|   |   |   |   YearGiven <= 0.944
+|   |   |   |   |   YearGiven <= 0.936
+|   |   |   |   |   |   PercentInQuotes <= 0.006728
+|   |   |   |   |   |   |   FirstPersonPronoun <= 0.153846: n (12.0/1.0)
+|   |   |   |   |   |   |   FirstPersonPronoun > 0.153846: y (6.0/1.0)
+|   |   |   |   |   |   PercentInQuotes > 0.006728: y (2.0)
+|   |   |   |   |   YearGiven > 0.936: n (10.0)
+|   |   |   |   YearGiven > 0.944
+|   |   |   |   |   Polarity <= 0.264706: y (5.0)
+|   |   |   |   |   Polarity > 0.264706
+|   |   |   |   |   |   WordQuantity <= 0.214917: y (5.0)
+|   |   |   |   |   |   WordQuantity > 0.214917
+|   |   |   |   |   |   |   AllScriptureCount <= 0.120567: y (12.0/3.0)
+|   |   |   |   |   |   |   AllScriptureCount > 0.120567
+|   |   |   |   |   |   |   |   FirstPersonPronoun <= 0.161943
+|   |   |   |   |   |   |   |   |   AuthorityMentions <= 0.02459
+|   |   |   |   |   |   |   |   |   |   AuthorityMentions <= 0.008197: n (2.0)
+|   |   |   |   |   |   |   |   |   |   AuthorityMentions > 0.008197: y (7.0/2.0)
+|   |   |   |   |   |   |   |   |   AuthorityMentions > 0.02459: n (30.0/5.0)
+|   |   |   |   |   |   |   |   FirstPersonPronoun > 0.161943: y (6.0/1.0)
+|   |   |   WordQuantity > 0.356354: y (13.0/1.0)
+
+Number of Leaves  : 	38
+
+Size of the tree : 	75
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1187               78.2982 %
+Incorrectly Classified Instances       329               21.7018 %
+Kappa statistic                          0.0997
+Mean absolute error                      0.2995
+Root mean squared error                  0.4186
+Relative absolute error                 93.5654 %
+Root relative squared error            104.6735 %
+Total Number of Instances             1516     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.129    0.054    0.375      0.129    0.192      0.119    0.584     0.271     y
+                 0.946    0.871    0.813      0.946    0.875      0.119    0.584     0.827     n
+Weighted Avg.    0.783    0.708    0.725      0.783    0.738      0.119    0.584     0.716     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+   39  264 |    a = y
+   65 1148 |    b = n
+
